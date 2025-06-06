@@ -1,0 +1,7 @@
+{
+  "/page": "app/page.js",
+  "/not-found": "app/not-found.js",
+  "/donation-carousel/page": "app/donation-carousel/page.js",
+  "/about/page": "app/about/page.js",
+  "/index4/page": "app/index4/page.js"
+}
