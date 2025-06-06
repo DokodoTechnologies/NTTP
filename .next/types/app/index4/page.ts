@@ -1,4 +1,4 @@
-// File: C:\Users\ACER\Desktop\anity-pack\anity\app\index4\page.js
+// File: C:\Users\User\OneDrive\Desktop\NTTP\NTTP\app\index4\page.js
 import * as entry from '../../../../app/index4/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

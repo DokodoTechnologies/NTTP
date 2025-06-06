@@ -63,27 +63,21 @@ export default function Home() {
                                         {/*tab*/}
                                         <div className={activeIndex == 1 ? "tab fadeInUp animated show active-tab" : "tab fadeInUp animated"}>
                                             <div className="tabs-content__inner">
-                                                <p>Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                                                    aspernaturaut odit aut fugit, sed quia consequuntur. Dicta sunt
-                                                    explicabo. Nemo enim ipsam voluptatem quia voluptas.</p>
+                                                <p>To become a trusted and credible institute to prevent and transform conflict.</p>
                                             </div>
                                         </div>
                                         {/*tab*/}
                                         {/*tab*/}
                                         <div className={activeIndex == 2 ? "tab fadeInUp animated show active-tab" : "tab fadeInUp animated"}>
                                             <div className="tabs-content__inner">
-                                                <p>Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                                                    aspernaturaut odit aut fugit, sed quia consequuntur. Dicta sunt
-                                                    explicabo. Nemo enim ipsam voluptatem quia voluptas.</p>
+                                                <p>Social and political exclusion gradually eliminated in Nepal and South Asia, paving way for peaceful coexistence, good governance and economic prosperity.</p>
                                             </div>
                                         </div>
                                         {/*tab*/}
                                         {/*tab*/}
                                         <div className={activeIndex == 3 ? "tab fadeInUp animated show active-tab" : "tab fadeInUp animated"}>
                                             <div className="tabs-content__inner">
-                                                <p>Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                                                    aspernaturaut odit aut fugit, sed quia consequuntur. Dicta sunt
-                                                    explicabo. Nemo enim ipsam voluptatem quia voluptas.</p>
+                                                <p>To actively reduce social and political exclusion by promoting peacebuilding, inclusive governance, and sustainable development through trusted conflict prevention and transformation practices across Nepal and South Asia.</p>
                                             </div>
                                         </div>
                                         {/*tab*/}
@@ -92,7 +86,7 @@ export default function Home() {
                             </div>
                             <div className="about-One__btn-and-need-help">
                                 <div className="about-One__btn-box">
-                                    <Link href="donation-details" className="about-One__btn thm-btn">Donate Now<span><i
+                                    <Link href="donation-details" className="about-One__btn thm-btn">Contact Now<span><i
                                                 className="icon-arrow-right"></i></span></Link>
                                 </div>
                                 <div className="about-One__need-help">
@@ -101,7 +95,7 @@ export default function Home() {
                                     </div>
                                     <div className="content">
                                         <p>Need help?</p>
-                                        <h4><Link href="tel:3195550115">(319) 555-0115</Link></h4>
+                                        <h4><Link href="tel:3195550115">(977) 01-4595683/4598908</Link></h4>
                                     </div>
                                 </div>
                             </div>
@@ -141,7 +135,7 @@ export default function Home() {
                                 <h4 className="found-one__title"><Link href="donation-details">Help For Ecosystem</Link></h4>
                                 <p className="found-one__text">Charity and Donation is a categorys that involves giving
                                     financial </p>
-                                <div className="found-one__goals">
+                                {/* <div className="found-one__goals">
                                     <div className="found-one__raised">
                                         <p>Raised</p>
                                         <span>40,802$</span>
@@ -150,13 +144,13 @@ export default function Home() {
                                         <p>Goal</p>
                                         <span>100,000$</span>
                                     </div>
-                                </div>
-                                <div className="found-one__progress">
+                                </div> */}
+                                {/* <div className="found-one__progress">
                                     <div className="bar">
                                         <div className="bar-inner count-bar" data-percent="75%" style={{ width: '75%' }}>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                                 <div className="found-one__btn-box">
                                     <Link href="donation-details" className="found-one__btn thm-btn">Donate Now<span><i
                                                 className="icon-arrow-right"></i></span></Link>
@@ -178,7 +172,7 @@ export default function Home() {
                                 <h4 className="found-one__title"><Link href="donation-details">Water For All</Link></h4>
                                 <p className="found-one__text">Charity and Donation is a categorys that involves giving
                                     financial </p>
-                                <div className="found-one__goals">
+                                {/* <div className="found-one__goals">
                                     <div className="found-one__raised">
                                         <p>Raised</p>
                                         <span>40,802$</span>
@@ -193,7 +187,7 @@ export default function Home() {
                                         <div className="bar-inner count-bar" data-percent="75%" style={{ width: '75%' }}>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                                 <div className="found-one__btn-box">
                                     <Link href="donation-details" className="found-one__btn thm-btn">Donate Now<span><i
                                                 className="icon-arrow-right"></i></span></Link>
@@ -215,7 +209,7 @@ export default function Home() {
                                 <h4 className="found-one__title"><Link href="donation-details">Vaccine Aid Camp</Link></h4>
                                 <p className="found-one__text">Charity and Donation is a categorys that involves giving
                                     financial </p>
-                                <div className="found-one__goals">
+                                {/* <div className="found-one__goals">
                                     <div className="found-one__raised">
                                         <p>Raised</p>
                                         <span>40,802$</span>
@@ -230,7 +224,7 @@ export default function Home() {
                                         <div className="bar-inner count-bar" data-percent="75%" style={{ width: '75%' }}>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                                 <div className="found-one__btn-box">
                                     <Link href="donation-details" className="found-one__btn thm-btn">Donate Now<span><i
                                                 className="icon-arrow-right"></i></span></Link>
@@ -309,7 +303,7 @@ export default function Home() {
                             <p className="who-we-are__text">Lorem Ipsum is simply dummy a of the printing and type setting
                                 industry Loreaim Ipsum has been the industry's standard dummy</p>
                             <div className="who-we-are__progress-box">
-                                <ul className="who-we-are__progress-list list-unstyled">
+                                {/* <ul className="who-we-are__progress-list list-unstyled">
                                     <li>
                                         <div className="who-we-are__progress-single">
                                             <p>Total Fund Worth: <span>450,896,070$</span></p>
@@ -332,7 +326,7 @@ export default function Home() {
                                             </div>
                                         </div>
                                     </li>
-                                </ul>
+                                </ul> */}
                             </div>
                             <div className="who-we-are__btn-box">
                                 <Link href="donation-details" className="who-we-are__btn thm-btn">Donate Now<span><i
