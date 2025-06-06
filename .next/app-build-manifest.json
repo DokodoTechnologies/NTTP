@@ -26,6 +26,11 @@
       "static/chunks/main-app.js",
       "static/chunks/app/index4/page.js"
     ],
+    "/index5/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/index5/page.js"
+    ],
     "/about/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -35,11 +40,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/event-details/page.js"
-    ],
-    "/index5/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/index5/page.js"
     ]
   }
 }

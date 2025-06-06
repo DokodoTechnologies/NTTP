@@ -57,13 +57,13 @@ export default function Footer3() {
                                             <div className="icon">
                                                 <span className="icon-call"></span>
                                             </div>
-                                            <p><Link href="tel:0882466422710">+088 (246) 642-27-10</Link></p>
+                                            <p><Link href="tel:01-4595683">+977 01-4595683/4598908</Link></p>
                                         </li>
                                         <li>
                                             <div className="icon">
                                                 <span className="icon-envelope"></span>
                                             </div>
-                                            <p><Link href="mailto:example@mail.com">example@mail.com</Link></p>
+                                            <p><Link href="mailto:contact@nttpinstitute.org.np">contact@nttpinstitute.org.np</Link></p>
                                         </li>
                                     </ul>
                                     <div className="site-footer-two__social">
@@ -83,7 +83,7 @@ export default function Footer3() {
                             <div className="col-xl-12">
                                 <div className="site-footer-two__bottom-inner">
                                     <div className="site-footer-two__copyright">
-                                        <p className="site-footer-two__copyright-text">Copywright 2024 by <Link href="#">anity</Link>. All
+                                        <p className="site-footer-two__copyright-text">Copywright 2024 by <Link href="#">Dokodo</Link>. All
                                             Rights Reserved.</p>
                                     </div>
                                     <div className="site-footer-two__bottom-menu-box">
