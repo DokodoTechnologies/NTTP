@@ -18,7 +18,7 @@ export default function Blog() {
                         <div className="blog-one__single">
                             <div className="blog-one__img-box">
                                 <div className="blog-one__img">
-                                    <img src="assets/images/blog/blog-1-1.jpg" alt=""/>
+                                    <img src="assets/images/blog/blogpic1.png" alt=""/>
                                 </div>
                                 <div className="blog-one__date">
                                     <p>20<span><br/>feb</span></p>
@@ -40,7 +40,7 @@ export default function Blog() {
                         <div className="blog-one__single">
                             <div className="blog-one__img-box">
                                 <div className="blog-one__img">
-                                    <img src="assets/images/blog/blog-1-2.jpg" alt=""/>
+                                    <img src="assets/images/blog/blogpic2.png" alt=""/>
                                 </div>
                                 <div className="blog-one__date">
                                     <p>15<span><br/>Nov</span></p>
@@ -62,7 +62,7 @@ export default function Blog() {
                         <div className="blog-one__single">
                             <div className="blog-one__img-box">
                                 <div className="blog-one__img">
-                                    <img src="assets/images/blog/blog-1-3.jpg" alt=""/>
+                                    <img src="assets/images/blog/blogpic1.png" alt=""/>
                                 </div>
                                 <div className="blog-one__date">
                                     <p>25<span><br/>Jun</span></p>
