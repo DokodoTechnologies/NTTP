@@ -40,7 +40,7 @@ export default function Banner() {
                     <div className="swiper-slide">
                         <div className="bg1"></div>
                         <div className="image-layer"
-                            style={{ backgroundImage: ' url(assets/images/slider/slider-v4-img-1.jpg)' }} >
+                            style={{ backgroundImage: 'url("/assets/images/slider/homepageimage1.jpg")' }} >
                         </div>
                         <div className="main-slider-four__inner">
                             <div className="main-slider-four__inner-bg"></div>
@@ -75,7 +75,7 @@ export default function Banner() {
                     <div className="swiper-slide">
                         <div className="bg1"></div>
                         <div className="image-layer"
-                            style={{ backgroundImage: ' url(assets/images/slider/slider-v4-img-2.jpg)' }} >
+                            style={{ backgroundImage:  'url(assets/images/slider/homepageimage1.jpg)' }} >
                         </div>
                         <div className="main-slider-four__inner">
                             <div className="main-slider-four__inner-bg"></div>
