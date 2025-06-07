@@ -1,4 +1,4 @@
-// File: C:\Users\User\OneDrive\Desktop\NTTP\NTTP\app\layout.js
+// File: /home/prasannajung/Documents/dokodo-projects/NTTP/app/layout.js
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
