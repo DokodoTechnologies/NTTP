@@ -149,7 +149,7 @@ export default function About() {
         channel='youtube'
         autoplay
         isOpen={isOpen}
-        videoId='Get7rqXYrbQ'
+        videoId='F0GYEj_jhWY'
         onClose={() => setOpen(false)}
       />
     </>

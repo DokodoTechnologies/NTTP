@@ -155,6 +155,9 @@ export default function Menu() {
           <Link href='/events'>Events</Link>
         </li>
         <li>
+          <Link href='/donors'>Forums</Link>
+        </li>
+        <li>
           <Link href='/donors'>Donors</Link>
         </li>
         <li>

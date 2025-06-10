@@ -44,11 +44,11 @@ export default function Home() {
                       </div>
                       <div className='about-One__provide-content'>
                         <div className='about-One__provide-count count-box'>
-                          <h3 className='count-text'>250</h3>
+                          <h3 className='count-text'>3</h3>
                           <span>+</span>
                         </div>
                         <p className='about-One__provide-count-text'>
-                          Services we provide
+                          Years Providing Peace
                         </p>
                       </div>
                     </div>
@@ -246,7 +246,7 @@ export default function Home() {
                         href='donation-details'
                         className='found-one__btn thm-btn'
                       >
-                        Donate Now
+                        Read more
                         <span>
                           <i className='icon-arrow-right'></i>
                         </span>
@@ -297,7 +297,7 @@ export default function Home() {
                         href='donation-details'
                         className='found-one__btn thm-btn'
                       >
-                        Donate Now
+                        Read more
                         <span>
                           <i className='icon-arrow-right'></i>
                         </span>
@@ -348,7 +348,7 @@ export default function Home() {
                         href='donation-details'
                         className='found-one__btn thm-btn'
                       >
-                        Donate Now
+                        Read more
                         <span>
                           <i className='icon-arrow-right'></i>
                         </span>
@@ -393,7 +393,7 @@ export default function Home() {
                       href='donation-details'
                       className='donate-one__btn thm-btn'
                     >
-                      Donate Now
+                      Read more
                       <span>
                         <i className='icon-arrow-right'></i>
                       </span>
@@ -498,7 +498,7 @@ export default function Home() {
                       href='donation-details'
                       className='who-we-are__btn thm-btn'
                     >
-                      Donate Now
+                      Read more
                       <span>
                         <i className='icon-arrow-right'></i>
                       </span>
@@ -581,7 +581,7 @@ export default function Home() {
                         href='donation-details'
                         className='event-one__btn thm-btn'
                       >
-                        Donate Now
+                        Read more
                         <span>
                           <i className='icon-arrow-right'></i>
                         </span>
@@ -624,7 +624,7 @@ export default function Home() {
                         href='donation-details'
                         className='event-one__btn thm-btn'
                       >
-                        Donate Now
+                        Read more
                         <span>
                           <i className='icon-arrow-right'></i>
                         </span>
@@ -667,7 +667,7 @@ export default function Home() {
                         href='donation-details'
                         className='event-one__btn thm-btn'
                       >
-                        Donate Now
+                        Read more
                         <span>
                           <i className='icon-arrow-right'></i>
                         </span>
