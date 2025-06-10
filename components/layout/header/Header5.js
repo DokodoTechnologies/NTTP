@@ -16,7 +16,7 @@ export default function Header1({ scroll, handlePopup, handleMobileMenu }) {
                                     <i className="icon-envelope"></i>
                                 </div>
                                 <div className="text">
-                                    <p><Link href="mailto:example@gamil.com">example@gamil.com</Link>
+                                    <p><Link href="mailto:example@gamil.com">suuyog@gamil.com</Link>
                                     </p>
                                 </div>
                             </li>
