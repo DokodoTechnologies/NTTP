@@ -152,16 +152,16 @@ export default function Menu() {
           <Link href='/about'>About</Link>
         </li>
         <li>
-          <Link href='/events'>Events</Link>
+          <Link href='/events'>Media</Link>
         </li>
         <li>
           <Link href='/donors'>Forums</Link>
         </li>
         <li>
-          <Link href='/donors'>Donors</Link>
+          <Link href='/donors'>Supporters</Link>
         </li>
         <li>
-          <Link href='/media'>Media</Link>
+          <Link href='/media'>Gallery</Link>
         </li>
         {/* <li className="dropdown">
                     <Link href="#">Pages</Link>

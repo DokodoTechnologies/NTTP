@@ -6,7 +6,7 @@ export default function Home() {
     
     return (
         <>
-        <Layout headerStyle={1} footerStyle={2} breadcrumbTitle="Events">
+        <Layout headerStyle={1} footerStyle={2} breadcrumbTitle="Media">
         {/*Events Page Start*/}
         <section className="events-page">
             <div className="container">

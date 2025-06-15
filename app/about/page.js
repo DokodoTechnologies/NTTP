@@ -6,6 +6,7 @@ import { Autoplay, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
 
 
+
 const swiperOptions = {
     modules: [Autoplay, Pagination, Navigation],
     slidesPerView: 3,
@@ -52,6 +53,7 @@ const swiperOptions = {
 
 }
 
+
 export default function Home() {
   const [activeIndex, setActiveIndex] = useState(1);
   const handleOnClick = (index) => {
@@ -76,13 +78,13 @@ export default function Home() {
                   <div className='about-One__img-box'>
                     <div className='about-One__img'>
                       <img
-                        src='assets/images/resources/about-one-img-1.jpg'
+                        src='assets/images/about/culture_nepal.jpg'
                         alt=''
                       />
                     </div>
                     <div className='about-One__img-2'>
                       <img
-                        src='assets/images/resources/about-one-img-2.jpg'
+                        src='assets/images/about/together.jpg'
                         alt=''
                       />
                     </div>
@@ -421,291 +423,255 @@ export default function Home() {
         {/* --------------------------------------------------------------------------------------- */}
 
         {/*Volunteer Carousel Page Start*/}
-        <section className="volunteer-carousel-page">
-            <div className="container">
-                <Swiper {...swiperOptions} className="volunteer-carousel-style owl-carousel owl-theme carousel-dot-style ">
-                    <SwiperSlide>
-                    {/*Volunteer Page Single Start*/}
-                    <div className="item">
-                        <div className="team-one__single">
-                            <div className="team-one__img-box">
-                                <div className="team-one__img">
-                                    <img src="assets/images/team/volunteer-page-1-1.jpg" alt=""/>
-                                </div>
+        <section className="volunteer-carousel-page" style={{ backgroundColor: '#f1f0ec', marginBottom: '8rem' ,paddingBottom:'6rem'
+          ,paddingTop: '5rem'
+        }}>
+    <div className="container">
+        {/* Header Section */}
+        {/* Header Section */}
+<div className="section-header" style={{textAlign: 'left', marginBottom: '3rem'}}>
+    <p style={{
+        fontSize: '0.9rem',
+        color: '#5ba4d4',
+        fontWeight: '600',
+        letterSpacing: '2px',
+        textTransform: 'uppercase',
+        marginBottom: '0.5rem',
+        margin: '0 0 0.5rem 0'
+    }}>Our Executive Committee</p>
+    <h2 style={{
+        fontSize: '3rem',
+        fontWeight: 'bold',
+        color: '#4a4a4a',
+        lineHeight: '1.2',
+        margin: '0'
+    }}>Meet The Dedicated Leaders <br /></h2>
+</div>
+        
+        <Swiper {...swiperOptions} className="volunteer-carousel-style owl-carousel owl-theme carousel-dot-style ">
+            <SwiperSlide>
+            {/*Volunteer Page Single Start*/}
+            <div className="item">
+                <div className="team-one__single">
+                    <div className="team-one__img-box">
+                        <div className="team-one__img">
+                            <img src="assets/images/about/stella.png" alt=""/>
+                        </div>
+                    </div>
+                    <div className="team-one__content">
+                        <div className="team-one__name-box">
+                            <h4 className="team-one__name"><Link href="volunteer-details">Ms.Stella Tamang</Link>
+                            </h4>
+                            <p className="team-one__sub-title">is Chairperson at NTTP-I. She is the Founding Chair and currently Advisor of the National Indigenous...</p>
+                        </div>
+                        <div className="team-one__share-and-social">
+                            <div className="team-one__social">
+                                <Link href="volunteer-details"><span className="icon-facebook"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-instagram"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-twitter"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-link-in"></span></Link>
                             </div>
-                            <div className="team-one__content">
-                                <div className="team-one__name-box">
-                                    <h4 className="team-one__name"><Link href="volunteer-details">Arlene McCoy</Link>
-                                    </h4>
-                                    <p className="team-one__sub-title">Nursing Assistant</p>
-                                </div>
-                                <div className="team-one__share-and-social">
-                                    <div className="team-one__social">
-                                        <Link href="volunteer-details"><span className="icon-facebook"></span></Link>
-                                        <Link href="volunteer-details"><span className="icon-instagram"></span></Link>
-                                        <Link href="volunteer-details"><span className="icon-twitter"></span></Link>
-                                        <Link href="volunteer-details"><span className="icon-link-in"></span></Link>
-                                    </div>
-                                    <div className="team-one__share">
-                                        <Link href="volunteer-details"><span className="icon-share"></span></Link>
-                                    </div>
-                                </div>
+                            <div className="team-one__share">
+                                <Link href="volunteer-details"><span className="icon-share"></span></Link>
                             </div>
                         </div>
                     </div>
-                    {/*Volunteer Page Single End*/}
-                    </SwiperSlide>
-                    <SwiperSlide>
-                    {/*Volunteer Page Single Start*/}
-                    <div className="item">
-                        <div className="team-one__single">
-                            <div className="team-one__img-box">
-                                <div className="team-one__img">
-                                    <img src="assets/images/team/volunteer-page-1-2.jpg" alt=""/>
-                                </div>
-                            </div>
-                            <div className="team-one__content">
-                                <div className="team-one__name-box">
-                                    <h4 className="team-one__name"><Link href="volunteer-details">Jenny Wilson</Link>
-                                    </h4>
-                                    <p className="team-one__sub-title">Web Designer</p>
-                                </div>
-                                <div className="team-one__share-and-social">
-                                    <div className="team-one__social">
-                                        <Link href="volunteer-details"><span className="icon-facebook"></span></Link>
-                                        <Link href="volunteer-details"><span className="icon-instagram"></span></Link>
-                                        <Link href="volunteer-details"><span className="icon-twitter"></span></Link>
-                                        <Link href="volunteer-details"><span className="icon-link-in"></span></Link>
-                                    </div>
-                                    <div className="team-one__share">
-                                        <Link href="volunteer-details"><span className="icon-share"></span></Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    {/*Volunteer Page Single End*/}
-                    </SwiperSlide>
-                    <SwiperSlide>
-                    {/*Volunteer Page Single Start*/}
-                    <div className="item">
-                        <div className="team-one__single">
-                            <div className="team-one__img-box">
-                                <div className="team-one__img">
-                                    <img src="assets/images/team/volunteer-page-1-3.jpg" alt=""/>
-                                </div>
-                            </div>
-                            <div className="team-one__content">
-                                <div className="team-one__name-box">
-                                    <h4 className="team-one__name"><Link href="volunteer-details">Robert Fox</Link>
-                                    </h4>
-                                    <p className="team-one__sub-title">Marketing Coordinator</p>
-                                </div>
-                                <div className="team-one__share-and-social">
-                                    <div className="team-one__social">
-                                        <Link href="volunteer-details"><span className="icon-facebook"></span></Link>
-                                        <Link href="volunteer-details"><span className="icon-instagram"></span></Link>
-                                        <Link href="volunteer-details"><span className="icon-twitter"></span></Link>
-                                        <Link href="volunteer-details"><span className="icon-link-in"></span></Link>
-                                    </div>
-                                    <div className="team-one__share">
-                                        <Link href="volunteer-details"><span className="icon-share"></span></Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    {/*Volunteer Page Single End*/}
-                    </SwiperSlide>
-                    <SwiperSlide>
-                    {/*Volunteer Page Single Start*/}
-                    <div className="item">
-                        <div className="team-one__single">
-                            <div className="team-one__img-box">
-                                <div className="team-one__img">
-                                    <img src="assets/images/team/volunteer-page-1-4.jpg" alt=""/>
-                                </div>
-                            </div>
-                            <div className="team-one__content">
-                                <div className="team-one__name-box">
-                                    <h4 className="team-one__name"><Link href="volunteer-details">Marvin McKinney</Link>
-                                    </h4>
-                                    <p className="team-one__sub-title">Dog Trainer</p>
-                                </div>
-                                <div className="team-one__share-and-social">
-                                    <div className="team-one__social">
-                                        <Link href="volunteer-details"><span className="icon-facebook"></span></Link>
-                                        <Link href="volunteer-details"><span className="icon-instagram"></span></Link>
-                                        <Link href="volunteer-details"><span className="icon-twitter"></span></Link>
-                                        <Link href="volunteer-details"><span className="icon-link-in"></span></Link>
-                                    </div>
-                                    <div className="team-one__share">
-                                        <Link href="volunteer-details"><span className="icon-share"></span></Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    {/*Volunteer Page Single End*/}
-                    </SwiperSlide>
-                    <SwiperSlide>
-                    {/*Volunteer Page Single Start*/}
-                    <div className="item">
-                        <div className="team-one__single">
-                            <div className="team-one__img-box">
-                                <div className="team-one__img">
-                                    <img src="assets/images/team/volunteer-page-1-5.jpg" alt=""/>
-                                </div>
-                            </div>
-                            <div className="team-one__content">
-                                <div className="team-one__name-box">
-                                    <h4 className="team-one__name"><Link href="volunteer-details">Ronald Richards</Link>
-                                    </h4>
-                                    <p className="team-one__sub-title">President of Sales</p>
-                                </div>
-                                <div className="team-one__share-and-social">
-                                    <div className="team-one__social">
-                                        <Link href="volunteer-details"><span className="icon-facebook"></span></Link>
-                                        <Link href="volunteer-details"><span className="icon-instagram"></span></Link>
-                                        <Link href="volunteer-details"><span className="icon-twitter"></span></Link>
-                                        <Link href="volunteer-details"><span className="icon-link-in"></span></Link>
-                                    </div>
-                                    <div className="team-one__share">
-                                        <Link href="volunteer-details"><span className="icon-share"></span></Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    {/*Volunteer Page Single End*/}
-                    </SwiperSlide>
-                    <SwiperSlide>
-                    {/*Volunteer Page Single Start*/}
-                    <div className="item">
-                        <div className="team-one__single">
-                            <div className="team-one__img-box">
-                                <div className="team-one__img">
-                                    <img src="assets/images/team/volunteer-page-1-6.jpg" alt=""/>
-                                </div>
-                            </div>
-                            <div className="team-one__content">
-                                <div className="team-one__name-box">
-                                    <h4 className="team-one__name"><Link href="volunteer-details">Kathryn Murphy</Link>
-                                    </h4>
-                                    <p className="team-one__sub-title">Medical Assistant</p>
-                                </div>
-                                <div className="team-one__share-and-social">
-                                    <div className="team-one__social">
-                                        <Link href="volunteer-details"><span className="icon-facebook"></span></Link>
-                                        <Link href="volunteer-details"><span className="icon-instagram"></span></Link>
-                                        <Link href="volunteer-details"><span className="icon-twitter"></span></Link>
-                                        <Link href="volunteer-details"><span className="icon-link-in"></span></Link>
-                                    </div>
-                                    <div className="team-one__share">
-                                        <Link href="volunteer-details"><span className="icon-share"></span></Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    {/*Volunteer Page Single End*/}
-                    </SwiperSlide>
-                    <SwiperSlide>
-                    {/*Volunteer Page Single Start*/}
-                    <div className="item">
-                        <div className="team-one__single">
-                            <div className="team-one__img-box">
-                                <div className="team-one__img">
-                                    <img src="assets/images/team/volunteer-page-1-1.jpg" alt=""/>
-                                </div>
-                            </div>
-                            <div className="team-one__content">
-                                <div className="team-one__name-box">
-                                    <h4 className="team-one__name"><Link href="volunteer-details">Arlene McCoy</Link>
-                                    </h4>
-                                    <p className="team-one__sub-title">Nursing Assistant</p>
-                                </div>
-                                <div className="team-one__share-and-social">
-                                    <div className="team-one__social">
-                                        <Link href="volunteer-details"><span className="icon-facebook"></span></Link>
-                                        <Link href="volunteer-details"><span className="icon-instagram"></span></Link>
-                                        <Link href="volunteer-details"><span className="icon-twitter"></span></Link>
-                                        <Link href="volunteer-details"><span className="icon-link-in"></span></Link>
-                                    </div>
-                                    <div className="team-one__share">
-                                        <Link href="volunteer-details"><span className="icon-share"></span></Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    {/*Volunteer Page Single End*/}
-                    </SwiperSlide>
-                    <SwiperSlide>
-                    {/*Volunteer Page Single Start*/}
-                    <div className="item">
-                        <div className="team-one__single">
-                            <div className="team-one__img-box">
-                                <div className="team-one__img">
-                                    <img src="assets/images/team/volunteer-page-1-2.jpg" alt=""/>
-                                </div>
-                            </div>
-                            <div className="team-one__content">
-                                <div className="team-one__name-box">
-                                    <h4 className="team-one__name"><Link href="volunteer-details">Jenny Wilson</Link>
-                                    </h4>
-                                    <p className="team-one__sub-title">Web Designer</p>
-                                </div>
-                                <div className="team-one__share-and-social">
-                                    <div className="team-one__social">
-                                        <Link href="volunteer-details"><span className="icon-facebook"></span></Link>
-                                        <Link href="volunteer-details"><span className="icon-instagram"></span></Link>
-                                        <Link href="volunteer-details"><span className="icon-twitter"></span></Link>
-                                        <Link href="volunteer-details"><span className="icon-link-in"></span></Link>
-                                    </div>
-                                    <div className="team-one__share">
-                                        <Link href="volunteer-details"><span className="icon-share"></span></Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    {/*Volunteer Page Single End*/}
-                    </SwiperSlide>
-                    <SwiperSlide>
-                    {/*Volunteer Page Single Start*/}
-                    <div className="item">
-                        <div className="team-one__single">
-                            <div className="team-one__img-box">
-                                <div className="team-one__img">
-                                    <img src="assets/images/team/volunteer-page-1-3.jpg" alt=""/>
-                                </div>
-                            </div>
-                            <div className="team-one__content">
-                                <div className="team-one__name-box">
-                                    <h4 className="team-one__name"><Link href="volunteer-details">Robert Fox</Link>
-                                    </h4>
-                                    <p className="team-one__sub-title">Marketing Coordinator</p>
-                                </div>
-                                <div className="team-one__share-and-social">
-                                    <div className="team-one__social">
-                                        <Link href="volunteer-details"><span className="icon-facebook"></span></Link>
-                                        <Link href="volunteer-details"><span className="icon-instagram"></span></Link>
-                                        <Link href="volunteer-details"><span className="icon-twitter"></span></Link>
-                                        <Link href="volunteer-details"><span className="icon-link-in"></span></Link>
-                                    </div>
-                                    <div className="team-one__share">
-                                        <Link href="volunteer-details"><span className="icon-share"></span></Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    {/*Volunteer Page Single End*/}
-                    </SwiperSlide>
-                </Swiper>
+                </div>
             </div>
-        </section>
+            {/*Volunteer Page Single End*/}
+            </SwiperSlide>
+            <SwiperSlide>
+            {/*Volunteer Page Single Start*/}
+            <div className="item">
+                <div className="team-one__single">
+                    <div className="team-one__img-box">
+                        <div className="team-one__img">
+                            <img src="assets/images/about/sagar.png" alt=""/>
+                        </div>
+                    </div>
+                    <div className="team-one__content">
+                        <div className="team-one__name-box">
+                            <h4 className="team-one__name"><Link href="volunteer-details">Mr.Sagar Prasai</Link>
+                            </h4>
+                            <p className="team-one__sub-title">Is treasurer of NTTP Institute. He has worked for The Asia Foundation for more than 12 years includi...</p>
+                        </div>
+                        <div className="team-one__share-and-social">
+                            <div className="team-one__social">
+                                <Link href="volunteer-details"><span className="icon-facebook"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-instagram"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-twitter"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-link-in"></span></Link>
+                            </div>
+                            <div className="team-one__share">
+                                <Link href="volunteer-details"><span className="icon-share"></span></Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/*Volunteer Page Single End*/}
+            </SwiperSlide>
+            <SwiperSlide>
+            {/*Volunteer Page Single Start*/}
+            <div className="item">
+                <div className="team-one__single">
+                    <div className="team-one__img-box">
+                        <div className="team-one__img">
+                            <img src="assets/images/about/malik.png" alt=""/>
+                        </div>
+                    </div>
+                    <div className="team-one__content">
+                        <div className="team-one__name-box">
+                            <h4 className="team-one__name"><Link href="volunteer-details">Mr.Vidyadhar Malik</Link>
+                            </h4>
+                            <p className="team-one__sub-title">a former Minister, is one of the NTTP facilitators. With a former career in in civil service and gov...
+</p>
+                        </div>
+                        <div className="team-one__share-and-social">
+                            <div className="team-one__social">
+                                <Link href="volunteer-details"><span className="icon-facebook"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-instagram"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-twitter"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-link-in"></span></Link>
+                            </div>
+                            <div className="team-one__share">
+                                <Link href="volunteer-details"><span className="icon-share"></span></Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/*Volunteer Page Single End*/}
+            </SwiperSlide>
+            <SwiperSlide>
+            {/*Volunteer Page Single Start*/}
+            <div className="item">
+                <div className="team-one__single">
+                    <div className="team-one__img-box">
+                        <div className="team-one__img">
+                            <img src="assets/images/about/youba.png" alt=""/>
+                        </div>
+                    </div>
+                    <div className="team-one__content">
+                        <div className="team-one__name-box">
+                            <h4 className="team-one__name"><Link href="volunteer-details">Mr.Youba Raj Acharya</Link>
+                            </h4>
+                            <p className="team-one__sub-title">is Executive Director at NTTP-I.  He has more than 19 years of professional experience in the field...</p>
+                        </div>
+                        <div className="team-one__share-and-social">
+                            <div className="team-one__social">
+                                <Link href="volunteer-details"><span className="icon-facebook"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-instagram"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-twitter"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-link-in"></span></Link>
+                            </div>
+                            <div className="team-one__share">
+                                <Link href="volunteer-details"><span className="icon-share"></span></Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/*Volunteer Page Single End*/}
+            </SwiperSlide>
+            <SwiperSlide>
+            {/*Volunteer Page Single Start*/}
+            <div className="item">
+                <div className="team-one__single">
+                    <div className="team-one__img-box">
+                        <div className="team-one__img">
+                            <img src="assets/images/about/daman.png" alt=""/>
+                        </div>
+                    </div>
+                    <div className="team-one__content">
+                        <div className="team-one__name-box">
+                            <h4 className="team-one__name"><Link href="volunteer-details">Mr.Daman Nath Dhungana</Link>
+                            </h4>
+                            <p className="team-one__sub-title">is a senior NTTP facilitator and Chairperson at NTTP-I. He served as the Speaker of the House after ...</p>
+                        </div>
+                        <div className="team-one__share-and-social">
+                            <div className="team-one__social">
+                                <Link href="volunteer-details"><span className="icon-facebook"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-instagram"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-twitter"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-link-in"></span></Link>
+                            </div>
+                            <div className="team-one__share">
+                                <Link href="volunteer-details"><span className="icon-share"></span></Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/*Volunteer Page Single End*/}
+            </SwiperSlide>
+            <SwiperSlide>
+            {/*Volunteer Page Single Start*/}
+            <div className="item">
+                <div className="team-one__single">
+                    <div className="team-one__img-box">
+                        <div className="team-one__img">
+                            <img src="assets/images/about/birendra.png" alt=""/>
+                        </div>
+                    </div>
+                    <div className="team-one__content">
+                        <div className="team-one__name-box">
+                            <h4 className="team-one__name"><Link href="volunteer-details">Mr.Birendra P Mishra</Link>
+                            </h4>
+                            <p className="team-one__sub-title">is an eminent member of Nepal's civil society and a regular contributor of opinion pieces in major n...</p>
+                        </div>
+                        <div className="team-one__share-and-social">
+                            <div className="team-one__social">
+                                <Link href="volunteer-details"><span className="icon-facebook"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-instagram"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-twitter"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-link-in"></span></Link>
+                            </div>
+                            <div className="team-one__share">
+                                <Link href="volunteer-details"><span className="icon-share"></span></Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/*Volunteer Page Single End*/}
+            </SwiperSlide>
+            <SwiperSlide>
+            {/*Volunteer Page Single Start*/}
+            <div className="item">
+                <div className="team-one__single">
+                    <div className="team-one__img-box">
+                        <div className="team-one__img">
+                            <img src="assets/images/about/sajana.png" alt=""/>
+                        </div>
+                    </div>
+                    <div className="team-one__content">
+                        <div className="team-one__name-box">
+                            <h4 className="team-one__name"><Link href="volunteer-details">Ms.Sajana Maharjan</Link>
+                            </h4>
+                            <p className="team-one__sub-title">is one of the founding members of NTTP-I and is currently one of the members of executive committee ...</p>
+                        </div>
+                        <div className="team-one__share-and-social">
+                            <div className="team-one__social">
+                                <Link href="volunteer-details"><span className="icon-facebook"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-instagram"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-twitter"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-link-in"></span></Link>
+                            </div>
+                            <div className="team-one__share">
+                                <Link href="volunteer-details"><span className="icon-share"></span></Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/*Volunteer Page Single End*/}
+            </SwiperSlide>
+           
+        </Swiper>
+       
+    </div>
+</section>
         {/*Volunteer Carousel Page End*/}
 
         
@@ -724,16 +690,17 @@ export default function Home() {
                     className='donate-one__single-bg'
                     style={{
                       backgroundImage:
-                        " url(assets/images/backgrounds/donate-one-single-bg.jpg)",
+                        " url(assets/images/about/flag.jpg)",
                     }}
                   ></div>
                   <h3 className='donate-one__title'>
-                    <Link href='donation-details'>nttps</Link>
+                    <Link href='donation-details'>Neapal Transition To Peace</Link>
                   </h3>
                   <p className='donate-one__text'>
-                    Dicta sunt explicabo. Nemo enim ipsam voluptatem
-                    <br /> quia voluptas sit aspernaturaut odit aut fugit, sed
-                    <br /> quia consequuntur. Dicta sunt explicabo. Nemo
+                   (NTTP-I) is a peace research institute founded upon the history of decade-long engagement in Nepal’s political transition as a credible and Track 1.5 peace process for mediation, facilitation, and dialogue among the political parties of Nepal since 2005.
+                   thaw stalemates and promote peaceful engagement among the political parties even in critical times in a low key and trusted setting.
+                    <br /> 
+                    <br /> 
                   </p>
                   <div className='donate-one__btn-box'>
                     <Link
@@ -758,18 +725,18 @@ export default function Home() {
                     className='donate-one__single-bg'
                     style={{
                       backgroundImage:
-                        " url(assets/images/backgrounds/donate-one-single-bg-two.jpg)",
+                        " url(assets/images/about/history.jpg)",
                     }}
                   ></div>
                   <h3 className='donate-one__title'>
                     <Link href='become-volunteer'>
-                      history
+                      Our History
                     </Link>
                   </h3>
                   <p className='donate-one__text'>
-                    Dicta sunt explicabo. Nemo enim ipsam voluptatem
-                    <br /> quia voluptas sit aspernaturaut odit aut fugit, sed
-                    <br /> quia consequuntur. Dicta sunt explicabo. Nemo
+                  Nepal Transition to Peace (NTTP) Initiative was implemented since August 2005 at the request of Nepali polity and with the support of USAID and the Swiss government. At the end of its first phase in 2009, the Ministry of Peace and Reconstruction and other stakeholders requested the USAID and the Swiss Government to continue to provide support to the peace building process. 
+                    <br /> 
+                    <br />
                   </p>
                   <div className='donate-one__btn-box'>
                     <Link
@@ -790,7 +757,7 @@ export default function Home() {
         {/*Donate One End */}
 
         {/*Who We Are Start */}
-        <section className='who-we-are'>
+        <section className='who-we-are' style={{  paddingBottom: '5rem',paddingTop: '5rem' }}>
           <div className='who-we-are__shape-3 float-bob-y'>
             <img src='assets/images/shapes/who-we-are-shape-3.png' alt='' />
           </div>
@@ -806,13 +773,11 @@ export default function Home() {
                       <span className='section-title__tagline'>Who We Are</span>
                     </div>
                     <h2 className='section-title__title title-animation'>
-                      We are a this type of org
+                     A Trusted Peace Dialogue Platform
                     </h2>
                   </div>
                   <p className='who-we-are__text'>
-                    Lorem Ipsum is simply dummy a of the printing and type
-                    setting industry Loreaim Ipsum has been the industry's
-                    standard dummy
+                    The Nepal Transition to Peace Institute (NTTP-I) is a trusted peace research and dialogue institute dedicated to fostering peaceful political engagement in Nepal. Since 2005, we have facilitated informal, evidence-based dialogues among political parties and diverse groups to resolve conflicts and support Nepal’s transition to peace. Through credible research and inclusive forums, we work to prevent and transform conflict at local, national, and regional levels.
                   </p>
                   <div className='who-we-are__progress-box'>
                     {/* <ul className="who-we-are__progress-list list-unstyled">
@@ -862,13 +827,13 @@ export default function Home() {
                   <div className='who-we-are__img-box'>
                     <div className='who-we-are__img'>
                       <img
-                        src='assets/images/resources/who-we-are-img-1.jpg'
+                        src='assets/images/slider/banner_image_3.png'
                         alt=''
                       />
                     </div>
                     <div className='who-we-are__img-2'>
                       <img
-                        src='assets/images/resources/who-we-are-img-2.jpg'
+                        src='assets/images/slider/banner_img_2.png'
                         alt=''
                       />
                     </div>
@@ -890,7 +855,7 @@ export default function Home() {
                 <span className='section-title__tagline'>Our Events</span>
               </div>
               <h2 className='section-title__title title-animation'>
-                our news ra event
+                News & Events
               </h2>
             </div>
             <div className='row'>
@@ -902,7 +867,7 @@ export default function Home() {
                 <div className='event-one__single'>
                   <div className='event-one__img-box'>
                     <div className='event-one__img'>
-                      <img src='assets/images/event/event-1-1.jpg' alt='' />
+                      <img src='assets/images/about/news1.jpg' alt='' />
                     </div>
                     <div className='event-one__date'>
                       <p>
@@ -944,7 +909,7 @@ export default function Home() {
                 <div className='event-one__single'>
                   <div className='event-one__img-box'>
                     <div className='event-one__img'>
-                      <img src='assets/images/event/event-1-2.jpg' alt='' />
+                      <img src='assets/images/about/news2.jpg' alt='' />
                     </div>
                     <div className='event-one__date'>
                       <p>
@@ -986,7 +951,7 @@ export default function Home() {
                 <div className='event-one__single'>
                   <div className='event-one__img-box'>
                     <div className='event-one__img'>
-                      <img src='assets/images/event/event-1-3.jpg' alt='' />
+                      <img src='assets/images/about/news3.jpg' alt='' />
                     </div>
                     <div className='event-one__date'>
                       <p>
