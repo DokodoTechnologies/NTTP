@@ -73,6 +73,7 @@ export default function Banner() {
                 </div>
               </div>
             </SwiperSlide>
+
             <SwiperSlide>
               {/* Slide Item */}
               <div className='swiper-slide'>
@@ -81,7 +82,7 @@ export default function Banner() {
                   className='image-layer'
                   style={{
                     backgroundImage:
-                      "url(assets/images/slider/homepageimage1.jpg)",
+                      "url(assets/images/slider/banner_image_3.png)",
                   }}
                 ></div>
                 <div className='main-slider-four__inner'>
@@ -103,7 +104,7 @@ export default function Banner() {
                       </div>
                       <div className='btn-box'>
                         <Link href='index4' className='thm-btn'>
-                          Donate Now
+                          Read more
                           <span>
                             <i className='icon-arrow-right'></i>
                           </span>

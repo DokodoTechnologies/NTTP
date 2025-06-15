@@ -25,13 +25,13 @@ export default function About() {
                 </div>
                 <div className='text'>
                   <p>
-                    Helped fund 24,537 Projects in 24 Countries, Benefiting over
-                    8.2 Million people.
+                    we have been dedicated to making a positive impact in our
+                    community.
                   </p>
                 </div>
                 <div className='about-four-img'>
                   <img
-                    src='assets/images/resources/about-four-img-1.jpg'
+                    src='assets/images/resources/youtube_img.jpg'
                     alt='Image'
                   />
 

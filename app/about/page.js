@@ -2,12 +2,64 @@
 import Layout from "@/components/layout/Layout";
 import Link from "next/link";
 import { useState } from "react";
+import { Autoplay, Navigation, Pagination } from "swiper/modules"
+import { Swiper, SwiperSlide } from "swiper/react"
+
+
+const swiperOptions = {
+    modules: [Autoplay, Pagination, Navigation],
+    slidesPerView: 3,
+    spaceBetween: 30,    
+    loop: true,
+    // Navigation
+    navigation: {
+        nextEl: '.srn',
+        prevEl: '.srp',
+    },
+    // Pagination
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    breakpoints: {
+        320: {
+            slidesPerView: 1,
+            
+        },
+        575: {
+            slidesPerView: 1,
+            
+        },
+        767: {
+            slidesPerView: 1,
+            
+        },
+        991: {
+            slidesPerView: 2,
+            
+        },
+        1199: {
+            slidesPerView: 3,
+            
+        },
+        1350: {
+            slidesPerView: 3,
+            
+        },
+    }
+
+
+
+}
 
 export default function Home() {
   const [activeIndex, setActiveIndex] = useState(1);
   const handleOnClick = (index) => {
     setActiveIndex(index);
+
+  
   };
+
   return (
     <>
       <Layout headerStyle={3} footerStyle={3} breadcrumbTitle='About Us'>
@@ -66,8 +118,8 @@ export default function Home() {
                       <span className='section-title__tagline'>About Us</span>
                     </div>
                     <h2 className='section-title__title title-animation'>
-                      Unite for a Cause
-                      <br /> Change the World
+                    Nepal Transition 
+                      <br /> To Peace
                     </h2>
                   </div>
                   <div className='about-One__vission-mission'>
@@ -186,10 +238,16 @@ export default function Home() {
             </div>
           </div>
         </section>
+        {/* trying  */}
+
+
+        {/* dfjfad */}
+
+
         {/*About One End */}
 
         {/*Found One Start */}
-        <section className='found-one'>
+        {/* <section className='found-one'>
           <div className='found-one__bg'>
             <div className='found-one__shape-1 float-bob-y'>
               <img src='assets/images/shapes/found-one-shape-1.png' alt='' />
@@ -198,15 +256,15 @@ export default function Home() {
           <div className='container'>
             <div className='section-title text-center sec-title-animation animation-style1'>
               <div className='section-title__tagline-box'>
-                <span className='section-title__tagline'>Charity Fund</span>
+                <span className='section-title__tagline'>Peace</span>
               </div>
               <h2 className='section-title__title title-animation'>
                 Together We Can <br /> <span>Make</span> a Difference
               </h2>
             </div>
-            <div className='row'>
+            <div className='row'> */}
               {/*Found One Single Start*/}
-              <div
+              {/* <div
                 className='col-xl-4 col-lg-4 wow fadeInLeft'
                 data-wow-delay='100ms'
               >
@@ -219,12 +277,11 @@ export default function Home() {
                   </div>
                   <div className='found-one__content'>
                     <h4 className='found-one__title'>
-                      <Link href='donation-details'>Help For Ecosystem</Link>
+                      <Link href='donation-details'>nttp</Link>
                     </h4>
                     <p className='found-one__text'>
-                      Charity and Donation is a categorys that involves giving
-                      financial{" "}
-                    </p>
+                      lorem ipsam{" "}
+                    </p> */}
                     {/* <div className="found-one__goals">
                                     <div className="found-one__raised">
                                         <p>Raised</p>
@@ -241,9 +298,9 @@ export default function Home() {
                                         </div>
                                     </div>
                                 </div> */}
-                    <div className='found-one__btn-box'>
+                    {/* <div className='found-one__btn-box'>
                       <Link
-                        href='donation-details'
+                        href='/'
                         className='found-one__btn thm-btn'
                       >
                         Read more
@@ -254,10 +311,10 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
               {/*Found One Single End*/}
               {/*Found One Single Start*/}
-              <div
+              {/* <div
                 className='col-xl-4 col-lg-4 wow fadeInUp'
                 data-wow-delay='200ms'
               >
@@ -270,12 +327,11 @@ export default function Home() {
                   </div>
                   <div className='found-one__content'>
                     <h4 className='found-one__title'>
-                      <Link href='donation-details'>Water For All</Link>
+                      <Link href='donation-details'>NTTP</Link>
                     </h4>
                     <p className='found-one__text'>
-                      Charity and Donation is a categorys that involves giving
-                      financial{" "}
-                    </p>
+                      Lorem Ipsum{" "}
+                    </p> */}
                     {/* <div className="found-one__goals">
                                     <div className="found-one__raised">
                                         <p>Raised</p>
@@ -292,9 +348,9 @@ export default function Home() {
                                         </div>
                                     </div>
                                 </div> */}
-                    <div className='found-one__btn-box'>
+                    {/* <div className='found-one__btn-box'>
                       <Link
-                        href='donation-details'
+                        href='/'
                         className='found-one__btn thm-btn'
                       >
                         Read more
@@ -305,10 +361,10 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
               {/*Found One Single End*/}
               {/*Found One Single Start*/}
-              <div
+              {/* <div
                 className='col-xl-4 col-lg-4 wow fadeInRight'
                 data-wow-delay='300ms'
               >
@@ -321,12 +377,11 @@ export default function Home() {
                   </div>
                   <div className='found-one__content'>
                     <h4 className='found-one__title'>
-                      <Link href='donation-details'>Vaccine Aid Camp</Link>
+                      <Link href='donation-details'>nttp</Link>
                     </h4>
                     <p className='found-one__text'>
-                      Charity and Donation is a categorys that involves giving
-                      financial{" "}
-                    </p>
+                      lorem ipsuml{" "}
+                    </p> */}
                     {/* <div className="found-one__goals">
                                     <div className="found-one__raised">
                                         <p>Raised</p>
@@ -343,9 +398,9 @@ export default function Home() {
                                         </div>
                                     </div>
                                 </div> */}
-                    <div className='found-one__btn-box'>
+                    {/* <div className='found-one__btn-box'>
                       <Link
-                        href='donation-details'
+                        href='/'
                         className='found-one__btn thm-btn'
                       >
                         Read more
@@ -353,15 +408,307 @@ export default function Home() {
                           <i className='icon-arrow-right'></i>
                         </span>
                       </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
+                    </div> */}
+                  {/* </div> */}
+                {/* </div>
+              </div> */}
               {/*Found One Single End*/}
-            </div>
+            {/* </div>
           </div>
-        </section>
+        </section> */}
         {/*Found One End */}
+
+        {/* --------------------------------------------------------------------------------------- */}
+
+        {/*Volunteer Carousel Page Start*/}
+        <section className="volunteer-carousel-page">
+            <div className="container">
+                <Swiper {...swiperOptions} className="volunteer-carousel-style owl-carousel owl-theme carousel-dot-style ">
+                    <SwiperSlide>
+                    {/*Volunteer Page Single Start*/}
+                    <div className="item">
+                        <div className="team-one__single">
+                            <div className="team-one__img-box">
+                                <div className="team-one__img">
+                                    <img src="assets/images/team/volunteer-page-1-1.jpg" alt=""/>
+                                </div>
+                            </div>
+                            <div className="team-one__content">
+                                <div className="team-one__name-box">
+                                    <h4 className="team-one__name"><Link href="volunteer-details">Arlene McCoy</Link>
+                                    </h4>
+                                    <p className="team-one__sub-title">Nursing Assistant</p>
+                                </div>
+                                <div className="team-one__share-and-social">
+                                    <div className="team-one__social">
+                                        <Link href="volunteer-details"><span className="icon-facebook"></span></Link>
+                                        <Link href="volunteer-details"><span className="icon-instagram"></span></Link>
+                                        <Link href="volunteer-details"><span className="icon-twitter"></span></Link>
+                                        <Link href="volunteer-details"><span className="icon-link-in"></span></Link>
+                                    </div>
+                                    <div className="team-one__share">
+                                        <Link href="volunteer-details"><span className="icon-share"></span></Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/*Volunteer Page Single End*/}
+                    </SwiperSlide>
+                    <SwiperSlide>
+                    {/*Volunteer Page Single Start*/}
+                    <div className="item">
+                        <div className="team-one__single">
+                            <div className="team-one__img-box">
+                                <div className="team-one__img">
+                                    <img src="assets/images/team/volunteer-page-1-2.jpg" alt=""/>
+                                </div>
+                            </div>
+                            <div className="team-one__content">
+                                <div className="team-one__name-box">
+                                    <h4 className="team-one__name"><Link href="volunteer-details">Jenny Wilson</Link>
+                                    </h4>
+                                    <p className="team-one__sub-title">Web Designer</p>
+                                </div>
+                                <div className="team-one__share-and-social">
+                                    <div className="team-one__social">
+                                        <Link href="volunteer-details"><span className="icon-facebook"></span></Link>
+                                        <Link href="volunteer-details"><span className="icon-instagram"></span></Link>
+                                        <Link href="volunteer-details"><span className="icon-twitter"></span></Link>
+                                        <Link href="volunteer-details"><span className="icon-link-in"></span></Link>
+                                    </div>
+                                    <div className="team-one__share">
+                                        <Link href="volunteer-details"><span className="icon-share"></span></Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/*Volunteer Page Single End*/}
+                    </SwiperSlide>
+                    <SwiperSlide>
+                    {/*Volunteer Page Single Start*/}
+                    <div className="item">
+                        <div className="team-one__single">
+                            <div className="team-one__img-box">
+                                <div className="team-one__img">
+                                    <img src="assets/images/team/volunteer-page-1-3.jpg" alt=""/>
+                                </div>
+                            </div>
+                            <div className="team-one__content">
+                                <div className="team-one__name-box">
+                                    <h4 className="team-one__name"><Link href="volunteer-details">Robert Fox</Link>
+                                    </h4>
+                                    <p className="team-one__sub-title">Marketing Coordinator</p>
+                                </div>
+                                <div className="team-one__share-and-social">
+                                    <div className="team-one__social">
+                                        <Link href="volunteer-details"><span className="icon-facebook"></span></Link>
+                                        <Link href="volunteer-details"><span className="icon-instagram"></span></Link>
+                                        <Link href="volunteer-details"><span className="icon-twitter"></span></Link>
+                                        <Link href="volunteer-details"><span className="icon-link-in"></span></Link>
+                                    </div>
+                                    <div className="team-one__share">
+                                        <Link href="volunteer-details"><span className="icon-share"></span></Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/*Volunteer Page Single End*/}
+                    </SwiperSlide>
+                    <SwiperSlide>
+                    {/*Volunteer Page Single Start*/}
+                    <div className="item">
+                        <div className="team-one__single">
+                            <div className="team-one__img-box">
+                                <div className="team-one__img">
+                                    <img src="assets/images/team/volunteer-page-1-4.jpg" alt=""/>
+                                </div>
+                            </div>
+                            <div className="team-one__content">
+                                <div className="team-one__name-box">
+                                    <h4 className="team-one__name"><Link href="volunteer-details">Marvin McKinney</Link>
+                                    </h4>
+                                    <p className="team-one__sub-title">Dog Trainer</p>
+                                </div>
+                                <div className="team-one__share-and-social">
+                                    <div className="team-one__social">
+                                        <Link href="volunteer-details"><span className="icon-facebook"></span></Link>
+                                        <Link href="volunteer-details"><span className="icon-instagram"></span></Link>
+                                        <Link href="volunteer-details"><span className="icon-twitter"></span></Link>
+                                        <Link href="volunteer-details"><span className="icon-link-in"></span></Link>
+                                    </div>
+                                    <div className="team-one__share">
+                                        <Link href="volunteer-details"><span className="icon-share"></span></Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/*Volunteer Page Single End*/}
+                    </SwiperSlide>
+                    <SwiperSlide>
+                    {/*Volunteer Page Single Start*/}
+                    <div className="item">
+                        <div className="team-one__single">
+                            <div className="team-one__img-box">
+                                <div className="team-one__img">
+                                    <img src="assets/images/team/volunteer-page-1-5.jpg" alt=""/>
+                                </div>
+                            </div>
+                            <div className="team-one__content">
+                                <div className="team-one__name-box">
+                                    <h4 className="team-one__name"><Link href="volunteer-details">Ronald Richards</Link>
+                                    </h4>
+                                    <p className="team-one__sub-title">President of Sales</p>
+                                </div>
+                                <div className="team-one__share-and-social">
+                                    <div className="team-one__social">
+                                        <Link href="volunteer-details"><span className="icon-facebook"></span></Link>
+                                        <Link href="volunteer-details"><span className="icon-instagram"></span></Link>
+                                        <Link href="volunteer-details"><span className="icon-twitter"></span></Link>
+                                        <Link href="volunteer-details"><span className="icon-link-in"></span></Link>
+                                    </div>
+                                    <div className="team-one__share">
+                                        <Link href="volunteer-details"><span className="icon-share"></span></Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/*Volunteer Page Single End*/}
+                    </SwiperSlide>
+                    <SwiperSlide>
+                    {/*Volunteer Page Single Start*/}
+                    <div className="item">
+                        <div className="team-one__single">
+                            <div className="team-one__img-box">
+                                <div className="team-one__img">
+                                    <img src="assets/images/team/volunteer-page-1-6.jpg" alt=""/>
+                                </div>
+                            </div>
+                            <div className="team-one__content">
+                                <div className="team-one__name-box">
+                                    <h4 className="team-one__name"><Link href="volunteer-details">Kathryn Murphy</Link>
+                                    </h4>
+                                    <p className="team-one__sub-title">Medical Assistant</p>
+                                </div>
+                                <div className="team-one__share-and-social">
+                                    <div className="team-one__social">
+                                        <Link href="volunteer-details"><span className="icon-facebook"></span></Link>
+                                        <Link href="volunteer-details"><span className="icon-instagram"></span></Link>
+                                        <Link href="volunteer-details"><span className="icon-twitter"></span></Link>
+                                        <Link href="volunteer-details"><span className="icon-link-in"></span></Link>
+                                    </div>
+                                    <div className="team-one__share">
+                                        <Link href="volunteer-details"><span className="icon-share"></span></Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/*Volunteer Page Single End*/}
+                    </SwiperSlide>
+                    <SwiperSlide>
+                    {/*Volunteer Page Single Start*/}
+                    <div className="item">
+                        <div className="team-one__single">
+                            <div className="team-one__img-box">
+                                <div className="team-one__img">
+                                    <img src="assets/images/team/volunteer-page-1-1.jpg" alt=""/>
+                                </div>
+                            </div>
+                            <div className="team-one__content">
+                                <div className="team-one__name-box">
+                                    <h4 className="team-one__name"><Link href="volunteer-details">Arlene McCoy</Link>
+                                    </h4>
+                                    <p className="team-one__sub-title">Nursing Assistant</p>
+                                </div>
+                                <div className="team-one__share-and-social">
+                                    <div className="team-one__social">
+                                        <Link href="volunteer-details"><span className="icon-facebook"></span></Link>
+                                        <Link href="volunteer-details"><span className="icon-instagram"></span></Link>
+                                        <Link href="volunteer-details"><span className="icon-twitter"></span></Link>
+                                        <Link href="volunteer-details"><span className="icon-link-in"></span></Link>
+                                    </div>
+                                    <div className="team-one__share">
+                                        <Link href="volunteer-details"><span className="icon-share"></span></Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/*Volunteer Page Single End*/}
+                    </SwiperSlide>
+                    <SwiperSlide>
+                    {/*Volunteer Page Single Start*/}
+                    <div className="item">
+                        <div className="team-one__single">
+                            <div className="team-one__img-box">
+                                <div className="team-one__img">
+                                    <img src="assets/images/team/volunteer-page-1-2.jpg" alt=""/>
+                                </div>
+                            </div>
+                            <div className="team-one__content">
+                                <div className="team-one__name-box">
+                                    <h4 className="team-one__name"><Link href="volunteer-details">Jenny Wilson</Link>
+                                    </h4>
+                                    <p className="team-one__sub-title">Web Designer</p>
+                                </div>
+                                <div className="team-one__share-and-social">
+                                    <div className="team-one__social">
+                                        <Link href="volunteer-details"><span className="icon-facebook"></span></Link>
+                                        <Link href="volunteer-details"><span className="icon-instagram"></span></Link>
+                                        <Link href="volunteer-details"><span className="icon-twitter"></span></Link>
+                                        <Link href="volunteer-details"><span className="icon-link-in"></span></Link>
+                                    </div>
+                                    <div className="team-one__share">
+                                        <Link href="volunteer-details"><span className="icon-share"></span></Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/*Volunteer Page Single End*/}
+                    </SwiperSlide>
+                    <SwiperSlide>
+                    {/*Volunteer Page Single Start*/}
+                    <div className="item">
+                        <div className="team-one__single">
+                            <div className="team-one__img-box">
+                                <div className="team-one__img">
+                                    <img src="assets/images/team/volunteer-page-1-3.jpg" alt=""/>
+                                </div>
+                            </div>
+                            <div className="team-one__content">
+                                <div className="team-one__name-box">
+                                    <h4 className="team-one__name"><Link href="volunteer-details">Robert Fox</Link>
+                                    </h4>
+                                    <p className="team-one__sub-title">Marketing Coordinator</p>
+                                </div>
+                                <div className="team-one__share-and-social">
+                                    <div className="team-one__social">
+                                        <Link href="volunteer-details"><span className="icon-facebook"></span></Link>
+                                        <Link href="volunteer-details"><span className="icon-instagram"></span></Link>
+                                        <Link href="volunteer-details"><span className="icon-twitter"></span></Link>
+                                        <Link href="volunteer-details"><span className="icon-link-in"></span></Link>
+                                    </div>
+                                    <div className="team-one__share">
+                                        <Link href="volunteer-details"><span className="icon-share"></span></Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/*Volunteer Page Single End*/}
+                    </SwiperSlide>
+                </Swiper>
+            </div>
+        </section>
+        {/*Volunteer Carousel Page End*/}
+
+        
 
         {/*Donate One Start */}
         <section className='donate-one'>
@@ -381,7 +728,7 @@ export default function Home() {
                     }}
                   ></div>
                   <h3 className='donate-one__title'>
-                    <Link href='donation-details'>Help Them With Donation</Link>
+                    <Link href='donation-details'>nttps</Link>
                   </h3>
                   <p className='donate-one__text'>
                     Dicta sunt explicabo. Nemo enim ipsam voluptatem
@@ -390,7 +737,7 @@ export default function Home() {
                   </p>
                   <div className='donate-one__btn-box'>
                     <Link
-                      href='donation-details'
+                      href='/'
                       className='donate-one__btn thm-btn'
                     >
                       Read more
@@ -416,7 +763,7 @@ export default function Home() {
                   ></div>
                   <h3 className='donate-one__title'>
                     <Link href='become-volunteer'>
-                      Join With Us To Serve As Volenteer
+                      history
                     </Link>
                   </h3>
                   <p className='donate-one__text'>
@@ -426,10 +773,10 @@ export default function Home() {
                   </p>
                   <div className='donate-one__btn-box'>
                     <Link
-                      href='become-volunteer'
+                      href='/'
                       className='donate-one__btn thm-btn'
                     >
-                      Join Now
+                      Read
                       <span>
                         <i className='icon-arrow-right'></i>
                       </span>
@@ -459,7 +806,7 @@ export default function Home() {
                       <span className='section-title__tagline'>Who We Are</span>
                     </div>
                     <h2 className='section-title__title title-animation'>
-                      Supporting Dreams Changing Lives
+                      We are a this type of org
                     </h2>
                   </div>
                   <p className='who-we-are__text'>
@@ -495,7 +842,7 @@ export default function Home() {
                   </div>
                   <div className='who-we-are__btn-box'>
                     <Link
-                      href='donation-details'
+                      href='/'
                       className='who-we-are__btn thm-btn'
                     >
                       Read more
@@ -543,8 +890,7 @@ export default function Home() {
                 <span className='section-title__tagline'>Our Events</span>
               </div>
               <h2 className='section-title__title title-animation'>
-                Join Us in the Fight <br />
-                Against Poverty
+                our news ra event
               </h2>
             </div>
             <div className='row'>
@@ -566,19 +912,18 @@ export default function Home() {
                   </div>
                   <div className='event-one__content'>
                     <h4 className='event-one__title'>
-                      <Link href='event-details'>Donation Drive</Link>
+                      <Link href='event-details'>nttp</Link>
                     </h4>
                     <p className='event-one__text'>
                       Lorem Ipsum is simply dummy a of the printing and type
                       setting industry Loreaim Ipsum has
                     </p>
                     <p className='event-one__location'>
-                      <span className='icon-pin'></span>6391 Elgin St. Celina,
-                      10299
+                      <span className='icon-pin'></span>Katmandu, Nepal
                     </p>
                     <div className='event-one__btn-box'>
                       <Link
-                        href='donation-details'
+                        href='/'
                         className='event-one__btn thm-btn'
                       >
                         Read more
@@ -609,19 +954,18 @@ export default function Home() {
                   </div>
                   <div className='event-one__content'>
                     <h4 className='event-one__title'>
-                      <Link href='event-details'>win-win survival</Link>
+                      <Link href='event-details'>nttp</Link>
                     </h4>
                     <p className='event-one__text'>
                       Lorem Ipsum is simply dummy a of the printing and type
                       setting industry Loreaim Ipsum has
                     </p>
                     <p className='event-one__location'>
-                      <span className='icon-pin'></span>6391 Elgin St. Celina,
-                      10299
+                      <span className='icon-pin'></span>Katmandu, Nepal
                     </p>
                     <div className='event-one__btn-box'>
                       <Link
-                        href='donation-details'
+                        href='/'
                         className='event-one__btn thm-btn'
                       >
                         Read more
@@ -652,19 +996,18 @@ export default function Home() {
                   </div>
                   <div className='event-one__content'>
                     <h4 className='event-one__title'>
-                      <Link href='event-details'>Children Education.</Link>
+                      <Link href='event-details'>NTTP</Link>
                     </h4>
                     <p className='event-one__text'>
                       Lorem Ipsum is simply dummy a of the printing and type
                       setting industry Loreaim Ipsum has
                     </p>
                     <p className='event-one__location'>
-                      <span className='icon-pin'></span>6391 Elgin St. Celina,
-                      10299
+                      <span className='icon-pin'></span>Katmandu, Nepal
                     </p>
                     <div className='event-one__btn-box'>
                       <Link
-                        href='donation-details'
+                        href='/'
                         className='event-one__btn thm-btn'
                       >
                         Read more
