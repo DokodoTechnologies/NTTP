@@ -23,13 +23,12 @@ export default function Home() {
                                 </div>
                             </div>
                             <div className="event-one__content">
-                                <h4 className="event-one__title"><Link href="cause-details">Donation Drive</Link></h4>
+                                <h4 className="event-one__title"><Link href="cause-details">NTTP</Link></h4>
                                 <p className="event-one__text">Lorem Ipsum is simply dummy a of the printing and type
                                     setting industry Loreaim Ipsum has</p>
-                                <p className="event-one__location"><span className="icon-pin"></span>6391 Elgin St. Celina,
-                                    10299</p>
+                                <p className="event-one__location"><span className="icon-pin"></span>Kathmandu,Nepal</p>
                                 <div className="event-one__btn-box">
-                                    <Link href="donation-details" className="event-one__btn thm-btn">Donate Now<span><i
+                                    <Link href="/" className="event-one__btn thm-btn">read more<span><i
                                                 className="icon-arrow-right"></i></span></Link>
                                 </div>
                             </div>
@@ -48,13 +47,12 @@ export default function Home() {
                                 </div>
                             </div>
                             <div className="event-one__content">
-                                <h4 className="event-one__title"><Link href="cause-details">win-win survival</Link></h4>
+                                <h4 className="event-one__title"><Link href="cause-details">NTTP</Link></h4>
                                 <p className="event-one__text">Lorem Ipsum is simply dummy a of the printing and type
                                     setting industry Loreaim Ipsum has</p>
-                                <p className="event-one__location"><span className="icon-pin"></span>6391 Elgin St. Celina,
-                                    10299</p>
+                                <p className="event-one__location"><span className="icon-pin"></span>ktm ,nepal</p>
                                 <div className="event-one__btn-box">
-                                    <Link href="donation-details" className="event-one__btn thm-btn">Donate Now<span><i
+                                    <Link href="/" className="event-one__btn thm-btn">read more<span><i
                                                 className="icon-arrow-right"></i></span></Link>
                                 </div>
                             </div>
@@ -73,13 +71,12 @@ export default function Home() {
                                 </div>
                             </div>
                             <div className="event-one__content">
-                                <h4 className="event-one__title"><Link href="cause-details">Children Education.</Link></h4>
+                                <h4 className="event-one__title"><Link href="cause-details">nttp</Link></h4>
                                 <p className="event-one__text">Lorem Ipsum is simply dummy a of the printing and type
                                     setting industry Loreaim Ipsum has</p>
-                                <p className="event-one__location"><span className="icon-pin"></span>6391 Elgin St. Celina,
-                                    10299</p>
+                                <p className="event-one__location"><span className="icon-pin"></span>ktm , nepal</p>
                                 <div className="event-one__btn-box">
-                                    <Link href="donation-details" className="event-one__btn thm-btn">Donate Now<span><i
+                                    <Link href="/" className="event-one__btn thm-btn">read more<span><i
                                                 className="icon-arrow-right"></i></span></Link>
                                 </div>
                             </div>
@@ -98,13 +95,12 @@ export default function Home() {
                                 </div>
                             </div>
                             <div className="event-one__content">
-                                <h4 className="event-one__title"><Link href="cause-details">win-win survival</Link></h4>
+                                <h4 className="event-one__title"><Link href="cause-details">nttp</Link></h4>
                                 <p className="event-one__text">Lorem Ipsum is simply dummy a of the printing and type
                                     setting industry Loreaim Ipsum has</p>
-                                <p className="event-one__location"><span className="icon-pin"></span>6391 Elgin St. Celina,
-                                    10299</p>
+                                <p className="event-one__location"><span className="icon-pin"></span>ktm nepal</p>
                                 <div className="event-one__btn-box">
-                                    <Link href="donation-details" className="event-one__btn thm-btn">Donate Now<span><i
+                                    <Link href="/" className="event-one__btn thm-btn">read more<span><i
                                                 className="icon-arrow-right"></i></span></Link>
                                 </div>
                             </div>
@@ -123,13 +119,12 @@ export default function Home() {
                                 </div>
                             </div>
                             <div className="event-one__content">
-                                <h4 className="event-one__title"><Link href="cause-details">Children Education.</Link></h4>
+                                <h4 className="event-one__title"><Link href="cause-details">NTTP</Link></h4>
                                 <p className="event-one__text">Lorem Ipsum is simply dummy a of the printing and type
                                     setting industry Loreaim Ipsum has</p>
-                                <p className="event-one__location"><span className="icon-pin"></span>6391 Elgin St. Celina,
-                                    10299</p>
+                                <p className="event-one__location"><span className="icon-pin"></span>ktm nepal</p>
                                 <div className="event-one__btn-box">
-                                    <Link href="donation-details" className="event-one__btn thm-btn">Donate Now<span><i
+                                    <Link href="/" className="event-one__btn thm-btn">read more<span><i
                                                 className="icon-arrow-right"></i></span></Link>
                                 </div>
                             </div>
@@ -148,13 +143,12 @@ export default function Home() {
                                 </div>
                             </div>
                             <div className="event-one__content">
-                                <h4 className="event-one__title"><Link href="cause-details">Donation Drive</Link></h4>
+                                <h4 className="event-one__title"><Link href="cause-details">nttp</Link></h4>
                                 <p className="event-one__text">Lorem Ipsum is simply dummy a of the printing and type
                                     setting industry Loreaim Ipsum has</p>
-                                <p className="event-one__location"><span className="icon-pin"></span>6391 Elgin St. Celina,
-                                    10299</p>
+                                <p className="event-one__location"><span className="icon-pin"></span>ktm nepal</p>
                                 <div className="event-one__btn-box">
-                                    <Link href="donation-details" className="event-one__btn thm-btn">Donate Now<span><i
+                                    <Link href="/" className="event-one__btn thm-btn">read more<span><i
                                                 className="icon-arrow-right"></i></span></Link>
                                 </div>
                             </div>

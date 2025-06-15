@@ -55,7 +55,7 @@ export default function Home() {
    
     return (
         <>
-        <Layout headerStyle={1} footerStyle={2} breadcrumbTitle="Volunteer Carousel">
+        <Layout headerStyle={3} footerStyle={3} breadcrumbTitle="Volunteer Carousel">
         {/*Volunteer Carousel Page Start*/}
         <section className="volunteer-carousel-page">
             <div className="container">

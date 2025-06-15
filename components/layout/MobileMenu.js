@@ -31,9 +31,19 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                 <div className="mobile-nav__content">
                     <span className="mobile-nav__close mobile-nav__toggler" onClick={handleMobileMenu} ><i className="fa fa-times"></i></span>
 
-                    <div className="logo-box">
-                        <Link href="/" aria-label="logo image"><img src="assets/images/resources/logo-2.png" width="150" alt="" /></Link>
-                    </div>
+                   <div className="logo-box">
+    <Link href="/">
+        <img 
+            src="assets/images/logos/nttp_logo.png" 
+            alt="NTTP Logo"
+            style={{
+                height: '50px',
+                width: 'auto',
+                maxWidth: '180px'
+            }}
+        />
+    </Link>
+</div>
 
                     <div className="mobile-nav__container">
                         <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
@@ -117,11 +127,11 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                     <ul className="mobile-nav__contact list-unstyled">
                         <li>
                             <i className="fa fa-envelope"></i>
-                            <Link href="mailto:needhelp@elitecons.com">needhelp@elitecons.com</Link>
+                            <Link href="mailto:contact@nttpinstititue.com.np">contact@nttpinstititue.com.np</Link>
                         </li>
                         <li>
                             <i className="fa fa-phone-alt"></i>
-                            <Link href="tel:666-888-0000">666 888 0000</Link>
+                            <Link href="tel:+977 01-4595683">+977 01-4595683</Link>
                         </li>
                     </ul>
                     <div className="mobile-nav__top">

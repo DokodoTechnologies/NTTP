@@ -30,7 +30,7 @@ export default function Footer3() {
                     </p>
                     <div className='footer-widget-two__btn-box'>
                       <Link
-                        href='donation-details'
+                        href='/'
                         className='footer-widget-two__btn thm-btn'
                       >
                         Contact Now

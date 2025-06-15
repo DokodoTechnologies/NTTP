@@ -19,37 +19,12 @@ export default function Mission() {
               <div className='single-mission-one'>
                 <div className='icon-box'>
                   <div className='inner-box'>
-                    <i className='icon-support'></i>
+                    <i className='icon-user'></i>
                   </div>
                 </div>
                 <div className='content-box'>
                   <div className='text'>
-                    <h3>Forum 1</h3>
-                    <p>
-                      Are you asking about charities in general, how they
-                      function, or perhaps how to support...
-                    </p>
-                  </div>
-                  <div className='btn-box'>
-                    <Link href='#' className='thm-btn'>
-                      Read More
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* Single Mission One End */}
-            {/* Single Mission One Start */}
-            <div className='col-xl-4'>
-              <div className='single-mission-one'>
-                <div className='icon-box'>
-                  <div className='inner-box'>
-                    <i className='icon-hand'></i>
-                  </div>
-                </div>
-                <div className='content-box'>
-                  <div className='text'>
-                    <h3>Forum 2</h3>
+                    <h3>NTTP Young Political Leader Group</h3>
                     <p>
                       Are you asking about charities in general, how they
                       function, or perhaps how to support...
@@ -74,7 +49,57 @@ export default function Mission() {
                 </div>
                 <div className='content-box'>
                   <div className='text'>
-                    <h3>Forum 3</h3>
+                    <h3>NTTP Women Group</h3>
+                    <p>
+                      Are you asking about charities in general, how they
+                      function, or perhaps how to support...
+                    </p>
+                  </div>
+                  <div className='btn-box'>
+                    <Link href='#' className='thm-btn'>
+                      Read More
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* Single Mission One End */}
+            {/* Single Mission One Start */}
+            <div className='col-xl-4'>
+              <div className='single-mission-one'>
+                <div className='icon-box'>
+                  <div className='inner-box'>
+                    <i className='icon-pin'></i>
+                  </div>
+                </div>
+                <div className='content-box'>
+                  <div className='text'>
+                    <h3>NTTP Madhesh Group</h3>
+                    <p>
+                      Are you asking about charities in general, how they
+                      function, or perhaps how to support...
+                    </p>
+                  </div>
+                  <div className='btn-box'>
+                    <Link href='#' className='thm-btn'>
+                      Read More
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* Single Mission One End */}
+            {/* Single Mission One Start */}
+            <div className='col-xl-4'>
+              <div className='single-mission-one'>
+                <div className='icon-box'>
+                  <div className='inner-box'>
+                    <i className='icon-help'></i>
+                  </div>
+                </div>
+                <div className='content-box'>
+                  <div className='text'>
+                    <h3>NTTP Janjati</h3>
                     <p>
                       Are you asking about charities in general, how they
                       function, or perhaps how to support...
@@ -99,7 +124,7 @@ export default function Mission() {
                 </div>
                 <div className='content-box'>
                   <div className='text'>
-                    <h3>Forum 4</h3>
+                    <h3>NTTP Dalit Group</h3>
                     <p>
                       Are you asking about charities in general, how they
                       function, or perhaps how to support...
@@ -119,12 +144,12 @@ export default function Mission() {
               <div className='single-mission-one'>
                 <div className='icon-box'>
                   <div className='inner-box'>
-                    <i className='icon-love'></i>
+                    <i className='icon-comment'></i>
                   </div>
                 </div>
                 <div className='content-box'>
                   <div className='text'>
-                    <h3>Forum 5</h3>
+                    <h3>Sub-national Dialouge Group</h3>
                     <p>
                       Are you asking about charities in general, how they
                       function, or perhaps how to support...
@@ -139,31 +164,40 @@ export default function Mission() {
               </div>
             </div>
             {/* Single Mission One End */}
-            {/* Single Mission One Start */}
-            <div className='col-xl-4'>
-              <div className='single-mission-one'>
-                <div className='icon-box'>
-                  <div className='inner-box'>
-                    <i className='icon-support'></i>
-                  </div>
-                </div>
-                <div className='content-box'>
-                  <div className='text'>
-                    <h3>Forum 6</h3>
-                    <p>
-                      Are you asking about charities in general, how they
-                      function, or perhaps how to support...
-                    </p>
-                  </div>
-                  <div className='btn-box'>
-                    <Link href='#' className='thm-btn'>
-                      Read More
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* Single Mission One End */}
+{/* <div className='col-xl-4'>
+  <div className='single-mission-one'>
+    <div className='icon-box'>
+      <div className='inner-box' style={{overflow: 'hidden'}}>
+        <img 
+          src='/assets/images/backgroud/multiculture.jpg' 
+          alt='Sub-national Dialogue Group'
+          style={{
+            width: '100%',
+            height: '100%',
+            objectFit: 'cover',
+            borderRadius: '8px',
+            transition: 'transform 0.3s ease'
+          }}
+        />
+      </div>
+    </div>
+    <div className='content-box'>
+      <div className='text'>
+        <h3>Sub-national Dialouge Group</h3>
+        <p>
+          Are you asking about charities in general, how they
+          function, or perhaps how to support...
+        </p>
+      </div>
+      <div className='btn-box'>
+        <Link href='#' className='thm-btn'>
+          Read More
+        </Link>
+      </div>
+    </div>
+  </div>
+</div> */}
+            
           </div>
         </div>
       </section>
