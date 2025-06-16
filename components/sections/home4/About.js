@@ -25,13 +25,18 @@ export default function About() {
                 </div>
                 <div className='text'>
                   <p>
+<<<<<<< HEAD
                     NTTP-I has facilitated peace dialogues and promoted conflict transformation
                     in Nepal since 2005.
+=======
+                    we have been dedicated to making a positive impact in our
+                    community.
+>>>>>>> 358f6166e1bf35dbe5c488d228b23904845b2df8
                   </p>
                 </div>
                 <div className='about-four-img'>
                   <img
-                    src='assets/images/resources/about-four-img-1.jpg'
+                    src='assets/images/resources/youtube_img.jpg'
                     alt='Image'
                   />
 

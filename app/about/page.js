@@ -2,12 +2,66 @@
 import Layout from "@/components/layout/Layout";
 import Link from "next/link";
 import { useState } from "react";
+import { Autoplay, Navigation, Pagination } from "swiper/modules"
+import { Swiper, SwiperSlide } from "swiper/react"
+
+
+
+const swiperOptions = {
+    modules: [Autoplay, Pagination, Navigation],
+    slidesPerView: 3,
+    spaceBetween: 30,    
+    loop: true,
+    // Navigation
+    navigation: {
+        nextEl: '.srn',
+        prevEl: '.srp',
+    },
+    // Pagination
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    breakpoints: {
+        320: {
+            slidesPerView: 1,
+            
+        },
+        575: {
+            slidesPerView: 1,
+            
+        },
+        767: {
+            slidesPerView: 1,
+            
+        },
+        991: {
+            slidesPerView: 2,
+            
+        },
+        1199: {
+            slidesPerView: 3,
+            
+        },
+        1350: {
+            slidesPerView: 3,
+            
+        },
+    }
+
+
+
+}
+
 
 export default function Home() {
   const [activeIndex, setActiveIndex] = useState(1);
   const handleOnClick = (index) => {
     setActiveIndex(index);
+
+  
   };
+
   return (
     <>
       <Layout headerStyle={3} footerStyle={3} breadcrumbTitle='About Us'>
@@ -24,13 +78,13 @@ export default function Home() {
                   <div className='about-One__img-box'>
                     <div className='about-One__img'>
                       <img
-                        src='assets/images/resources/about-one-img-1.jpg'
+                        src='assets/images/about/culture_nepal.jpg'
                         alt=''
                       />
                     </div>
                     <div className='about-One__img-2'>
                       <img
-                        src='assets/images/resources/about-one-img-2.jpg'
+                        src='assets/images/about/together.jpg'
                         alt=''
                       />
                     </div>
@@ -66,8 +120,8 @@ export default function Home() {
                       <span className='section-title__tagline'>About Us</span>
                     </div>
                     <h2 className='section-title__title title-animation'>
-                      Unite for a Cause
-                      <br /> Change the World
+                    Nepal Transition 
+                      <br /> To Peace
                     </h2>
                   </div>
                   <div className='about-One__vission-mission'>
@@ -186,10 +240,16 @@ export default function Home() {
             </div>
           </div>
         </section>
+        {/* trying  */}
+
+
+        {/* dfjfad */}
+
+
         {/*About One End */}
 
         {/*Found One Start */}
-        <section className='found-one'>
+        {/* <section className='found-one'>
           <div className='found-one__bg'>
             <div className='found-one__shape-1 float-bob-y'>
               <img src='assets/images/shapes/found-one-shape-1.png' alt='' />
@@ -198,15 +258,19 @@ export default function Home() {
           <div className='container'>
             <div className='section-title text-center sec-title-animation animation-style1'>
               <div className='section-title__tagline-box'>
+<<<<<<< HEAD
                 <span className='section-title__tagline'>Executive Committee </span>
+=======
+                <span className='section-title__tagline'>Peace</span>
+>>>>>>> 358f6166e1bf35dbe5c488d228b23904845b2df8
               </div>
               <h2 className='section-title__title title-animation'>
                 Guiding Leadership <br /> <span>for</span> Sustainable Peace
               </h2>
             </div>
-            <div className='row'>
+            <div className='row'> */}
               {/*Found One Single Start*/}
-              <div
+              {/* <div
                 className='col-xl-4 col-lg-4 wow fadeInLeft'
                 data-wow-delay='100ms'
               >
@@ -219,12 +283,15 @@ export default function Home() {
                   </div>
                   <div className='found-one__content'>
                     <h4 className='found-one__title'>
+<<<<<<< HEAD
                       <Link href='/'>Help For Ecosystem</Link>
+=======
+                      <Link href='donation-details'>nttp</Link>
+>>>>>>> 358f6166e1bf35dbe5c488d228b23904845b2df8
                     </h4>
                     <p className='found-one__text'>
-                      Charity and Donation is a categorys that involves giving
-                      financial{" "}
-                    </p>
+                      lorem ipsam{" "}
+                    </p> */}
                     {/* <div className="found-one__goals">
                                     <div className="found-one__raised">
                                         <p>Raised</p>
@@ -241,7 +308,7 @@ export default function Home() {
                                         </div>
                                     </div>
                                 </div> */}
-                    <div className='found-one__btn-box'>
+                    {/* <div className='found-one__btn-box'>
                       <Link
                         href='/'
                         className='found-one__btn thm-btn'
@@ -254,10 +321,10 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
               {/*Found One Single End*/}
               {/*Found One Single Start*/}
-              <div
+              {/* <div
                 className='col-xl-4 col-lg-4 wow fadeInUp'
                 data-wow-delay='200ms'
               >
@@ -270,12 +337,15 @@ export default function Home() {
                   </div>
                   <div className='found-one__content'>
                     <h4 className='found-one__title'>
+<<<<<<< HEAD
                       <Link href='/'>Water For All</Link>
+=======
+                      <Link href='donation-details'>NTTP</Link>
+>>>>>>> 358f6166e1bf35dbe5c488d228b23904845b2df8
                     </h4>
                     <p className='found-one__text'>
-                      Charity and Donation is a categorys that involves giving
-                      financial{" "}
-                    </p>
+                      Lorem Ipsum{" "}
+                    </p> */}
                     {/* <div className="found-one__goals">
                                     <div className="found-one__raised">
                                         <p>Raised</p>
@@ -292,7 +362,7 @@ export default function Home() {
                                         </div>
                                     </div>
                                 </div> */}
-                    <div className='found-one__btn-box'>
+                    {/* <div className='found-one__btn-box'>
                       <Link
                         href='/'
                         className='found-one__btn thm-btn'
@@ -305,10 +375,10 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
               {/*Found One Single End*/}
               {/*Found One Single Start*/}
-              <div
+              {/* <div
                 className='col-xl-4 col-lg-4 wow fadeInRight'
                 data-wow-delay='300ms'
               >
@@ -321,12 +391,15 @@ export default function Home() {
                   </div>
                   <div className='found-one__content'>
                     <h4 className='found-one__title'>
+<<<<<<< HEAD
                       <Link href='/'>Vaccine Aid Camp</Link>
+=======
+                      <Link href='donation-details'>nttp</Link>
+>>>>>>> 358f6166e1bf35dbe5c488d228b23904845b2df8
                     </h4>
                     <p className='found-one__text'>
-                      Charity and Donation is a categorys that involves giving
-                      financial{" "}
-                    </p>
+                      lorem ipsuml{" "}
+                    </p> */}
                     {/* <div className="found-one__goals">
                                     <div className="found-one__raised">
                                         <p>Raised</p>
@@ -343,7 +416,7 @@ export default function Home() {
                                         </div>
                                     </div>
                                 </div> */}
-                    <div className='found-one__btn-box'>
+                    {/* <div className='found-one__btn-box'>
                       <Link
                         href='/'
                         className='found-one__btn thm-btn'
@@ -353,14 +426,14 @@ export default function Home() {
                           <i className='icon-arrow-right'></i>
                         </span>
                       </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
+                    </div> */}
+                  {/* </div> */}
+                {/* </div>
+              </div> */}
               {/*Found One Single End*/}
-            </div>
+            {/* </div>
           </div>
-        </section>
+        </section> */}
         {/*Found One End */}
          {/*Who We Are Start */}
         <section className='who-we-are'>
@@ -458,6 +531,262 @@ export default function Home() {
         </section>
         {/*Who We Are End */}
 
+        {/* --------------------------------------------------------------------------------------- */}
+
+        {/*Volunteer Carousel Page Start*/}
+        <section className="volunteer-carousel-page" style={{ backgroundColor: '#f1f0ec', marginBottom: '8rem' ,paddingBottom:'6rem'
+          ,paddingTop: '5rem'
+        }}>
+    <div className="container">
+        {/* Header Section */}
+        {/* Header Section */}
+<div className="section-header" style={{textAlign: 'left', marginBottom: '3rem'}}>
+    <p style={{
+        fontSize: '0.9rem',
+        color: '#5ba4d4',
+        fontWeight: '600',
+        letterSpacing: '2px',
+        textTransform: 'uppercase',
+        marginBottom: '0.5rem',
+        margin: '0 0 0.5rem 0'
+    }}>Our Executive Committee</p>
+    <h2 style={{
+        fontSize: '3rem',
+        fontWeight: 'bold',
+        color: '#4a4a4a',
+        lineHeight: '1.2',
+        margin: '0'
+    }}>Meet The Dedicated Leaders <br /></h2>
+</div>
+        
+        <Swiper {...swiperOptions} className="volunteer-carousel-style owl-carousel owl-theme carousel-dot-style ">
+            <SwiperSlide>
+            {/*Volunteer Page Single Start*/}
+            <div className="item">
+                <div className="team-one__single">
+                    <div className="team-one__img-box">
+                        <div className="team-one__img">
+                            <img src="assets/images/about/stella.png" alt=""/>
+                        </div>
+                    </div>
+                    <div className="team-one__content">
+                        <div className="team-one__name-box">
+                            <h4 className="team-one__name"><Link href="volunteer-details">Ms.Stella Tamang</Link>
+                            </h4>
+                            <p className="team-one__sub-title">is Chairperson at NTTP-I. She is the Founding Chair and currently Advisor of the National Indigenous...</p>
+                        </div>
+                        <div className="team-one__share-and-social">
+                            <div className="team-one__social">
+                                <Link href="volunteer-details"><span className="icon-facebook"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-instagram"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-twitter"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-link-in"></span></Link>
+                            </div>
+                            <div className="team-one__share">
+                                <Link href="volunteer-details"><span className="icon-share"></span></Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/*Volunteer Page Single End*/}
+            </SwiperSlide>
+            <SwiperSlide>
+            {/*Volunteer Page Single Start*/}
+            <div className="item">
+                <div className="team-one__single">
+                    <div className="team-one__img-box">
+                        <div className="team-one__img">
+                            <img src="assets/images/about/sagar.png" alt=""/>
+                        </div>
+                    </div>
+                    <div className="team-one__content">
+                        <div className="team-one__name-box">
+                            <h4 className="team-one__name"><Link href="volunteer-details">Mr.Sagar Prasai</Link>
+                            </h4>
+                            <p className="team-one__sub-title">Is treasurer of NTTP Institute. He has worked for The Asia Foundation for more than 12 years includi...</p>
+                        </div>
+                        <div className="team-one__share-and-social">
+                            <div className="team-one__social">
+                                <Link href="volunteer-details"><span className="icon-facebook"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-instagram"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-twitter"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-link-in"></span></Link>
+                            </div>
+                            <div className="team-one__share">
+                                <Link href="volunteer-details"><span className="icon-share"></span></Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/*Volunteer Page Single End*/}
+            </SwiperSlide>
+            <SwiperSlide>
+            {/*Volunteer Page Single Start*/}
+            <div className="item">
+                <div className="team-one__single">
+                    <div className="team-one__img-box">
+                        <div className="team-one__img">
+                            <img src="assets/images/about/malik.png" alt=""/>
+                        </div>
+                    </div>
+                    <div className="team-one__content">
+                        <div className="team-one__name-box">
+                            <h4 className="team-one__name"><Link href="volunteer-details">Mr.Vidyadhar Malik</Link>
+                            </h4>
+                            <p className="team-one__sub-title">a former Minister, is one of the NTTP facilitators. With a former career in in civil service and gov...
+</p>
+                        </div>
+                        <div className="team-one__share-and-social">
+                            <div className="team-one__social">
+                                <Link href="volunteer-details"><span className="icon-facebook"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-instagram"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-twitter"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-link-in"></span></Link>
+                            </div>
+                            <div className="team-one__share">
+                                <Link href="volunteer-details"><span className="icon-share"></span></Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/*Volunteer Page Single End*/}
+            </SwiperSlide>
+            <SwiperSlide>
+            {/*Volunteer Page Single Start*/}
+            <div className="item">
+                <div className="team-one__single">
+                    <div className="team-one__img-box">
+                        <div className="team-one__img">
+                            <img src="assets/images/about/youba.png" alt=""/>
+                        </div>
+                    </div>
+                    <div className="team-one__content">
+                        <div className="team-one__name-box">
+                            <h4 className="team-one__name"><Link href="volunteer-details">Mr.Youba Raj Acharya</Link>
+                            </h4>
+                            <p className="team-one__sub-title">is Executive Director at NTTP-I.  He has more than 19 years of professional experience in the field...</p>
+                        </div>
+                        <div className="team-one__share-and-social">
+                            <div className="team-one__social">
+                                <Link href="volunteer-details"><span className="icon-facebook"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-instagram"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-twitter"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-link-in"></span></Link>
+                            </div>
+                            <div className="team-one__share">
+                                <Link href="volunteer-details"><span className="icon-share"></span></Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/*Volunteer Page Single End*/}
+            </SwiperSlide>
+            <SwiperSlide>
+            {/*Volunteer Page Single Start*/}
+            <div className="item">
+                <div className="team-one__single">
+                    <div className="team-one__img-box">
+                        <div className="team-one__img">
+                            <img src="assets/images/about/daman.png" alt=""/>
+                        </div>
+                    </div>
+                    <div className="team-one__content">
+                        <div className="team-one__name-box">
+                            <h4 className="team-one__name"><Link href="volunteer-details">Mr.Daman Nath Dhungana</Link>
+                            </h4>
+                            <p className="team-one__sub-title">is a senior NTTP facilitator and Chairperson at NTTP-I. He served as the Speaker of the House after ...</p>
+                        </div>
+                        <div className="team-one__share-and-social">
+                            <div className="team-one__social">
+                                <Link href="volunteer-details"><span className="icon-facebook"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-instagram"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-twitter"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-link-in"></span></Link>
+                            </div>
+                            <div className="team-one__share">
+                                <Link href="volunteer-details"><span className="icon-share"></span></Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/*Volunteer Page Single End*/}
+            </SwiperSlide>
+            <SwiperSlide>
+            {/*Volunteer Page Single Start*/}
+            <div className="item">
+                <div className="team-one__single">
+                    <div className="team-one__img-box">
+                        <div className="team-one__img">
+                            <img src="assets/images/about/birendra.png" alt=""/>
+                        </div>
+                    </div>
+                    <div className="team-one__content">
+                        <div className="team-one__name-box">
+                            <h4 className="team-one__name"><Link href="volunteer-details">Mr.Birendra P Mishra</Link>
+                            </h4>
+                            <p className="team-one__sub-title">is an eminent member of Nepal's civil society and a regular contributor of opinion pieces in major n...</p>
+                        </div>
+                        <div className="team-one__share-and-social">
+                            <div className="team-one__social">
+                                <Link href="volunteer-details"><span className="icon-facebook"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-instagram"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-twitter"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-link-in"></span></Link>
+                            </div>
+                            <div className="team-one__share">
+                                <Link href="volunteer-details"><span className="icon-share"></span></Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/*Volunteer Page Single End*/}
+            </SwiperSlide>
+            <SwiperSlide>
+            {/*Volunteer Page Single Start*/}
+            <div className="item">
+                <div className="team-one__single">
+                    <div className="team-one__img-box">
+                        <div className="team-one__img">
+                            <img src="assets/images/about/sajana.png" alt=""/>
+                        </div>
+                    </div>
+                    <div className="team-one__content">
+                        <div className="team-one__name-box">
+                            <h4 className="team-one__name"><Link href="volunteer-details">Ms.Sajana Maharjan</Link>
+                            </h4>
+                            <p className="team-one__sub-title">is one of the founding members of NTTP-I and is currently one of the members of executive committee ...</p>
+                        </div>
+                        <div className="team-one__share-and-social">
+                            <div className="team-one__social">
+                                <Link href="volunteer-details"><span className="icon-facebook"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-instagram"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-twitter"></span></Link>
+                                <Link href="volunteer-details"><span className="icon-link-in"></span></Link>
+                            </div>
+                            <div className="team-one__share">
+                                <Link href="volunteer-details"><span className="icon-share"></span></Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/*Volunteer Page Single End*/}
+            </SwiperSlide>
+           
+        </Swiper>
+       
+    </div>
+</section>
+        {/*Volunteer Carousel Page End*/}
+
+        
+
         {/*Donate One Start */}
         <section className='donate-one'>
           <div className='container'>
@@ -472,10 +801,11 @@ export default function Home() {
                     className='donate-one__single-bg'
                     style={{
                       backgroundImage:
-                        " url(assets/images/backgrounds/donate-one-single-bg.jpg)",
+                        " url(assets/images/about/flag.jpg)",
                     }}
                   ></div>
                   <h3 className='donate-one__title'>
+<<<<<<< HEAD
                     <Link href='/'>Help Them With Donation</Link>
                   </h3>
                   <p className='donate-one__text'>
@@ -483,6 +813,15 @@ export default function Home() {
                     dialogue and research-driven initiatives. Your donation helps 
                     amplify marginalized voices and sustain critical peacebuilding 
                     efforts across Nepal.
+=======
+                    <Link href='donation-details'>Neapal Transition To Peace</Link>
+                  </h3>
+                  <p className='donate-one__text'>
+                   (NTTP-I) is a peace research institute founded upon the history of decade-long engagement in Nepal’s political transition as a credible and Track 1.5 peace process for mediation, facilitation, and dialogue among the political parties of Nepal since 2005.
+                   thaw stalemates and promote peaceful engagement among the political parties even in critical times in a low key and trusted setting.
+                    <br /> 
+                    <br /> 
+>>>>>>> 358f6166e1bf35dbe5c488d228b23904845b2df8
                   </p>
                   <div className='donate-one__btn-box'>
                     <Link
@@ -507,10 +846,11 @@ export default function Home() {
                     className='donate-one__single-bg'
                     style={{
                       backgroundImage:
-                        " url(assets/images/backgrounds/donate-one-single-bg-two.jpg)",
+                        " url(assets/images/about/history.jpg)",
                     }}
                   ></div>
                   <h3 className='donate-one__title'>
+<<<<<<< HEAD
                     <Link href='/'>
                       Join With Us To Serve As Volenteer
                     </Link>
@@ -521,13 +861,23 @@ export default function Home() {
                     innovation. If you are committed to non-violence, democracy,
                     and social equity, we invite you to stand with us.
                     
+=======
+                    <Link href='become-volunteer'>
+                      Our History
+                    </Link>
+                  </h3>
+                  <p className='donate-one__text'>
+                  Nepal Transition to Peace (NTTP) Initiative was implemented since August 2005 at the request of Nepali polity and with the support of USAID and the Swiss government. At the end of its first phase in 2009, the Ministry of Peace and Reconstruction and other stakeholders requested the USAID and the Swiss Government to continue to provide support to the peace building process. 
+                    <br /> 
+                    <br />
+>>>>>>> 358f6166e1bf35dbe5c488d228b23904845b2df8
                   </p>
                   <div className='donate-one__btn-box'>
                     <Link
                       href='/'
                       className='donate-one__btn thm-btn'
                     >
-                      Join Now
+                      Read
                       <span>
                         <i className='icon-arrow-right'></i>
                       </span>
@@ -541,7 +891,7 @@ export default function Home() {
         {/*Donate One End */}
 
         {/*Who We Are Start */}
-        <section className='who-we-are'>
+        <section className='who-we-are' style={{  paddingBottom: '5rem',paddingTop: '5rem' }}>
           <div className='who-we-are__shape-3 float-bob-y'>
             <img src='assets/images/shapes/who-we-are-shape-3.png' alt='' />
           </div>
@@ -557,6 +907,7 @@ export default function Home() {
                       <span className='section-title__tagline'>Who We Are</span>
                     </div>
                     <h2 className='section-title__title title-animation'>
+<<<<<<< HEAD
                       Fostering Dialogue, Advancing Peace
                     </h2>
                   </div>
@@ -565,6 +916,13 @@ export default function Home() {
                      and dialogue organization dedicated to transforming conflict and promoting 
                      inclusive political engagement in Nepal. We facilitate trusted, informal dialogues
                       and generate evidence-based insights to support sustainable peacebuilding.
+=======
+                     A Trusted Peace Dialogue Platform
+                    </h2>
+                  </div>
+                  <p className='who-we-are__text'>
+                    The Nepal Transition to Peace Institute (NTTP-I) is a trusted peace research and dialogue institute dedicated to fostering peaceful political engagement in Nepal. Since 2005, we have facilitated informal, evidence-based dialogues among political parties and diverse groups to resolve conflicts and support Nepal’s transition to peace. Through credible research and inclusive forums, we work to prevent and transform conflict at local, national, and regional levels.
+>>>>>>> 358f6166e1bf35dbe5c488d228b23904845b2df8
                   </p>
                   <div className='who-we-are__progress-box'>
                     {/* <ul className="who-we-are__progress-list list-unstyled">
@@ -614,13 +972,13 @@ export default function Home() {
                   <div className='who-we-are__img-box'>
                     <div className='who-we-are__img'>
                       <img
-                        src='assets/images/resources/who-we-are-img-1.jpg'
+                        src='assets/images/slider/banner_image_3.png'
                         alt=''
                       />
                     </div>
                     <div className='who-we-are__img-2'>
                       <img
-                        src='assets/images/resources/who-we-are-img-2.jpg'
+                        src='assets/images/slider/banner_img_2.png'
                         alt=''
                       />
                     </div>
@@ -642,8 +1000,7 @@ export default function Home() {
                 <span className='section-title__tagline'>Our Events</span>
               </div>
               <h2 className='section-title__title title-animation'>
-                Join Us in the Fight <br />
-                Against Poverty
+                News & Events
               </h2>
             </div>
             <div className='row'>
@@ -655,7 +1012,7 @@ export default function Home() {
                 <div className='event-one__single'>
                   <div className='event-one__img-box'>
                     <div className='event-one__img'>
-                      <img src='assets/images/event/event-1-1.jpg' alt='' />
+                      <img src='assets/images/about/news1.jpg' alt='' />
                     </div>
                     <div className='event-one__date'>
                       <p>
@@ -665,15 +1022,14 @@ export default function Home() {
                   </div>
                   <div className='event-one__content'>
                     <h4 className='event-one__title'>
-                      <Link href='event-details'>Donation Drive</Link>
+                      <Link href='event-details'>nttp</Link>
                     </h4>
                     <p className='event-one__text'>
                       Lorem Ipsum is simply dummy a of the printing and type
                       setting industry Loreaim Ipsum has
                     </p>
                     <p className='event-one__location'>
-                      <span className='icon-pin'></span>6391 Elgin St. Celina,
-                      10299
+                      <span className='icon-pin'></span>Katmandu, Nepal
                     </p>
                     <div className='event-one__btn-box'>
                       <Link
@@ -698,7 +1054,7 @@ export default function Home() {
                 <div className='event-one__single'>
                   <div className='event-one__img-box'>
                     <div className='event-one__img'>
-                      <img src='assets/images/event/event-1-2.jpg' alt='' />
+                      <img src='assets/images/about/news2.jpg' alt='' />
                     </div>
                     <div className='event-one__date'>
                       <p>
@@ -708,15 +1064,14 @@ export default function Home() {
                   </div>
                   <div className='event-one__content'>
                     <h4 className='event-one__title'>
-                      <Link href='event-details'>win-win survival</Link>
+                      <Link href='event-details'>nttp</Link>
                     </h4>
                     <p className='event-one__text'>
                       Lorem Ipsum is simply dummy a of the printing and type
                       setting industry Loreaim Ipsum has
                     </p>
                     <p className='event-one__location'>
-                      <span className='icon-pin'></span>6391 Elgin St. Celina,
-                      10299
+                      <span className='icon-pin'></span>Katmandu, Nepal
                     </p>
                     <div className='event-one__btn-box'>
                       <Link
@@ -741,7 +1096,7 @@ export default function Home() {
                 <div className='event-one__single'>
                   <div className='event-one__img-box'>
                     <div className='event-one__img'>
-                      <img src='assets/images/event/event-1-3.jpg' alt='' />
+                      <img src='assets/images/about/news3.jpg' alt='' />
                     </div>
                     <div className='event-one__date'>
                       <p>
@@ -751,15 +1106,14 @@ export default function Home() {
                   </div>
                   <div className='event-one__content'>
                     <h4 className='event-one__title'>
-                      <Link href='event-details'>Children Education.</Link>
+                      <Link href='event-details'>NTTP</Link>
                     </h4>
                     <p className='event-one__text'>
                       Lorem Ipsum is simply dummy a of the printing and type
                       setting industry Loreaim Ipsum has
                     </p>
                     <p className='event-one__location'>
-                      <span className='icon-pin'></span>6391 Elgin St. Celina,
-                      10299
+                      <span className='icon-pin'></span>Katmandu, Nepal
                     </p>
                     <div className='event-one__btn-box'>
                       <Link

@@ -17,7 +17,7 @@ export default function Donation() {
               className='donation-one__left-bg'
               style={{
                 backgroundImage:
-                  " url(assets/images/backgrounds/donation-one-left-bg.jpg)",
+                  " url(assets/images/backgrounds/multiculture.jpg)",
               }}
             ></div>
           </div>
