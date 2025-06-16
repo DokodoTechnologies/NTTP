@@ -25,13 +25,8 @@ export default function About() {
                 </div>
                 <div className='text'>
                   <p>
-<<<<<<< HEAD
-                    NTTP-I has facilitated peace dialogues and promoted conflict transformation
-                    in Nepal since 2005.
-=======
                     we have been dedicated to making a positive impact in our
                     community.
->>>>>>> 358f6166e1bf35dbe5c488d228b23904845b2df8
                   </p>
                 </div>
                 <div className='about-four-img'>
@@ -65,10 +60,9 @@ export default function About() {
               <div className='about-four__right'>
                 <div className='text1'>
                   <p>
-                    Nepal Transition to Peace Institute (NTTP-I) has been a key player in Nepal’s 
-                    peace process since 2005, offering a trusted platform for informal dialogues 
-                    among political parties. It helps resolve conflicts and supports peaceful 
-                    political transitions.
+                    As we continue our efforts to make a difference in our
+                    community, we are reaching out to compassionate individuals
+                    like you who understand the importance of giving back.
                   </p>
                 </div>
                 <div className='text2'>

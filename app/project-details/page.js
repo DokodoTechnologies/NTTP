@@ -170,51 +170,142 @@ import { useState } from "react"
 export default function Home() {
     // Content data - add more content sections here
     const contentSections = [
-        {
-            id: 1,
-            leftContent: {
-                title1: "Supporting Health Initiatives",
-                text1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galltype and scrambled it to make a type specimen book. It has survived not only five centuries tinto electronic typesetting remaining essentially unchanged",
-                text2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print",
-                points: ["Hope Restoration", "Giving Back", "Positive Impact"],
-                title2: "Elevate Your Business with IT Solutions",
-                text3: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galltype and scrambled it to make a type specimen book. It has survived not only five centuries tinto electronic typesetting remaining essentially unchanged"
-            },
-            rightImages: {
-                img1: "assets/images/project/project-details-right-img-1.jpg",
-                img2: "assets/images/project/project-details-right-img-2.jpg"
-            }
-        },
-        {
-            id: 2,
-            leftContent: {
-                title1: "Educational Programs",
-                text1: "Our educational initiatives focus on providing quality learning opportunities for underserved communities. We believe that education is the foundation for lasting change and empowerment.",
-                text2: "Through partnerships with local schools and organizations, we're making education accessible to everyone.",
-                points: ["Scholarship Programs", "Digital Literacy", "Vocational Training"],
-                title2: "Building Tomorrow's Leaders",
-                text3: "Every child deserves the opportunity to learn and grow. Our programs are designed to nurture potential and create pathways to success for students of all backgrounds."
-            },
-            rightImages: {
-                img1: "assets/images/project/project-details-right-img-1.jpg",
-                img2: "assets/images/project/project-details-right-img-2.jpg"
-            }
-        },
-        {
-            id: 3,
-            leftContent: {
-                title1: "Environmental Conservation",
-                text1: "Protecting our planet for future generations through sustainable practices and environmental awareness programs. We work with communities to implement eco-friendly solutions.",
-                text2: "Climate change is real, and we're taking action to combat its effects through innovative green initiatives.",
-                points: ["Tree Planting", "Waste Reduction", "Clean Energy"],
-                title2: "Green Future Initiative",
-                text3: "Small actions lead to big changes. Our environmental programs focus on creating sustainable habits that benefit both communities and the planet."
-            },
-            rightImages: {
-                img1: "assets/images/project/project-details-right-img-1.jpg",
-                img2: "assets/images/project/project-details-right-img-2.jpg"
-            }
-        }
+         {
+    id: 1,
+    leftContent: {
+      title1: "NTTP Forum",
+      text1: "The national dialogue process takes place through the NTTP Forum and the inter-party dialogue forums convened by senior facilitators.",
+      text2: "NTTP Forum consists of key negotiators from major political parties of Nepal and usually meets once a month or as per the need to discuss political developments, develop an understanding about each other’s positions, and find solutions to disputed issues related to Nepal’s peace process, constitution-drafting process and political transition.",
+      points: [
+        "Facilitated by senior political figures",
+        "Monthly or need-based meetings",
+        "Focus on peace and constitution drafting"
+      ],
+      title2: "Strengthening National Dialogue",
+      text3: "NTTP Forum plays a key role in fostering understanding among political parties, addressing disputes, and ensuring inclusive discussions during Nepal’s political transition and peacebuilding process."
+    },
+    rightImages: {
+      img1: "assets/images/project/nttp-forum-1.jpg",
+      img2: "assets/images/project/nttp-forum-2.jpg"
+    }
+  },
+         {
+    id: 2,
+    leftContent: {
+      title1: "Young Political Leaders’ Group (YPLG)",
+      text1: "NTTP-I currently has a Young Political Leaders’ Group (YPLG) whose members are influential young leaders in major political parties of Nepal. The meeting is convened by NTTP-I, with facilitation rotating among members.",
+      text2: "YPLG focuses on constitutional content, resolving inter-party conflicts, and cultivating a culture of constructive and issue-based dialogue. At the end of each session, members provide actionable proposals to resolve national challenges.",
+      points: [
+        "Constitution Drafting & Implementation",
+        "Peace Process & Transitional Justice",
+        "State Restructuring & Federalism",
+        "Conflict Mitigation & Dialogue Facilitation",
+        "Political Party Reforms & Democratization"
+      ],
+      title2: "Shaping the Future of Democratic Leadership",
+      text3: "NTTP-I supports YPLG to bring innovative, cooperative approaches into the political space. This helps bridge the leadership gap and promotes inclusive and youth-led contributions to Nepal’s peace and political transformation."
+    },
+    rightImages: {
+      img1: "assets/images/project/yplg-1.jpg",
+      img2: "assets/images/project/yplg-2.jpg"
+    }
+  },
+         {
+    id: 3,
+    leftContent: {
+      title1: "NTTP Women Group (WG)",
+      text1: "The Women’s Group (WG) is composed of representatives from across party lines, civil society, and diverse women’s networks. NTTP-I provides a unique platform that connects these networks and promotes inclusive dialogue on gender-sensitive issues.",
+      text2: "The group plays a vital role in addressing tensions between mainstream political structures and women’s organizations by promoting gender equity in political processes and legal frameworks.",
+      points: [
+        "Gender-Friendly Constitution Drafting",
+        "Policy Formulation & Legislative Reforms",
+        "Implementation of Gender Policies",
+        "Leadership & Political Representation"
+      ],
+      title2: "Empowering Women for Inclusive Governance",
+      text3: "NTTP-I supports the WG in amplifying women’s voices in governance and policy-making. Through collaborative action and institutional engagement, WG advances the cause of gender justice and addresses the leadership gap in Nepal's political landscape."
+    },
+    rightImages: {
+      img1: "assets/images/project/women-group-1.jpg",
+      img2: "assets/images/project/women-group-2.jpg"
+    }
+  },{
+    id: 4,
+    leftContent: {
+      title1: "NTTP Madhesh Group (MG)",
+      text1: "Although national-level political issues are addressed in the NTTP Forum, the Madhesh Group focuses on connecting Terai-based political leaders with Madhesh-based civil society. The group meets regularly to discuss, strategize, and implement initiatives related to the concerns of the Madhesh region and its people.",
+      text2: "Guided by consultations like the 2014 national gathering, the Madhesh Group has prioritized strategic actions to ensure representation, inclusion, and informed decision-making in Nepal’s political processes.",
+      points: [
+        "Policy Research on Inclusion & Federalism",
+        "Consensus Building through Action Research",
+        "Public Hearings on Constitution & Governance"
+      ],
+      title2: "Bridging Dialogue for Regional Inclusion",
+      text3: "Through research, reflective dialogue, and direct engagement with lawmakers, the Madhesh Group works to make Nepal’s constitution-making and governance more responsive to the needs and aspirations of Madheshi communities."
+    },
+    rightImages: {
+      img1: "assets/images/project/madhesh-group-1.jpg",
+      img2: "assets/images/project/madhesh-group-2.jpg"
+    }
+  },
+  {
+    id: 5,
+    leftContent: {
+      title1: "NTTP Janajati Group (JG)",
+      text1: "The Janajati Group brings together Janajati leaders from major political parties, civil society, and activist circles. Regular meetings are held to address key themes such as federalism, identity and rights, governance structures, and social inclusion.",
+      text2: "Through dialogue, research, and expert consultation, the group fosters understanding, reduces inter-group tensions, and promotes inclusive policy processes that reflect the aspirations of Janajati communities.",
+      points: [
+        "Clarity on Rights & Governance Through Research",
+        "Mediation on Identity-Based Political Differences",
+        "Linking Networks for Collective Problem Solving"
+      ],
+      title2: "Advancing Equity Through Inclusive Dialogue",
+      text3: "By fostering collaboration and reducing conflict, the NTTP Janajati Group plays a vital role in shaping a governance model that recognizes Nepal’s ethnic diversity and builds bridges across communities."
+    },
+    rightImages: {
+      img1: "assets/images/project/janajati-group-1.jpg",
+      img2: "assets/images/project/janajati-group-2.jpg"
+    }
+  },
+   {
+    id: 6,
+    leftContent: {
+      title1: "NTTP Dalit Group (DG)",
+      text1: "The NTTP Dalit Group is a cross-party coalition of political leaders, civil society representatives, and Dalit activists committed to addressing caste-based discrimination and enhancing political representation.",
+      text2: "The group’s efforts focus on transforming political systems, advocating legislative reform, ensuring inclusive budgeting, and facilitating conflict resolution in Dalit communities.",
+      points: [
+        "Raising Political & Public Awareness",
+        "Institutional Reform for Equitable Representation",
+        "Budget Monitoring for Dalit Inclusion",
+        "Conflict Mitigation Through Dialogue"
+      ],
+      title2: "Fighting Caste Discrimination with Dialogue and Action",
+      text3: "By challenging systemic exclusion and mobilizing action across sectors, the NTTP Dalit Group works to ensure the voices and rights of the Dalit community are recognized and respected within Nepal’s political and social landscape."
+    },
+    rightImages: {
+      img1: "assets/images/project/dalit-group-1.jpg",
+      img2: "assets/images/project/dalit-group-2.jpg"
+    }
+  },
+  {
+    id: 7,
+    leftContent: {
+      title1: "Sub-national Dialogue Groups",
+      text1: "NTTP-I continues to support sub-national dialogue groups in conflict-prone regions of Nepal. These groups, like the Sambad Samuha in Dang, Kailali, and Jhapa, have effectively resolved local disputes, facilitated political dialogue, and promoted peace through community engagement.",
+      text2: "With strong linkages to national-level forums like the NTTP Forum and thematic groups, sub-national dialogue groups play a critical role in preventing and mitigating regional crises, serving as early responders and peace facilitators.",
+      points: [
+        "Mitigating Regional Conflicts via Dialogue",
+        "Creating Strong Vertical Linkages with National Forums",
+        "Conducting Regular Regional Consultations"
+      ],
+      title2: "Local Peacebuilding Through Inclusive Dialogues",
+      text3: "These groups are instrumental in deepening understanding between regional and national actors, ensuring that local perspectives shape the broader peace and policy discourse. NTTP-I aims to expand this successful model to more conflict-sensitive areas across Nepal."
+    },
+    rightImages: {
+      img1: "assets/images/project/subnational-1.jpg",
+      img2: "assets/images/project/subnational-2.jpg"
+    }
+  }
     ];
 
     const [currentPage, setCurrentPage] = useState(0);
