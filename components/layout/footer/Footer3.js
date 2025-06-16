@@ -140,7 +140,7 @@ export default function Footer3() {
                   <div className='site-footer-two__bottom-inner'>
                     <div className='site-footer-two__copyright'>
                       <p className='site-footer-two__copyright-text'>
-                        Copywright 2024 by <Link href='#'>Dokodo</Link>. All
+                        Copywight 2024 by <Link href='#'>Global IT</Link>. All
                         Rights Reserved.
                       </p>
                     </div>
