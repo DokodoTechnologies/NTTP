@@ -61,8 +61,8 @@ export default function Banner() {
                         </p>
                       </div>
                       <div className='btn-box'>
-                        <Link href='index4' className='thm-btn'>
-                          Contact
+                        <Link href='about' className='thm-btn'>
+                          Read More 
                           <span>
                             <i className='icon-arrow-right'></i>
                           </span>
@@ -103,7 +103,7 @@ export default function Banner() {
                         </p>
                       </div>
                       <div className='btn-box'>
-                        <Link href='index4' className='thm-btn'>
+                        <Link href='about' className='thm-btn'>
                           Read more
                           <span>
                             <i className='icon-arrow-right'></i>

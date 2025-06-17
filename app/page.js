@@ -52,7 +52,6 @@ export default function Home() {
         <Mission />
         <Donation />
         <Who />
-        <Blog />
         <Country />
       </Layout>
     </>

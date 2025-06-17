@@ -31,7 +31,7 @@ export default function Mission() {
                     </p>
                   </div>
                   <div className='btn-box'>
-                    <Link href='#' className='thm-btn'>
+                    <Link href='project-details' className='thm-btn'>
                       Read More
                     </Link>
                   </div>
@@ -56,7 +56,7 @@ export default function Mission() {
                     </p>
                   </div>
                   <div className='btn-box'>
-                    <Link href='#' className='thm-btn'>
+                    <Link href='project-details' className='thm-btn'>
                       Read More
                     </Link>
                   </div>
@@ -81,7 +81,7 @@ export default function Mission() {
                     </p>
                   </div>
                   <div className='btn-box'>
-                    <Link href='#' className='thm-btn'>
+                    <Link href='project-details' className='thm-btn'>
                       Read More
                     </Link>
                   </div>
@@ -106,7 +106,7 @@ export default function Mission() {
                     </p>
                   </div>
                   <div className='btn-box'>
-                    <Link href='#' className='thm-btn'>
+                    <Link href='project-details' className='thm-btn'>
                       Read More
                     </Link>
                   </div>
@@ -131,7 +131,7 @@ export default function Mission() {
                     </p>
                   </div>
                   <div className='btn-box'>
-                    <Link href='#' className='thm-btn'>
+                    <Link href='project-details' className='thm-btn'>
                       Read More
                     </Link>
                   </div>
@@ -156,7 +156,7 @@ export default function Mission() {
                     </p>
                   </div>
                   <div className='btn-box'>
-                    <Link href='#' className='thm-btn'>
+                    <Link href='project-details' className='thm-btn'>
                       Read More
                     </Link>
                   </div>
@@ -190,7 +190,7 @@ export default function Mission() {
         </p>
       </div>
       <div className='btn-box'>
-        <Link href='#' className='thm-btn'>
+        <Link href='project-details' className='thm-btn'>
           Read More
         </Link>
       </div>

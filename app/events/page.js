@@ -95,8 +95,77 @@ export default function Home() {
                                     </div>
                                 </div>
                             </div>
+
+                            {/*Event 1*/}
+                            <div className="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="100ms">
+                                <div className="event-one__single">
+                                    <div className="event-one__img-box">
+                                        <div className="event-one__img">
+                                            <img src="assets/images/event/event2.jpeg" alt="" />
+                                        </div>
+                                        <div className="event-one__date">
+                                            <p><span className="icon-clock"></span>13th April, 2025</p>
+                                        </div>
+                                    </div>
+                                    <div className="event-one__content">
+                                        <h4 className="event-one__title"><Link href="#">CPCS Interaction Program</Link></h4>
+                                        <p className="event-one__text">Interaction with CPCS and NTTP-I featuring peace practitioners from South Asia.</p>
+                                        <p className="event-one__location"><span className="icon-pin"></span>Kathmandu, Nepal</p>
+                                        <div className="event-one__btn-box">
+                                            <button onClick={() => openModal(1)} className="event-one__btn thm-btn">Read More<span><i className="icon-arrow-right"></i></span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/*Event 2*/}
+                            <div className="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="200ms">
+                                <div className="event-one__single">
+                                    <div className="event-one__img-box">
+                                        <div className="event-one__img">
+                                            <img src="assets/images/event/event1.jpg" alt="" />
+                                        </div>
+                                        <div className="event-one__date">
+                                            <p><span className="icon-clock"></span>11th May, 2025</p>
+                                        </div>
+                                    </div>
+                                    <div className="event-one__content">
+                                        <h4 className="event-one__title"><Link href="#">Consultation on Documentation</Link></h4>
+                                        <p className="event-one__text">Meeting to document NTTP-I’s peace initiatives for continuity and learning.</p>
+                                        <p className="event-one__location"><span className="icon-pin"></span>Kathmandu, Nepal</p>
+                                        <div className="event-one__btn-box">
+                                            <button onClick={() => openModal(2)} className="event-one__btn thm-btn">Read More<span><i className="icon-arrow-right"></i></span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/*Event 3*/}
+                            <div className="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="300ms">
+                                <div className="event-one__single">
+                                    <div className="event-one__img-box">
+                                        <div className="event-one__img">
+                                            <img src="assets/images/event/event2.jpeg" alt="" />
+                                        </div>
+                                        <div className="event-one__date">
+                                            <p><span className="icon-clock"></span>16th April, 2025</p>
+                                        </div>
+                                    </div>
+                                    <div className="event-one__content">
+                                        <h4 className="event-one__title"><Link href="#">Challenges in Peace Process</Link></h4>
+                                        <p className="event-one__text">Dialogue on Nepal’s peace and transitional justice with high-level stakeholders.</p>
+                                        <p className="event-one__location"><span className="icon-pin"></span>Kathmandu, Nepal</p>
+                                        <div className="event-one__btn-box">
+                                            <button onClick={() => openModal(3)} className="event-one__btn thm-btn">Read More<span><i className="icon-arrow-right"></i></span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
+
+                
+                
                 </section>
 
                 {modalOpen && (
