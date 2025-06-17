@@ -161,7 +161,7 @@ export default function Menu() {
           <Link href='/'>Supporters</Link>
         </li>
         <li>
-          <Link href='/'>Gallery</Link>
+          <Link href='/gallery'>Gallery</Link>
         </li>
         {/* <li className="dropdown">
                     <Link href="#">Pages</Link>
