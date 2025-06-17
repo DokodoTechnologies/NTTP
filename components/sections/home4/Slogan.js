@@ -30,12 +30,12 @@ export default function Slogan() {
               </p>
             </div>
             <div className='btn-box'>
-              <Link href='index4' className='thm-btn'>
+              {/* <Link href='index4' className='thm-btn'>
                 Learn More
                 <span>
                   <i className='icon-arrow-right'></i>
                 </span>
-              </Link>
+              </Link> */}
               {/* <Link href='index4' className='thm-btn'>
                 larn More
                 <span>
