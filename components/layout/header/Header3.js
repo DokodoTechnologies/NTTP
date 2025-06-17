@@ -216,7 +216,7 @@ export default function Header1({ scroll, handlePopup, handleMobileMenu }) {
                                     <Link href="#" className="main-menu__search search-toggler icon-search" onClick={handlePopup}></Link>
                                 </div>
                                 <div className="main-menu__btn-box">
-                                    <Link href="/" className="main-menu__btn thm-btn">Contact Now<span><i
+                                    <Link href="/contact" className="main-menu__btn thm-btn">Contact Now<span><i
                                                 className="icon-arrow-right"></i></span></Link>
                                 </div>
                             </div>
