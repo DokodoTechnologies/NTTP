@@ -50,9 +50,9 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                             <ul className="main-menu__list">
                                 <li className={isActive.key == 1 ? "dropdown current" : "dropdown"}><Link href="/">Home</Link>
                                    
-                                    <button className={isActive.key == 1 ? "expanded open" : ""} onClick={() => handleToggle(1)}><span className="fa fa-angle-right" /></button>
+                                    {/* <button className={isActive.key == 1 ? "expanded open" : ""} onClick={() => handleToggle(1)}><span className="fa fa-angle-right" /></button> */}
                                 </li>
-                                <li><Link href="/about/">About</Link></li>
+                                <li><Link href="/about">About</Link></li>
                                 <li className={isActive.key == 2 ? "dropdown current" : "dropdown"}><Link href="/events">Events</Link>
                                     <ul style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>                                 
                                         
@@ -64,24 +64,24 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                                         <li><Link href="faq">FAQs</Link></li>
                                         <li><Link href="404">404 Error</Link></li> */}
                                     </ul>
-                                    <button className={isActive.key == 2 ? "expanded open" : ""} onClick={() => handleToggle(2)}><span className="fa fa-angle-right" /></button>
+                                    {/* <button className={isActive.key == 2 ? "expanded open" : ""} onClick={() => handleToggle(2)}><span className="fa fa-angle-right" /></button> */}
                                 </li>
-                                <li className={isActive.key == 5 ? "dropdown current" : "dropdown"}><Link href="/">Forums</Link>
+                                <li className={isActive.key == 5 ? "dropdown current" : "dropdown"}><Link href="/project-details">Forums</Link>
                                     
-                                    <button className={isActive.key == 5 ? "expanded open" : ""} onClick={() => handleToggle(5)}><span className="fa fa-angle-right" /></button>
+                                    {/* <button className={isActive.key == 5 ? "expanded open" : ""} onClick={() => handleToggle(5)}><span className="fa fa-angle-right" /></button> */}
                                 </li>
-                                <li className={isActive.key == 6 ? "dropdown current" : "dropdown"}><Link href="/#">Supporter</Link>
+                                <li className={isActive.key == 6 ? "dropdown current" : "dropdown"}><Link href="/">Supporter</Link>
                                     
-                                    <button className={isActive.key == 6 ? "expanded open" : ""} onClick={() => handleToggle(6)}><span className="fa fa-angle-right" /></button>
+                                    {/* <button className={isActive.key == 6 ? "expanded open" : ""} onClick={() => handleToggle(6)}><span className="fa fa-angle-right" /></button> */}
                                 </li>
-                                <li className={isActive.key == 7 ? "dropdown current" : "dropdown"}><Link href="/">Gallery</Link>
+                                <li className={isActive.key == 7 ? "dropdown current" : "dropdown"}><Link href="/gallery">Gallery</Link>
                                     {/* <ul style={{ display: `${isActive.key == 7 ? "block" : "none"}` }}>                                 
                                         <li><Link href="blog">Blog</Link></li>
                                         <li><Link href="blog-carousel">Blog Carousel</Link></li>
                                         <li><Link href="blog-list">Blog List</Link></li>
                                         <li><Link href="blog-details">Blog Details</Link></li>
                                     </ul> */}
-                                    <button className={isActive.key == 7 ? "expanded open" : ""} onClick={() => handleToggle(7)}><span className="fa fa-angle-right" /></button>
+                                    {/* <button className={isActive.key == 7 ? "expanded open" : ""} onClick={() => handleToggle(7)}><span className="fa fa-angle-right" /></button> */}
                                 </li>
                                 <li><Link href="/contact">Contact</Link></li>
                             </ul>

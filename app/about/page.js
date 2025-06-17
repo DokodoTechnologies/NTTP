@@ -103,7 +103,7 @@ export default function Home() {
       id: 'daman',
       name: 'Late Mr.Daman Nath Dhungana',
       shortDescription:
-        'was a senior NTTP facilitator, Executive Committee Member and former Chairperson at NTTP-I. He served...',
+        'was a senior NTTP facilitator, Executive Committee.. ',
       image: 'assets/images/about/daman.png',
       fullDescription: `Late Daman Nath Dhungana was a senior NTTP facilitator, Executive Committee Member and former Chairperson at NTTP-I. He served as the Speaker of the House after restoration of parliamentary democracy in 1990 and was asked to facilitate official peace talks between the government and the Maoists in 2001 and 2003. He is a senior advocate and a human rights defender who has continuously engaged with Nepal’s peace process as an insider for the last 18 years. He is renowned for advocacy of democratic process and constitutionalism.`,
     },
@@ -440,187 +440,7 @@ const coreStaffMembers = [
             </div>
           </div>
         </section>
-        {/* trying  */}
-
-
-        {/* dfjfad */}
-
-
-        {/*About One End */}
-
-        {/*Found One Start */}
-        {/* <section className='found-one'>
-          <div className='found-one__bg'>
-            <div className='found-one__shape-1 float-bob-y'>
-              <img src='assets/images/shapes/found-one-shape-1.png' alt='' />
-            </div>
-          </div>
-          <div className='container'>
-            <div className='section-title text-center sec-title-animation animation-style1'>
-              <div className='section-title__tagline-box'>
-                <span className='section-title__tagline'>Peace</span>
-              </div>
-              <h2 className='section-title__title title-animation'>
-                Together We Can <br /> <span>Make</span> a Difference
-              </h2>
-            </div>
-            <div className='row'> */}
-              {/*Found One Single Start*/}
-              {/* <div
-                className='col-xl-4 col-lg-4 wow fadeInLeft'
-                data-wow-delay='100ms'
-              >
-                <div className='found-one__single'>
-                  <div className='found-one__img-box'>
-                    <div className='found-one__img'>
-                      <img src='assets/images/resources/found-1-1.jpg' alt='' />
-                      <img src='assets/images/resources/found-1-1.jpg' alt='' />
-                    </div>
-                  </div>
-                  <div className='found-one__content'>
-                    <h4 className='found-one__title'>
-                      <Link href='donation-details'>nttp</Link>
-                    </h4>
-                    <p className='found-one__text'>
-                      lorem ipsam{" "}
-                    </p> */}
-                    {/* <div className="found-one__goals">
-                                    <div className="found-one__raised">
-                                        <p>Raised</p>
-                                        <span>40,802$</span>
-                                    </div>
-                                    <div className="found-one__raised">
-                                        <p>Goal</p>
-                                        <span>100,000$</span>
-                                    </div>
-                                </div> */}
-                    {/* <div className="found-one__progress">
-                                    <div className="bar">
-                                        <div className="bar-inner count-bar" data-percent="75%" style={{ width: '75%' }}>
-                                        </div>
-                                    </div>
-                                </div> */}
-                    {/* <div className='found-one__btn-box'>
-                      <Link
-                        href='/'
-                        className='found-one__btn thm-btn'
-                      >
-                        Read more
-                        <span>
-                          <i className='icon-arrow-right'></i>
-                        </span>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div> */}
-              {/*Found One Single End*/}
-              {/*Found One Single Start*/}
-              {/* <div
-                className='col-xl-4 col-lg-4 wow fadeInUp'
-                data-wow-delay='200ms'
-              >
-                <div className='found-one__single'>
-                  <div className='found-one__img-box'>
-                    <div className='found-one__img'>
-                      <img src='assets/images/resources/found-1-2.jpg' alt='' />
-                      <img src='assets/images/resources/found-1-2.jpg' alt='' />
-                    </div>
-                  </div>
-                  <div className='found-one__content'>
-                    <h4 className='found-one__title'>
-                      <Link href='donation-details'>NTTP</Link>
-                    </h4>
-                    <p className='found-one__text'>
-                      Lorem Ipsum{" "}
-                    </p> */}
-                    {/* <div className="found-one__goals">
-                                    <div className="found-one__raised">
-                                        <p>Raised</p>
-                                        <span>40,802$</span>
-                                    </div>
-                                    <div className="found-one__raised">
-                                        <p>Goal</p>
-                                        <span>100,000$</span>
-                                    </div>
-                                </div>
-                                <div className="found-one__progress">
-                                    <div className="bar">
-                                        <div className="bar-inner count-bar" data-percent="75%" style={{ width: '75%' }}>
-                                        </div>
-                                    </div>
-                                </div> */}
-                    {/* <div className='found-one__btn-box'>
-                      <Link
-                        href='/'
-                        className='found-one__btn thm-btn'
-                      >
-                        Read more
-                        <span>
-                          <i className='icon-arrow-right'></i>
-                        </span>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div> */}
-              {/*Found One Single End*/}
-              {/*Found One Single Start*/}
-              {/* <div
-                className='col-xl-4 col-lg-4 wow fadeInRight'
-                data-wow-delay='300ms'
-              >
-                <div className='found-one__single'>
-                  <div className='found-one__img-box'>
-                    <div className='found-one__img'>
-                      <img src='assets/images/resources/found-1-3.jpg' alt='' />
-                      <img src='assets/images/resources/found-1-3.jpg' alt='' />
-                    </div>
-                  </div>
-                  <div className='found-one__content'>
-                    <h4 className='found-one__title'>
-                      <Link href='donation-details'>nttp</Link>
-                    </h4>
-                    <p className='found-one__text'>
-                      lorem ipsuml{" "}
-                    </p> */}
-                    {/* <div className="found-one__goals">
-                                    <div className="found-one__raised">
-                                        <p>Raised</p>
-                                        <span>40,802$</span>
-                                    </div>
-                                    <div className="found-one__raised">
-                                        <p>Goal</p>
-                                        <span>100,000$</span>
-                                    </div>
-                                </div>
-                                <div className="found-one__progress">
-                                    <div className="bar">
-                                        <div className="bar-inner count-bar" data-percent="75%" style={{ width: '75%' }}>
-                                        </div>
-                                    </div>
-                                </div> */}
-                    {/* <div className='found-one__btn-box'>
-                      <Link
-                        href='/'
-                        className='found-one__btn thm-btn'
-                      >
-                        Read more
-                        <span>
-                          <i className='icon-arrow-right'></i>
-                        </span>
-                      </Link>
-                    </div> */}
-                  {/* </div> */}
-                {/* </div>
-              </div> */}
-              {/*Found One Single End*/}
-            {/* </div>
-          </div>
-        </section> */}
-        {/*Found One End */}
-
-        {/* --------------------------------------------------------------------------------------- */}
+        
 
         {/*Volunteer Carousel Page Start - Executive Committee*/}
         <section className="volunteer-carousel-page" style={{ backgroundColor: '#f1f0ec', marginBottom: '8rem' ,paddingBottom:'6rem'
@@ -800,30 +620,7 @@ const coreStaffMembers = [
                     The Nepal Transition to Peace Institute (NTTP-I) is a trusted peace research and dialogue institute dedicated to fostering peaceful political engagement in Nepal. Since 2005, we have facilitated informal, evidence-based dialogues among political parties and diverse groups to resolve conflicts and support Nepal’s transition to peace. Through credible research and inclusive forums, we work to prevent and transform conflict at local, national, and regional levels.
                   </p>
                   <div className='who-we-are__progress-box'>
-                    {/* <ul className="who-we-are__progress-list list-unstyled">
-                                    <li>
-                                        <div className="who-we-are__progress-single">
-                                            <p>Total Fund Worth: <span>450,896,070$</span></p>
-                                            <div className="who-we-are__progress">
-                                                <div className="bar">
-                                                    <div className="bar-inner count-bar" data-percent="75%" style={{ width: '75%' }}>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div className="who-we-are__progress-single">
-                                            <p>Total Cases Helped: <span>200+</span></p>
-                                            <div className="who-we-are__progress">
-                                                <div className="bar">
-                                                    <div className="bar-inner count-bar" data-percent="80%" style={{ width: '80%' }}>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul> */}
+                  
                   </div>
                   <div className='who-we-are__btn-box'>
                     <Link
