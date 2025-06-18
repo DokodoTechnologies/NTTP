@@ -87,7 +87,7 @@ export default function Home() {
       id: 'malik',
       name: 'Mr.Vidyadhar Malik',
       shortDescription:
-        'a former Minister, is one of the NTTP facilitators. With a former career in in civil service and gov...',
+        'a former Minister, is one of the NTTP facilitators and Executive Committee Member and is Chairperson. With a former ...',
       image: 'assets/images/about/malik.png',
       fullDescription: `Mr. Vidyadhar Mallik a former Minister, is one of the NTTP facilitators and Executive Committee Member and is Chairperson. With a former career in in civil service and governance, he played a significant role in negotiating with the CPN-Maoist and later, holding the Constituent Assembly election as a Minister in the Election Government formed under the Chairmanship of Chief Justice Khilaraj Regmi in 2013. Also a former advisor to the President, his civil service stints included Peace Secretary and Secretary at the Ministry of Finance.`,
     },
@@ -95,7 +95,7 @@ export default function Home() {
       id: 'youba',
       name: 'Mr.Youba Raj Acharya',
       shortDescription:
-        'is General Secretary of NTTP-I. He has more than 19 years of professional experience in the field...',
+        'is General Secretary of NTTP-I. He has more than 19 years of professional experience in the field of media, political analysis,...',
       image: 'assets/images/about/youba.png',
       fullDescription: `Mr. Youba Raj Acharya is General Secretary of NTTP-I. He has more than 19 years of professional experience in the field of media, political analysis, peacebuilding, conflict transformation and electoral affairs. He has worked for 8 years in UN carrying out various responsibilities related to conflict prevention,peace building, political analysis and political coordination and dialogue facilitation. He has worked extensively for rolling out UNDP’s Conflict Prevention Programme in all five development regions of Nepal and headed western regional office of and Social Cohesion and Democratic Participation Program in Pokhara as Regional Dialogue Coordinator for two years. His experience includes Coordination and Liaison Officer with Peacebuilding and Recovery Unit, Political Affairs Officer with UNMIN and media and outreach consultant with UNDP’s SKILLS Program. Before joining the UN, Mr Acharya was a journalist with Republica English Daily, The Kathmandu Post, Associated Press, Times of India and Space Time Today for nearly a decade. He has also worked as district focal person for Election Commission of Nepal in Khotang and Rasuwa during 1994 and 1997 elections, and has taught Political Science in Modern Indian School. He holds Master’s Degree in Political Science from TU and MPhil in English from Pokhara University.`,
     },
@@ -103,7 +103,7 @@ export default function Home() {
       id: 'daman',
       name: 'Late Mr.Daman Nath Dhungana',
       shortDescription:
-        'was a senior NTTP facilitator, Executive Committee.. ',
+        'was a senior NTTP facilitator, Executive Committee Member and former Chairperson at NTTP-I.. ',
       image: 'assets/images/about/daman.png',
       fullDescription: `Late Daman Nath Dhungana was a senior NTTP facilitator, Executive Committee Member and former Chairperson at NTTP-I. He served as the Speaker of the House after restoration of parliamentary democracy in 1990 and was asked to facilitate official peace talks between the government and the Maoists in 2001 and 2003. He is a senior advocate and a human rights defender who has continuously engaged with Nepal’s peace process as an insider for the last 18 years. He is renowned for advocacy of democratic process and constitutionalism.`,
     },
@@ -128,7 +128,7 @@ export default function Home() {
       name: 'Ms. Nitika Dhungana',
       shortDescription:
         'is one of the executive board members of the NTTP-I. Ms. Dhungana is an advocate at the Supreme Court...',
-      image: 'assets/images/about/nitika.png', // Placeholder, ensure image exists
+      image: 'assets/images/about/Nitika.png', // Placeholder, ensure image exists
       fullDescription: `Ms. Nitika Dhungana is one of the executive board members of the NTTP-I. Ms. Dhungana is an advocate at the Supreme Court Bar Association of Nepal and social activist committed to empowering women and underserved communities. She champions women’s leadership and economic participation. She is also involved in various national and international initiatives promoting legal literacy, social justice, and community development. Through her work, Ms. Dhungana continues to inspire young leaders and contribute meaningfully to Nepal’s social transformation.`,
     },
     {
@@ -155,8 +155,8 @@ const coreStaffMembers = [
     id: 'rajendra',
     name: 'Mr. Rajendra Bahadur Singh',
     shortDescription:
-      'Singh is a dedicated development and peacebuilding professional with over 16 years of experience in governance, education, and community engagement...',
-    image: 'assets/images/about/rajendra.png', // Placeholder, ensure image exists
+      'Singh is a dedicated development and peacebuilding professional with over 16 years of experience in governance, education,...',
+    image: 'assets/images/about/rajendra.jpg', // Placeholder, ensure image exists
     fullDescription: `Mr. Rajendra Bahadur Singh is a dedicated development and peacebuilding professional with over 16 years of experience in governance, education, and community engagement across Nepal. He currently serves as Associate Director at NTTP-I, coordinating initiatives in dialogue, transitional justice, and political engagement. He also served as an Assistant Professor of Law at the Central Campus of Far-western University. Known for his commitment to grassroots empowerment and conflict transformation, Rajendra brings a strong academic and field-based background, with extensive experience working in remote regions of the country.`,
   },
   {
@@ -164,7 +164,7 @@ const coreStaffMembers = [
     name: 'Mr. Baidyanath Mishra',
     shortDescription:
       'is an experienced Admin and Finance Officer at NTTP-I, with over 10 years of expertise in accountancy and internal auditing...',
-    image: 'assets/images/about/baidyanath.png', // Placeholder, ensure image exists
+    image: 'assets/images/about/baidyanath.jpg', // Placeholder, ensure image exists
     fullDescription: `Mr. Baidyanath Mishra is an experienced Admin and Finance Officer at NTTP-I, with over 10 years of expertise in accountancy and internal auditing. Prior to this, he served in a similar role at Samjhauta Nepal, an NGO. Known for his precision, integrity, and strong financial management skills, Mr. Mishra has played a key role in ensuring transparent and efficient financial operations in the development sector.`,
   },
   {
@@ -172,7 +172,7 @@ const coreStaffMembers = [
     name: 'Ms. Apsara Dhakal',
     shortDescription:
       'is a proactive and energetic Operations Assistant at NTTP-I, known for her efficiency in managing organizational data and information...',
-    image: 'assets/images/about/apsara.png', // Placeholder, ensure image exists
+    image: 'assets/images/about/apsara.jpg', // Placeholder, ensure image exists
     fullDescription: `Ms. Apsara Dhakal is a proactive and energetic Operations Assistant at NTTP-I, known for her efficiency in managing organizational data and information. She actively supports program activities with strong coordination skills, contributing to the smooth execution of day-to-day operations within the organization.`,
   },
   // Supporting Staffs integrated into Core Staff for display purposes in the same carousel
@@ -181,15 +181,15 @@ const coreStaffMembers = [
     name: 'Ms. Sarita Giri',
     shortDescription:
       'is an Office Assistant at NTTP-I. She manages office equipment, sets up meeting venues, and maintains the vehicle and library logbooks...',
-    image: 'assets/images/about/sarita.png', // Placeholder, ensure image exists
+    image: 'assets/images/about/sarita.jpg', // Placeholder, ensure image exists
     fullDescription: `Ms. Sarita Giri is an Office Assistant at NTTP-I. She manages office equipment, sets up meeting venues, and maintains the vehicle and library logbooks, ensuring smooth day-to-day operations with efficiency and dedication.`,
   },
   {
     id: 'driver',
     name: 'Mr. Office Vehicle Driver', // Changed name based on updated content
     shortDescription:
-      'driver at NTTP-I. with more than 15 years of experience in driving four wheelers. He associated with NTTP-I since 2025.',
-    image: 'assets/images/about/driver.png', // Placeholder, ensure image exists
+      'driver at NTTP-I. with more than 15 years of experience in driving four wheelers. He ....',
+    image: 'assets/images/about/driver.jpg', // Placeholder, ensure image exists
     fullDescription: `Mr. Office Vehicle Driver at NTTP-I. with more than 15 years of experience in driving four wheelers. He associated with NTTP-I since 2025.`,
   },
 ];
@@ -491,7 +491,7 @@ const coreStaffMembers = [
                                             </h4>
                                             <p className="team-one__sub-title">{member.shortDescription}</p>
                                         </div>
-                                        <div className="team-one__share-and-social">
+                                        {/* <div className="team-one__share-and-social">
                                             <div className="team-one__social">
                                                 <Link href="volunteer-details"><span className="icon-facebook"></span></Link>
                                                 <Link href="volunteer-details"><span className="icon-instagram"></span></Link>
@@ -501,7 +501,7 @@ const coreStaffMembers = [
                                             <div className="team-one__share">
                                                 <Link href="volunteer-details"><span className="icon-share"></span></Link>
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>
@@ -713,7 +713,7 @@ const coreStaffMembers = [
                                             </h4>
                                             <p className="team-one__sub-title">{member.shortDescription}</p>
                                         </div>
-                                        <div className="team-one__share-and-social">
+                                        {/* <div className="team-one__share-and-social">
                                             <div className="team-one__social">
                                                 <Link href="volunteer-details"><span className="icon-facebook"></span></Link>
                                                 <Link href="volunteer-details"><span className="icon-instagram"></span></Link>
@@ -723,7 +723,7 @@ const coreStaffMembers = [
                                             <div className="team-one__share">
                                                 <Link href="volunteer-details"><span className="icon-share"></span></Link>
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>
