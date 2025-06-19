@@ -99,14 +99,14 @@ export default function Home() {
       image: 'assets/images/about/youba.png',
       fullDescription: `Mr. Youba Raj Acharya is General Secretary of NTTP-I. He has more than 19 years of professional experience in the field of media, political analysis, peacebuilding, conflict transformation and electoral affairs. He has worked for 8 years in UN carrying out various responsibilities related to conflict prevention,peace building, political analysis and political coordination and dialogue facilitation. He has worked extensively for rolling out UNDP’s Conflict Prevention Programme in all five development regions of Nepal and headed western regional office of and Social Cohesion and Democratic Participation Program in Pokhara as Regional Dialogue Coordinator for two years. His experience includes Coordination and Liaison Officer with Peacebuilding and Recovery Unit, Political Affairs Officer with UNMIN and media and outreach consultant with UNDP’s SKILLS Program. Before joining the UN, Mr Acharya was a journalist with Republica English Daily, The Kathmandu Post, Associated Press, Times of India and Space Time Today for nearly a decade. He has also worked as district focal person for Election Commission of Nepal in Khotang and Rasuwa during 1994 and 1997 elections, and has taught Political Science in Modern Indian School. He holds Master’s Degree in Political Science from TU and MPhil in English from Pokhara University.`,
     },
-    {
-      id: 'daman',
-      name: 'Late Mr.Daman Nath Dhungana',
-      shortDescription:
-        'was a senior NTTP facilitator, Executive Committee Member and former Chairperson at NTTP-I.. ',
-      image: 'assets/images/about/daman.png',
-      fullDescription: `Late Daman Nath Dhungana was a senior NTTP facilitator, Executive Committee Member and former Chairperson at NTTP-I. He served as the Speaker of the House after restoration of parliamentary democracy in 1990 and was asked to facilitate official peace talks between the government and the Maoists in 2001 and 2003. He is a senior advocate and a human rights defender who has continuously engaged with Nepal’s peace process as an insider for the last 18 years. He is renowned for advocacy of democratic process and constitutionalism.`,
-    },
+    // {
+    //   id: 'daman',
+    //   name: 'Late Mr.Daman Nath Dhungana',
+    //   shortDescription:
+    //     'was a senior NTTP facilitator, Executive Committee Member and former Chairperson at NTTP-I.. ',
+    //   image: 'assets/images/about/daman.png',
+    //   fullDescription: `Late Daman Nath Dhungana was a senior NTTP facilitator, Executive Committee Member and former Chairperson at NTTP-I. He served as the Speaker of the House after restoration of parliamentary democracy in 1990 and was asked to facilitate official peace talks between the government and the Maoists in 2001 and 2003. He is a senior advocate and a human rights defender who has continuously engaged with Nepal’s peace process as an insider for the last 18 years. He is renowned for advocacy of democratic process and constitutionalism.`,
+    // },
     {
       id: 'birendra',
       name: 'Mr.Birendra P Mishra',
@@ -139,14 +139,14 @@ export default function Home() {
       image: 'assets/images/about/tseten.png', // Placeholder, ensure image exists
       fullDescription: `Dr. Tseten Yonjen Tamang is one of the members of the Executive Board of the NTTP-I. She is a renowned Nepali general surgeon specializing in hepatobiliary and liver transplant surgery. Alongside her medical career, she is deeply committed to social transformation through her work in girls’ education, women’s skill development, and peace-building. A strong advocate for inclusive development, she actively promotes access to health and education for marginalized communities. Dr. Tamang also contributes to sustainable development initiatives and empowers women through training and leadership programs. Her dedication to both medical excellence and social justice has made her a respected figure in Nepal’s health and development sectors.`,
     },
-    {
-      id: 'padma',
-      name: 'Late Padma Ratna Tuladhar',
-      shortDescription:
-        'was a senior NTTP facilitator, Executive Committee Member and former Chairperson at NTTP-I...',
-      image: 'assets/images/about/padma.png', // Placeholder, ensure image exists
-      fullDescription: `Late Padma Ratna Tuladhar (1940–2018) was a senior NTTP facilitator, Executive Committee Member and former Chairperson at NTTP-I. He was a distinguished Nepali politician, human rights defender, and advocate for indigenous rights. Elected to the Rastriya Panchayat in 1986, he boldly championed democracy from within the autocratic system. Following the 1990 democratic movement, he served as Minister for Labour and Health in the 1994 CPN-UML-led government. Tuladhar played a pivotal role in Nepal’s peace process, facilitating dialogue between the government and Maoist rebels during the civil war. His unwavering commitment to justice and inclusion made him a revered figure in Nepal’s democratic evolution.`,
-    },
+    // {
+    //   id: 'padma',
+    //   name: 'Late Padma Ratna Tuladhar',
+    //   shortDescription:
+    //     'was a senior NTTP facilitator, Executive Committee Member and former Chairperson at NTTP-I...',
+    //   image: 'assets/images/about/padma.png', // Placeholder, ensure image exists
+    //   fullDescription: `Late Padma Ratna Tuladhar (1940–2018) was a senior NTTP facilitator, Executive Committee Member and former Chairperson at NTTP-I. He was a distinguished Nepali politician, human rights defender, and advocate for indigenous rights. Elected to the Rastriya Panchayat in 1986, he boldly championed democracy from within the autocratic system. Following the 1990 democratic movement, he served as Minister for Labour and Health in the 1994 CPN-UML-led government. Tuladhar played a pivotal role in Nepal’s peace process, facilitating dialogue between the government and Maoist rebels during the civil war. His unwavering commitment to justice and inclusion made him a revered figure in Nepal’s democratic evolution.`,
+    // },
   ];
 
   // Updated Data for Core Staff Members (reflecting deletions and additions)
