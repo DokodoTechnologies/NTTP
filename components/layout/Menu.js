@@ -158,7 +158,7 @@ export default function Menu() {
           <Link href='/project-details'>Forums</Link>
         </li>
         <li>
-          <Link href='/'>Supporters</Link>
+          <Link href='/volunteer'>Supporters</Link>
         </li>
         <li>
           <Link href='/gallery'>Gallery</Link>
