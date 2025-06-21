@@ -15,7 +15,7 @@
     left: 0;
     right: 0;
     height: 730px;
-    background-color: var(--anity-black);
+    background-color: white;
     z-index: -1;
 }
 
@@ -31,11 +31,11 @@
 }
 
 .found-one .section-title__tagline {
-    color: var(--anity-white);
+    color: black;
 }
 
 .found-one .section-title__title {
-    color: var(--anity-white);
+    color: var(--anity-black);
 }
 
 .found-one__single {
