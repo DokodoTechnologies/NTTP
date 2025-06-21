@@ -5,6 +5,10 @@ import { useState } from "react";
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
 
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
 
 const swiperOptions = {
   modules: [Autoplay, Pagination, Navigation],
@@ -484,9 +488,10 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
 
 
         {/*Volunteer Carousel Page Start - Executive Committee*/}
+         {/* backgroundColor: '#e8f1f5', marginBottom: '8rem', paddingBottom: '6rem', paddingTop: '5rem' */}
         <section className="volunteer-carousel-page" style={{
-          backgroundColor: '#f1f0ec', marginBottom: '8rem', paddingBottom: '6rem'
-          , paddingTop: '5rem'
+          backgroundColor: '#f1f0ec', paddingBottom: '6rem'
+          , paddingTop: '5rem',marginBottom: '8rem'
         }}>
           <div className="container">
             {/* Header Section */}
@@ -499,7 +504,7 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
                 textTransform: 'uppercase',
                 marginBottom: '0.5rem',
                 margin: '0 0 0.5rem 0'
-              }}>Our Executive Committee</p>
+              }}>Our Executive Committe</p>
               <h2 style={{
                 fontSize: '3rem',
                 fontWeight: 'bold',
@@ -533,17 +538,6 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
                           </h4>
                           <p className="team-one__sub-title">{member.shortDescription}</p>
                         </div>
-                        {/* <div className="team-one__share-and-social">
-                                            <div className="team-one__social">
-                                                <Link href="volunteer-details"><span className="icon-facebook"></span></Link>
-                                                <Link href="volunteer-details"><span className="icon-instagram"></span></Link>
-                                                <Link href="volunteer-details"><span className="icon-twitter"></span></Link>
-                                                <Link href="volunteer-details"><span className="icon-link-in"></span></Link>
-                                            </div>
-                                            <div className="team-one__share">
-                                                <Link href="volunteer-details"><span className="icon-share"></span></Link>
-                                            </div>
-                                        </div> */}
                       </div>
                     </div>
                   </div>
@@ -555,62 +549,12 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
           </div>
         </section>
         {/*Volunteer Carousel Page End - Executive Committee*/}
-        {/*Volunteer Carousel Page Start - International Experts*/}
-        <section className="volunteer-carousel-page" style={{ backgroundColor: '#e8f1f5', marginBottom: '8rem', paddingBottom: '6rem', paddingTop: '5rem' }}>
-          <div className="container">
-            <div className="section-header" style={{ textAlign: 'left', marginBottom: '3rem' }}>
-              <p style={{
-                fontSize: '0.9rem',
-                color: '#5ba4d4',
-                fontWeight: '600',
-                letterSpacing: '2px',
-                textTransform: 'uppercase',
-                marginBottom: '0.5rem'
-              }}>International Experts</p>
-              <h2 style={{
-                fontSize: '3rem',
-                fontWeight: 'bold',
-                color: '#4a4a4a',
-                lineHeight: '1.2',
-                margin: '0'
-              }}>Global Expertise Guiding Our Mission</h2>
-            </div>
-
-            <Swiper {...swiperOptions} className="volunteer-carousel-style owl-carousel owl-theme carousel-dot-style">
-              {internationalExperts.map((expert) => (
-                <SwiperSlide key={expert.id}>
-                  <div className="item">
-                    <div className="team-one__single">
-                      <div className="team-one__img-box">
-                        <div className="team-one__img">
-                          <img src={expert.image} alt={expert.name} />
-                        </div>
-                      </div>
-                      <div className="team-one__content">
-                        <div className="team-one__name-box">
-                          <h4 className="team-one__name">
-                            <div
-                              onClick={() => handleMemberClick(expert)}
-                              style={{ cursor: 'pointer' }}
-                            >
-                              {expert.name}
-                            </div>
-                          </h4>
-                          <p className="team-one__sub-title">{expert.shortDescription}</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
-              ))}
-            </Swiper>
-          </div>
-        </section>
-        {/*Volunteer Carousel Page End - International Experts*/}
+        
+      
 
 
 
-        {/*Donate One Start */}
+        {/*detail One Start */}
         <section className='donate-one'>
           <div className='container'>
             <div className='row'>
@@ -688,7 +632,60 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
             </div>
           </div>
         </section>
-        {/*Donate One End */}
+        {/*detail One End */}
+
+          {/*Volunteer Carousel Page Start - International Experts*/}
+        <section className="volunteer-carousel-page" style={{ backgroundColor: '#e8f1f5', paddingBottom: '6rem', paddingTop: '5rem' }}>
+          <div className="container">
+            <div className="section-header" style={{ textAlign: 'left', marginBottom: '3rem' }}>
+              <p style={{
+                fontSize: '0.9rem',
+                color: '#5ba4d4',
+                fontWeight: '600',
+                letterSpacing: '2px',
+                textTransform: 'uppercase',
+                marginBottom: '0.5rem'
+              }}>International Experts</p>
+              <h2 style={{
+                fontSize: '3rem',
+                fontWeight: 'bold',
+                color: '#4a4a4a',
+                lineHeight: '1.2',
+                margin: '0'
+              }}>Global Expertise Guiding Our Mission</h2>
+            </div>
+
+            <Swiper {...swiperOptions} className="volunteer-carousel-style owl-carousel owl-theme carousel-dot-style">
+              {internationalExperts.map((expert) => (
+                <SwiperSlide key={expert.id}>
+                  <div className="item">
+                    <div className="team-one__single">
+                      <div className="team-one__img-box">
+                        <div className="team-one__img">
+                          <img src={expert.image} alt={expert.name} />
+                        </div>
+                      </div>
+                      <div className="team-one__content">
+                        <div className="team-one__name-box">
+                          <h4 className="team-one__name">
+                            <div
+                              onClick={() => handleMemberClick(expert)}
+                              style={{ cursor: 'pointer' }}
+                            >
+                              {expert.name}
+                            </div>
+                          </h4>
+                          <p className="team-one__sub-title">{expert.shortDescription}</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </div>
+        </section>
+        {/*Volunteer Carousel Page End - International Experts*/}
 
         {/*Who We Are Start */}
         <section className='who-we-are' style={{ paddingBottom: '5rem', paddingTop: '5rem' }}>
@@ -760,8 +757,10 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
 
         {/*Volunteer Carousel Page Start - Core Staff*/}
         <section className="volunteer-carousel-page" style={{
-          backgroundColor: '#f1f0ec', marginBottom: '8rem', paddingBottom: '6rem'
-          , paddingTop: '5rem'
+          backgroundColor: '#ffff', 
+         
+          paddingBottom: '6rem',
+          paddingTop: '5rem'
         }}>
           <div className="container">
             {/* Header Section */}
@@ -808,17 +807,6 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
                           </h4>
                           <p className="team-one__sub-title">{member.shortDescription}</p>
                         </div>
-                        {/* <div className="team-one__share-and-social">
-                                            <div className="team-one__social">
-                                                <Link href="volunteer-details"><span className="icon-facebook"></span></Link>
-                                                <Link href="volunteer-details"><span className="icon-instagram"></span></Link>
-                                                <Link href="volunteer-details"><span className="icon-twitter"></span></Link>
-                                                <Link href="volunteer-details"><span className="icon-link-in"></span></Link>
-                                            </div>
-                                            <div className="team-one__share">
-                                                <Link href="volunteer-details"><span className="icon-share"></span></Link>
-                                            </div>
-                                        </div> */}
                       </div>
                     </div>
                   </div>
