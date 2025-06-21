@@ -41,6 +41,8 @@ export default function Home() {
                                             <p><span className="icon-clock"></span>13th April, 2025</p>
                                         </div>
                                     </div>
+
+                                   
                                     <div className="event-one__content">
                                         <h4 className="event-one__title"><Link href="#">CPCS Interaction Program</Link></h4>
                                         <p className="event-one__text">Interaction with CPCS and NTTP-I featuring peace practitioners from South Asia.</p>

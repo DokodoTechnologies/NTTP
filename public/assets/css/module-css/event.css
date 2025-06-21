@@ -78,7 +78,7 @@
 .event-one__img img {
     width: 100%;
     border-radius: var(--anity-bdr-radius);
-    filter: grayscale(1);
+    /* filter: grayscale(1); */
 }
 
 .event-one__date {
