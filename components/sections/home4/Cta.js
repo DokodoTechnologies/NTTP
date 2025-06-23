@@ -26,7 +26,7 @@ const lateMembers = [
   }
 ]
 
-export default function LateMembersCarousel() {
+export default function Cta() {
   const [isOpen, setIsOpen] = useState(false)
   const [selectedMember, setSelectedMember] = useState(null)
 
