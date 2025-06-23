@@ -91,9 +91,9 @@ export default function Home() {
       id: 'malik',
       name: 'Mr.Vidyadhar Malik',
       shortDescription:
-        'a former Minister, is one of the NTTP facilitators and Executive Committee Member and is Chairperson. With a former ...',
+        'is Chairperson and a former Minister, is one of the NTTP facilitators and Executive Committee Member . With a former ...',
       image: 'assets/images/about/malik.png',
-      fullDescription: `Mr. Vidyadhar Mallik a former Minister, is one of the NTTP facilitators and Executive Committee Member and is Chairperson. With a former career in in civil service and governance, he played a significant role in negotiating with the CPN-Maoist and later, holding the Constituent Assembly election as a Minister in the Election Government formed under the Chairmanship of Chief Justice Khilaraj Regmi in 2013. Also a former advisor to the President, his civil service stints included Peace Secretary and Secretary at the Ministry of Finance.`,
+      fullDescription: `Mr. Vidyadhar Mallik is Chairperson and a former Minister, is one of the NTTP facilitators and Executive Committee Member and is Chairperson. With a former career in in civil service and governance, he played a significant role in negotiating with the CPN-Maoist and later, holding the Constituent Assembly election as a Minister in the Election Government formed under the Chairmanship of Chief Justice Khilaraj Regmi in 2013. Also a former advisor to the President, his civil service stints included Peace Secretary and Secretary at the Ministry of Finance.`,
     },
     {
       id: 'youba',
