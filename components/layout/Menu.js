@@ -246,7 +246,7 @@ export default function Menu() {
           </ul>
         </li> */}
         <li>
-          <Link href='/'>Research</Link>
+          <Link href='/testimonials'>Research</Link>
         </li>
       </ul>
     </>
