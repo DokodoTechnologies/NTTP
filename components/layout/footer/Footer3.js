@@ -30,7 +30,7 @@ export default function Footer3() {
                     </p>
                     <div className='footer-widget-two__btn-box'>
                       <Link
-                        href='/'
+                        href='/contact'
                         className='footer-widget-two__btn thm-btn'
                       >
                         Contact Now
@@ -46,18 +46,18 @@ export default function Footer3() {
                   data-wow-delay='200ms'
                 >
                   <div className='footer-widget-two__services'>
-                    <h4 className='footer-widget-two__title'>Donors</h4>
+                    <h4 className='footer-widget-two__title'>Supporters</h4>
                     <ul className='footer-widget-two__services-list list-unstyled'>
                       <li>
-                        <Link href='about'>UNDP Nepal</Link>
+                        <Link href='/volunteer'>UNDP Nepal</Link>
                       </li>
                       <li>
-                        <Link href='about'>
+                        <Link href='/volunteer'>
                           US Agency for International Development/Nepal
                         </Link>
                       </li>
                       <li>
-                        <Link href='about'>
+                        <Link href='/volunteer'>
                           Embassy of Switzerland in Nepal
                         </Link>
                       </li>
@@ -72,17 +72,18 @@ export default function Footer3() {
                     <h4 className='footer-widget-two__title'>Links</h4>
                     <ul className='footer-widget-two__services-list list-unstyled'>
                       <li>
-                        <Link href='about'>Food to individuals</Link>
+                        <Link href='/project-details'>Political Dialogue</Link>
                       </li>
                       <li>
-                        <Link href='about'>Temporary housing</Link>
+                        <Link href='/project-details'>Community Empowerment</Link>
                       </li>
                       <li>
-                        <Link href='about'>Local shelters</Link>
+                        <Link href='/project-details'>Inclusive Peace</Link>
                       </li>
                       <li>
-                        <Link href='about'>Natural disasters</Link>
+                        <Link href='/project-details'>Local Conflict Work</Link>
                       </li>
+
                     </ul>
                   </div>
                 </div>
