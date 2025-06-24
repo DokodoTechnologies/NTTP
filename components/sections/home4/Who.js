@@ -92,7 +92,7 @@ export default function Who() {
                 {/* </div> */}
                 <div className='who-we-are__btn-box'>
                   <Link
-                    href='/'
+                    href='/testimonials'
                     className='who-we-are__btn thm-btn'
                   >
                     See More
