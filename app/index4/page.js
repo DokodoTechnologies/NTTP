@@ -7,8 +7,7 @@ import Mission from "@/components/sections/home4/Mission";
 import Donation from "@/components/sections/home4/Donation";
 import Who from "@/components/sections/home4/Who";
 import Country from "@/components/sections/home4/Country";
-import LateMembersCarousel from "@/components/sections/home4/Cta";
-import Cta from "@/components/sections/home4/Cta";
+
 export default function Home() {
   return (
     <>
