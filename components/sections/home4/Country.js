@@ -13,7 +13,7 @@ const lateMembers = [
     name: 'Late Mr. Daman Nath Dhungana',
     shortDescription:
       'was a senior NTTP facilitator, Executive Committee Member and former Chairperson at NTTP-I.',
-    image: 'assets/images/about/daman.png',
+    image: 'assets/images/about/daman.jpg',
     fullDescription: `Late Daman Nath Dhungana was a senior NTTP facilitator, Executive Committee Member and former Chairperson at NTTP-I. He served as the Speaker of the House after restoration of parliamentary democracy in 1990 and was asked to facilitate official peace talks between the government and the Maoists in 2001 and 2003. He is a senior advocate and a human rights defender who has continuously engaged with Nepal's peace process as an insider for the last 18 years. He is renowned for advocacy of democratic process and constitutionalism.`
   },
   {
