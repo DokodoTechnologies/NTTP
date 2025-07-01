@@ -55,6 +55,7 @@ const swiperOptions = {
 export default function Home() {
   const [activeIndex, setActiveIndex] = useState(1);
   const [selectedMember, setSelectedMember] = useState(null); // State for the popup
+  const [openModal, setOpenModal] = useState(null); // State for modals
 
   const handleOnClick = (index) => {
     setActiveIndex(index);
@@ -66,18 +67,47 @@ export default function Home() {
 
   const handleClosePopup = () => {
     setSelectedMember(null);
-
-
-
   };
+
+  
+  // Define handleOpen and handleClose
+  const handleOpen = (modalId) => setOpenModal(modalId);
+  const handleClose = () => setOpenModal(null);
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
+const openPopup = () => setIsModalOpen(true);
+const closePopup = () => setIsModalOpen(false);
+
+  // Modal content
+  const shortText1 = `(NTTP-I) is a peace research institute founded upon the history of decade-long engagement in Nepal's political transition as a credible and Track 1.5 peace process for mediation, facilitation, and dialogue among the political parties of Nepal since 2005. thaw stalemates and promote peaceful engagement among the political parties even in critical times in a low key and trusted setting.`;
+
+  const fullText1 = `Nepal Transition to Peace Institute (NTTP-I) is a peace research institute founded upon the history of decade-long engagement in Nepal's political transition as a credible and Track 1.5 peace process for mediation, facilitation, and dialogue among the political parties of Nepal since 2005.
+
+As a trusted forum for informal dialogues among the political parties, NTTP Forum has been functioning to resolve political standoffs, thaw stalemates and promote peaceful engagement among the political parties even in critical times in a low key and trusted setting.
+
+NTTP-I has the capacity for local, sub-national, national, and regional dialogue process design and facilitation. Dialogues are supported by evidences generated from quality researches and analyses conducted by NTTP Peace Research Units as well as independent experts. Our research spans the issues concerning peace and conflict in Nepal with the mission to prevent and transform conflict.
+
+Envisioning a wider role in Nepal's conflict transformation processes as a peace institute, NTTP Institute conducts evidence-based, non-partial and informal dialogues at the NTTP Forum. In addition to the NTTP Forum, NTTP-I conducts dialogues at thematic level of five thematic groups: NTTP Young Political Leaders Group, NTTP Women Group, NTTP Madhesh Group, NTTP Janajati Group and NTTP Dalit Group.`;
+
+  const shortText2 = `Nepal Transition to Peace (NTTP) Initiative was implemented since August 2005 at the request of Nepali polity and with the support of USAID and the Swiss government. At the end of its first phase in 2009, the Ministry of Peace and Reconstruction and other stakeholders requested the USAID and the Swiss Government to continue to provide support to the peace building process.`;
+
+  const fullText2 = `Nepal Transition to Peace (NTTP) Initiative was implemented as an informal peace initiative supported by various partners and friends of Nepal. A peace support project to this aim was initiated in August 2005 at the request of Nepali stakeholders with the support of USAID and the Swiss government.
+
+At the end this project in 2009, the Ministry of Peace and Reconstruction and other stakeholders requested the USAID and the Swiss Government to continue to provide support to the peace building process. From 2009, The Asia Foundation (TAF) succeeded the Academy for Education and Development (AED) as the implementation partner for Nepal Peace Support Project (NPSP) until early 2015.
+
+With the institutionalization of the NTTP program, NTTP Institute (NTTP-I) has been implementing the NTTP processes independently from February 2015. NTTP-I is currently implementing the USAID-supported Inclusive Dialogue for Political Transition (IDPT, 2015-18) project and Supporting Inclusive Dialogues (SID, 2015-17) project supported by the Swiss government.
+
+Recognition, ownership and desire to carry on the legacy of the significant role played by the NTTP Forum in Nepal's political transition in the stakeholders led to the establishment of NTTP Institute in February 2015. The trusted convening ability of its senior facilitators, who were the official facilitators during the formal negotiations between the then governments and the CPN (Maoist) at the advent of the peace process, has enabled and entrusted the NTTP Forum to get recognition as a core institution for high level political dialogues aimed at conflict resolution and peace building.`;
+
+
   const committeeMembers = [
     {
       id: 'stella',
       name: 'Ms.Stella Tamang',
       shortDescription:
-        'is immediate past-chairperson at NTTP-I. She is the Founding Chair and currently Advisor of the National Indigenous...',
+        'is immediate-past chairperson at NTTP-I. She is the Founding Chair and currently Advisor of the National...',
       image: 'assets/images/about/stella.png',
-      fullDescription: `Mrs. Stella Tamang is immediate past-chairperson at NTTP-I. She is the Founding Chair and currently Advisor of the National Indigenous Women Federation of Nepal (NIWF). She is also the convener and Chairperson of the South Asia Indigenous Women Forum. An educationist by profession, Ms. Tamang has received numerous awards including the Presidential Award for Education and ASHOKA Fellowship for her innovative work for social change through Bikalpa Gyan Tatha Bikas Kendra. Committed to advancing the rights of women, indigenous peoples, and religious minorities, Ms. Tamang coordinates the NTTP Women Group.`,
+      fullDescription: `Mrs. Stella Tamang is immediate-past chairperson at NTTP-I. She is the Founding Chair and currently Advisor of the National Indigenous Women Federation of Nepal (NIWF). She is also the convener and Chairperson of the South Asia Indigenous Women Forum. An educationist by profession, Ms. Tamang has received numerous awards including the Presidential Award for Education and ASHOKA Fellowship for her innovative work for social change through Bikalpa Gyan Tatha Bikas Kendra.Committed to advancing the rights of women, indigenous peoples, and religious minorities, Ms. Tamang coordinates the NTTP Women Group.`,
     },
     {
       id: 'sagar',
@@ -85,39 +115,32 @@ export default function Home() {
       shortDescription:
         'Is treasurer of NTTP Institute. He has worked for The Asia Foundation for more than 12 years includi...',
       image: 'assets/images/about/sagar.png',
-      fullDescription: `Mr. Sagar Prasai Is treasurer of NTTP Institute. He has worked for The Asia Foundation for more than 12 years including four-and-half years in the capacity of country representative in India. He has worked for UNDP as District Development Adviser for two years before studying Masters’ Degree in Urban Planning from University of Hawaii in USA and obtaining Doctor of Philosophy (PhD) Degree in Regional Planning from University of Illinois is USA. He holds Bachelor of Architecture Degree from Visvervaraya National Institute of Technology.`,
+      fullDescription: `Mr. Sagar Prasai Is treasurer of NTTP Institute. He has worked for The Asia Foundation for more than 12 years including four-and-half years in the capacity of country representative in India.  He has worked for UNDP as District Development Adviser for two years before studying Masters’ Degree in Urban Planning from University of Hawaii in USA and obtaining Doctor of Philosophy (PhD) Degree in Regional Planning from University of Illinois is USA. `,
     },
     {
       id: 'malik',
       name: 'Mr.Vidyadhar Malik',
       shortDescription:
-        'is Chairperson and a former Minister, is one of the NTTP facilitators and Executive Committee Member . With a former ...',
+        'a former Minister, is one of the NTTP facilitators and Executive Committee Member and Chairperson at NTTP-I. ...',
       image: 'assets/images/about/malik.jpg',
-      fullDescription: `Mr. Vidyadhar Mallik is Chairperson and a former Minister, is one of the NTTP facilitators and Executive Committee Member and is Chairperson. With a former career in in civil service and governance, he played a significant role in negotiating with the CPN-Maoist and later, holding the Constituent Assembly election as a Minister in the Election Government formed under the Chairmanship of Chief Justice Khilaraj Regmi in 2013. Also a former advisor to the President, his civil service stints included Peace Secretary and Secretary at the Ministry of Finance.`,
+      fullDescription: `Mr.Vidyadhar Malik a former Minister, is one of the NTTP facilitators and Executive Committee Member and Chairperson at NTTP-I. With a former career as Peace Secretary and with expertise in trusted peace dialogue, conflict resolution and governance, he played a significant role in negotiating with the CPN-Maoist and later, holding the Constituent Assembly election as a Minister in the Election Government formed under the Chairmanship of Chief Justice Khilaraj Regmi in 2013. As a minister, he led negotiations with political parties and rebel groups for their active participation in Constituent Assembly-II election. Also a former advisor to the President, his civil service stints included Education Secretary and Finance Secretary. `,
     },
     {
       id: 'youba',
       name: 'Mr.Youba Raj Acharya',
       shortDescription:
-        'is General Secretary of NTTP-I. He has more than 19 years of professional experience in the field of media, political analysis,...',
+        'is General Secretary at NTTP-I.  He has more than 19 years of professional experience in the field of professional experience in the field of media,...',
       image: 'assets/images/about/youba.png',
-      fullDescription: `Mr. Youba Raj Acharya is General Secretary of NTTP-I. He has more than 19 years of professional experience in the field of media, political analysis, peacebuilding, conflict transformation and electoral affairs. He has worked for 8 years in UN carrying out various responsibilities related to conflict prevention,peace building, political analysis and political coordination and dialogue facilitation. He has worked extensively for rolling out UNDP’s Conflict Prevention Programme in all five development regions of Nepal and headed western regional office of and Social Cohesion and Democratic Participation Program in Pokhara as Regional Dialogue Coordinator for two years. His experience includes Coordination and Liaison Officer with Peacebuilding and Recovery Unit, Political Affairs Officer with UNMIN and media and outreach consultant with UNDP’s SKILLS Program. Before joining the UN, Mr Acharya was a journalist with Republica English Daily, The Kathmandu Post, Associated Press, Times of India and Space Time Today for nearly a decade. He has also worked as district focal person for Election Commission of Nepal in Khotang and Rasuwa during 1994 and 1997 elections, and has taught Political Science in Modern Indian School. He holds Master’s Degree in Political Science from TU and MPhil in English from Pokhara University.`,
+      fullDescription: `Mr. Youba Raj Acharya is General Secretary at NTTP-I.  He has more than 19 years of professional experience in the field of media, political analysis, peacebuilding, conflict transformation and electoral affairs. He has worked for 8 years in UN carrying out various responsibilities related to conflict prevention, peace building, political analysis and political coordination and dialogue facilitation. His experience includes Coordination and Liaison Officer with Peacebuilding and Recovery Unit, Political
+Affairs Officer with UNMIN and media and outreach consultant with UNDP’s SKILLS Program. Before joining the UN, Mr Acharya was a journalist with leading media organizations.`,
     },
-    // {
-    //   id: 'daman',
-    //   name: 'Late Mr.Daman Nath Dhungana',
-    //   shortDescription:
-    //     'was a senior NTTP facilitator, Executive Committee Member and former Chairperson at NTTP-I.. ',
-    //   image: 'assets/images/about/daman.png',
-    //   fullDescription: `Late Daman Nath Dhungana was a senior NTTP facilitator, Executive Committee Member and former Chairperson at NTTP-I. He served as the Speaker of the House after restoration of parliamentary democracy in 1990 and was asked to facilitate official peace talks between the government and the Maoists in 2001 and 2003. He is a senior advocate and a human rights defender who has continuously engaged with Nepal’s peace process as an insider for the last 18 years. He is renowned for advocacy of democratic process and constitutionalism.`,
-    // },
     {
       id: 'birendra',
       name: 'Mr.Birendra P Mishra',
       shortDescription:
         'is an eminent member of Nepal\'s civil society and a regular contributor of opinion pieces in major n...',
       image: 'assets/images/about/birendra.png',
-      fullDescription: `Mr. Birendra P. Mishra is an eminent member of Nepal’s civil society and a regular contributor of opinion pieces in major national dailies. After two decades of experience as a Professor of Philosophy in Tribhuvan University, he was appointed as Commissioner of the Election Commission, Nepal (1994-2000) where he oversaw two parliamentary elections. He also briefly served as the Coordinator of the National Monitoring Committee on Code of Conduct for Ceasefire (NMCC)formed to monitor the ceasefire arrangements between the Government of Nepal and the Maoists until the Comprehensive Peace Accord (CPA) was signed in November, 2006.`,
+      fullDescription: `Mr. Birendra P. Mishra is an eminent member of Nepal’s civil society and a regular contributor of opinion pieces in major national dailies. After two decades of experience as a Professor of Philosophy in Tribhuvan University, he was appointed as Commissioner of the Election Commission, Nepal (1994-2000) where he oversaw two parliamentary elections. He also served as the Coordinator of the National Monitoring Committee on Code of Conduct for Ceasefire (NMCC)formed to monitor the ceasefire arrangements between the Government of Nepal and the Maoists until the Comprehensive Peace Accord (CPA) was signed in November, 2006. Currently, Dr. Mishra is one of the core facilitators in NTTP Forum meetings and dialogues related to constitutional reforms and electoral system reforms. `,
     },
     {
       id: 'sajana',
@@ -125,7 +148,7 @@ export default function Home() {
       shortDescription:
         'is one of the founding members of NTTP-I and is currently one of the members of executive committee ...',
       image: 'assets/images/about/sajana.png',
-      fullDescription: `Ms. Sajana Maharjan is one of the founding members of NTTP-I and is currently one of the members of executive committee of NTTP-I. She had served NTTP-I in the capacity of Executive Director until April 30, 2016 and is currently the Deputy Chief of Party for FHI 360 implemented USAID’s Civil Society: Mutual Accountability Project (CS:MAP). She has extensive experiences working with civil society groups, political actors, government officials, media and women both at national and sub-national levels. She also has more than ten years of experience working in various sectors of peace and governance. She holds a Bachelor’s degree in Science and in Law (International Law and Human Rights Law), and an M.A. in Sociology from Tribhuvan University, Nepal. She is trained on Negotiation Approaches and Skills in Protracted Conflict at Kroc Institute for International Peace Studies, University of Notre Dame, Indiana, USA, April 2013 and had done a summer course on peace and human rights studies from South Asia Forum for Human Rights (SAFHR) in 2006.`,
+      fullDescription: `Ms. Sajana Maharjan is one of the founding members of NTTP-I and is currently one of the members of executive committee of NTTP-I. She has served NTTP-I in the capacity of Executive Director until April 30, 2016. She has served as the Deputy Chief of Party for FHI360 implemented USAID Civil Society Mutual Accountability Project (CS:MAP). She has extensive experiences working with civil society groups, political actors, government officials, media and women both at national and sub-national levels. She has extensive experience of working in various sectors of peace and governance. `,
     },
     {
       id: 'nitika',
@@ -133,7 +156,7 @@ export default function Home() {
       shortDescription:
         'is one of the executive board members of the NTTP-I. Ms. Dhungana is an advocate at the Supreme Court...',
       image: 'assets/images/about/Nitika.png', // Placeholder, ensure image exists
-      fullDescription: `Ms. Nitika Dhungana is one of the executive board members of the NTTP-I. Ms. Dhungana is an advocate at the Supreme Court Bar Association of Nepal and social activist committed to empowering women and underserved communities. She champions women’s leadership and economic participation. She is also involved in various national and international initiatives promoting legal literacy, social justice, and community development. Through her work, Ms. Dhungana continues to inspire young leaders and contribute meaningfully to Nepal’s social transformation.`,
+      fullDescription: `Ms. Nitika Dhungana  is one of the executive board members of the NTTP-I. Ms. Dhungana is an advocate at the Supreme Court Bar Association of Nepal and social activist committed to empowering women and underserved communities. She champions women’s leadership and economic participation. She is also involved in various national and international initiatives promoting legal literacy, social justice, and community development. Through her work, Ms. Dhungana continues to inspire young leaders and contribute meaningfully to Nepal’s social transformation.`,
     },
     {
       id: 'tseten',
@@ -141,7 +164,7 @@ export default function Home() {
       shortDescription:
         'is one of the members of the Executive Board of the NTTP-I. She is a renowned Nepali general surgeon...',
       image: 'assets/images/about/tseten.png', // Placeholder, ensure image exists
-      fullDescription: `Dr. Tseten Yonjen Tamang is one of the members of the Executive Board of the NTTP-I. She is a renowned Nepali general surgeon specializing in hepatobiliary and liver transplant surgery. Alongside her medical career, she is deeply committed to social transformation through her work in girls’ education, women’s skill development, and peace-building. A strong advocate for inclusive development, she actively promotes access to health and education for marginalized communities. Dr. Tamang also contributes to sustainable development initiatives and empowers women through training and leadership programs. Her dedication to both medical excellence and social justice has made her a respected figure in Nepal’s health and development sectors.`,
+      fullDescription: `Dr. Tseten Yonjen Tamang  is one of the members of the Executive Board of the NTTP-I. She is a renowned Nepali general surgeon specializing in hepatobiliary and liver transplant surgery. Alongside her medical career, she is deeply committed to social transformation through her work in girls’ education, women’s skill development, and peace-building. A strong advocate for inclusive development, she actively promotes access to health and education for marginalized communities.`,
     },
     // {
     //   id: 'padma',
@@ -394,7 +417,7 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
                           }
                           onClick={() => handleOnClick(3)}
                         >
-                          <span>Our Goal</span>
+                          <span>Our Values</span>
                         </li>
                       </ul>
                       <div className='tabs-content'>
@@ -408,8 +431,7 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
                         >
                           <div className='tabs-content__inner'>
                             <p>
-                              To become a trusted and credible institute to
-                              prevent and transform conflict.
+                              To become a trusted and credible institute to prevent and transform conflict through inclusive dialogues and high quality resources. 
                             </p>
                           </div>
                         </div>
@@ -424,10 +446,7 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
                         >
                           <div className='tabs-content__inner'>
                             <p>
-                              Social and political exclusion gradually
-                              eliminated in Nepal and South Asia, paving way for
-                              peaceful coexistence, good governance and economic
-                              prosperity.
+                              Address root causes of conflict in the country through promotion of dialogue at different layers as a tool for mitigating social, political and economic injustices; and promote inclusive democracy, peaceful coexistence with dignity for all citizens and good governance. 
                             </p>
                           </div>
                         </div>
@@ -442,11 +461,7 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
                         >
                           <div className='tabs-content__inner'>
                             <p>
-                              To actively reduce social and political exclusion
-                              by promoting peacebuilding, inclusive governance,
-                              and sustainable development through trusted
-                              conflict prevention and transformation practices
-                              across Nepal and South Asia.
+                              NTTP highly values the legacy and contributions of the two legendary founding facilitators (Late D. N. Dhungana, and Late P. R. Tuladhar) and the capacity of present facilitators. NTTP-I aims to integrate their philosophy and principles into the values of the institute.
                             </p>
                           </div>
                         </div>
@@ -488,10 +503,10 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
 
 
         {/*Volunteer Carousel Page Start - Executive Committee*/}
-         {/* backgroundColor: '#e8f1f5', marginBottom: '8rem', paddingBottom: '6rem', paddingTop: '5rem' */}
+        {/* backgroundColor: '#e8f1f5', marginBottom: '8rem', paddingBottom: '6rem', paddingTop: '5rem' */}
         <section className="volunteer-carousel-page" style={{
           backgroundColor: '#f1f0ec', paddingBottom: '6rem'
-          , paddingTop: '5rem',marginBottom: '8rem'
+          , paddingTop: '5rem', marginBottom: '8rem'
         }}>
           <div className="container">
             {/* Header Section */}
@@ -549,15 +564,17 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
           </div>
         </section>
         {/*Volunteer Carousel Page End - Executive Committee*/}
-        
-      
+
+
 
 
 
         {/*detail One Start */}
+        {/* Section Start */}
         <section className='donate-one'>
           <div className='container'>
             <div className='row'>
+              {/* First Box */}
               <div
                 className='col-xl-6 col-lg-6 wow slideInLeft'
                 data-wow-delay='100ms'
@@ -566,33 +583,21 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
                 <div className='donate-one__single'>
                   <div
                     className='donate-one__single-bg'
-                    style={{
-                      backgroundImage:
-                        " url(assets/images/about/flag.jpg)",
-                    }}
+                    style={{ backgroundImage: 'url(assets/images/about/flag.jpg)' }}
                   ></div>
                   <h3 className='donate-one__title'>
-                    <Link href='donation-details'>Neapal Transition To Peace</Link>
+                    <Link href='donation-details'>Nepal Transition To Peace</Link>
                   </h3>
-                  <p className='donate-one__text'>
-                    (NTTP-I) is a peace research institute founded upon the history of decade-long engagement in Nepal’s political transition as a credible and Track 1.5 peace process for mediation, facilitation, and dialogue among the political parties of Nepal since 2005.
-                    thaw stalemates and promote peaceful engagement among the political parties even in critical times in a low key and trusted setting.
-                    <br />
-                    <br />
-                  </p>
+                  <p className='donate-one__text'>{shortText1}</p>
                   <div className='donate-one__btn-box'>
-                    <Link
-                      href='/'
-                      className='donate-one__btn thm-btn'
-                    >
-                      Read more
-                      <span>
-                        <i className='icon-arrow-right'></i>
-                      </span>
-                    </Link>
+                    <button onClick={() => handleOpen('modal1')} className='donate-one__btn thm-btn'>
+                      Read more <span><i className='icon-arrow-right'></i></span>
+                    </button>
                   </div>
                 </div>
               </div>
+
+              {/* Second Box */}
               <div
                 className='col-xl-6 col-lg-6 wow slideInRight'
                 data-wow-delay='100ms'
@@ -601,40 +606,83 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
                 <div className='donate-one__single donate-one__single-2'>
                   <div
                     className='donate-one__single-bg'
-                    style={{
-                      backgroundImage:
-                        " url(assets/images/about/history.jpg)",
-                    }}
+                    style={{ backgroundImage: 'url(assets/images/about/history.jpg)' }}
                   ></div>
                   <h3 className='donate-one__title'>
-                    <Link href='become-volunteer'>
-                      Our History
-                    </Link>
+                    <Link href='become-volunteer'>Our History</Link>
                   </h3>
-                  <p className='donate-one__text'>
-                    Nepal Transition to Peace (NTTP) Initiative was implemented since August 2005 at the request of Nepali polity and with the support of USAID and the Swiss government. At the end of its first phase in 2009, the Ministry of Peace and Reconstruction and other stakeholders requested the USAID and the Swiss Government to continue to provide support to the peace building process.
-                    <br />
-                    <br />
-                  </p>
+                  <p className='donate-one__text'>{shortText2}</p>
                   <div className='donate-one__btn-box'>
-                    <Link
-                      href='/'
-                      className='donate-one__btn thm-btn'
-                    >
-                      Read
-                      <span>
-                        <i className='icon-arrow-right'></i>
-                      </span>
-                    </Link>
+                    <button onClick={() => handleOpen('modal2')} className='donate-one__btn thm-btn'>
+                      Read more <span><i className='icon-arrow-right'></i></span>
+                    </button>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
+
+        {/* Modal 1 */}
+        {openModal === 'modal1' && (
+          <div className='modal-overlay' onClick={handleClose}>
+            <div className='modal-content' onClick={(e) => e.stopPropagation()}>
+              <button className='close-btn' onClick={handleClose}>&times;</button>
+              <h4>About NTTP Institute</h4>
+              <p style={{ whiteSpace: 'pre-line' }}>{fullText1}</p>
+            </div>
+          </div>
+        )}
+
+        {/* Modal 2 */}
+        {openModal === 'modal2' && (
+          <div className='modal-overlay' onClick={handleClose}>
+            <div className='modal-content' onClick={(e) => e.stopPropagation()}>
+              <button className='close-btn' onClick={handleClose}>&times;</button>
+              <h4>Our History</h4>
+              <p style={{ whiteSpace: 'pre-line' }}>{fullText2}</p>
+            </div>
+          </div>
+        )}
+
+        {/* Styles */}
+        <style jsx>{`
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+  }
+  .modal-content {
+    background: #fff;
+    padding: 2rem;
+    max-width: 700px;
+    width: 90%;
+    border-radius: 10px;
+    position: relative;
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+  .close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+`}</style>
+
         {/*detail One End */}
 
-          {/*Volunteer Carousel Page Start - International Experts*/}
+        {/*Volunteer Carousel Page Start - International Experts*/}
         <section className="volunteer-carousel-page" style={{ backgroundColor: '#e8f1f5', paddingBottom: '6rem', paddingTop: '5rem' }}>
           <div className="container">
             <div className="section-header" style={{ textAlign: 'left', marginBottom: '3rem' }}>
@@ -687,78 +735,124 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
         </section>
         {/*Volunteer Carousel Page End - International Experts*/}
 
-        {/*Who We Are Start */}
-        <section className='who-we-are' style={{ paddingBottom: '5rem', paddingTop: '5rem' }}>
-          <div className='who-we-are__shape-3 float-bob-y'>
-            <img src='assets/images/shapes/who-we-are-shape-3.png' alt='' />
-          </div>
-          <div className='who-we-are__shape-4 float-bob-x'>
-            <img src='assets/images/shapes/who-we-are-shape-4.png' alt='' />
-          </div>
-          <div className='container'>
-            <div className='row'>
-              <div className='col-xl-6 wow fadeInLeft' data-wow-delay='300ms'>
-                <div className='who-we-are__left'>
-                  <div className='section-title text-left sec-title-animation animation-style2'>
-                    <div className='section-title__tagline-box'>
-                      <span className='section-title__tagline'>Who We Are</span>
-                    </div>
-                    <h2 className='section-title__title title-animation'>
-                      A Trusted Peace Dialogue Platform
-                    </h2>
-                  </div>
-                  <p className='who-we-are__text'>
-                    The Nepal Transition to Peace Institute (NTTP-I) is a trusted peace research and dialogue institute dedicated to fostering peaceful political engagement in Nepal. Since 2005, we have facilitated informal, evidence-based dialogues among political parties and diverse groups to resolve conflicts and support Nepal’s transition to peace. Through credible research and inclusive forums, we work to prevent and transform conflict at local, national, and regional levels.
-                  </p>
-                  <div className='who-we-are__progress-box'>
-
-                  </div>
-                  <div className='who-we-are__btn-box'>
-                    <Link
-                      href='/'
-                      className='who-we-are__btn thm-btn'
-                    >
-                      Read more
-                      <span>
-                        <i className='icon-arrow-right'></i>
-                      </span>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-              <div
-                className='col-xl-6 wow slideInRight'
-                data-wow-delay='100ms'
-                data-wow-duration='2500ms'
-              >
-                <div className='who-we-are__right'>
-                  <div className='who-we-are__img-box'>
-                    <div className='who-we-are__img'>
-                      <img
-                        src='assets/images/slider/banner_image_3.png'
-                        alt=''
-                      />
-                    </div>
-                    <div className='who-we-are__img-2'>
-                      <img
-                        src='assets/images/slider/banner_img_2.png'
-                        alt=''
-                      />
-                    </div>
-                    <div className='who-we-are__shape-1 img-bounce'></div>
-                    <div className='who-we-are__shape-2'></div>
-                  </div>
-                </div>
-              </div>
+        {/* Who We Are Start */}
+<section className='who-we-are' style={{ paddingBottom: '5rem', paddingTop: '5rem' }}>
+  <div className='who-we-are__shape-3 float-bob-y'>
+    <img src='assets/images/shapes/who-we-are-shape-3.png' alt='' />
+  </div>
+  <div className='who-we-are__shape-4 float-bob-x'>
+    <img src='assets/images/shapes/who-we-are-shape-4.png' alt='' />
+  </div>
+  <div className='container'>
+    <div className='row'>
+      <div className='col-xl-6 wow fadeInLeft' data-wow-delay='300ms'>
+        <div className='who-we-are__left'>
+          <div className='section-title text-left sec-title-animation animation-style2'>
+            <div className='section-title__tagline-box'>
+              <span className='section-title__tagline'>Who We Are</span>
             </div>
+            <h2 className='section-title__title title-animation'>
+              A Trusted Peace Dialogue Platform
+            </h2>
           </div>
-        </section>
+          <p className='who-we-are__text'>
+            The Nepal Transition to Peace Institute (NTTP-I) is a trusted peace research and dialogue institute dedicated to fostering peaceful political engagement in Nepal. Since 2005, we have facilitated informal, evidence-based dialogues among political parties and diverse groups to resolve conflicts and support Nepal’s transition to peace.
+          </p>
+          <div className='who-we-are__btn-box'>
+            <button onClick={openPopup} className='who-we-are__btn thm-btn'>
+              Read more <span><i className='icon-arrow-right'></i></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div className='col-xl-6 wow slideInRight' data-wow-delay='100ms' data-wow-duration='2500ms'>
+        <div className='who-we-are__right'>
+          <div className='who-we-are__img-box'>
+            <div className='who-we-are__img'>
+              <img src='assets/images/slider/banner_image_3.png' alt='' />
+            </div>
+            <div className='who-we-are__img-2'>
+              <img src='assets/images/slider/banner_img_2.png' alt='' />
+            </div>
+            <div className='who-we-are__shape-1 img-bounce'></div>
+            <div className='who-we-are__shape-2'></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{/* Who We Are End */}
+
+{/* Modal Popup */}
+{isModalOpen && (
+  <div className='modal-overlay' onClick={closePopup}>
+    <div className='modal-content' onClick={(e) => e.stopPropagation()}>
+      <button className='close-btn' onClick={closePopup}>&times;</button>
+      <h2>About NTTP-I</h2>
+      <p>
+        Nepal Transition to Peace Institute (NTTP-I) is a peace institute with trusted space for dialogue among multi-stakeholders for conflict resolution and specializes in research work to generate evidence-based and informed choices for peacebuilders in Nepal. It was founded as a peace initiative with supports from various friends of Nepal in 2005 when Maoist’s armed struggle was at peak and a negotiated peaceful settlement was sought by all stakeholders. It has a history of decade-long engagement in Nepal’s political transition as a credible track 1.5 dialogue - space for mediation, facilitation, and quiet deliberations (in a Chatham House setting) among the rebel groups and political forces of Nepal before this peace initiative was transformed into the Institute (NTTP-I) in 2015 through its charter.
+        <br /><br />
+        NTTP-I continues to run the forum for dialogue at national level, named NTTP Forum, which was initiated in 2005. This is a trusted forum for informal dialogues among the political forces and actively supports resolving political standoffs and constitutional stalemates while promoting peaceful engagement among the political parties in a quiet trusted setting.
+        <br /><br />
+        NTTP-I has the capacity to sense emerging conflicts and design processes for sub-national and national dialogues and facilitation to resolve such conflicts. It specializes in conflict sensitivity analyses, scenario building exercises and research activities to raise alarms and seek evidence-based choices to mitigate emerging conflicts at both national and sub-national levels. Dialogues are supported by evidence generated from quality research and analyses conducted by NTTP Peace Research Units as well as independent experts.
+        <br /><br />
+        In addition to the NTTP Forum, NTTP-I conducts dialogues at thematic level of five thematic groups: NTTP Young Political Leaders Group, NTTP Women Group, NTTP Madhesh Group, NTTP Janajati Group and NTTP Dalit Group.
+      </p>
+    </div>
+  </div>
+)}
+
+{/* Modal CSS */}
+<style jsx>{`
+  .modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    overflow-y: auto;
+    padding: 2rem;
+  }
+  .modal-content {
+    background: white;
+    padding: 2rem 2.5rem;
+    border-radius: 10px;
+    max-width: 900px;
+    width: 100%;
+    color: #333;
+    font-family: 'Georgia', serif;
+    position: relative;
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+  .close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  p {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+`}</style>
+
         {/*Who We Are End */}
 
         {/*Volunteer Carousel Page Start - Core Staff*/}
         <section className="volunteer-carousel-page" style={{
-          backgroundColor: '#ffff', 
-         
+          backgroundColor: '#ffff',
+
           paddingBottom: '6rem',
           paddingTop: '5rem'
         }}>

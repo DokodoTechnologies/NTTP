@@ -12,17 +12,21 @@ const lateMembers = [
     id: 'daman',
     name: 'Late Mr. Daman Nath Dhungana',
     shortDescription:
-      'was a senior NTTP facilitator, Executive Committee Member and former Chairperson at NTTP-I.',
+      'was a founding member of NTTP-I and served as a senior facilitator, Executive Committee Member, and former Chairperson of the organization. A respected.....',
     image: 'assets/images/about/daman.jpg',
-    fullDescription: `Late Daman Nath Dhungana was a senior NTTP facilitator, Executive Committee Member and former Chairperson at NTTP-I. He served as the Speaker of the House after restoration of parliamentary democracy in 1990 and was asked to facilitate official peace talks between the government and the Maoists in 2001 and 2003. He is a senior advocate and a human rights defender who has continuously engaged with Nepal's peace process as an insider for the last 18 years. He is renowned for advocacy of democratic process and constitutionalism.`
+    fullDescription: `Mr. Daman Nath Dhungana was a founding member of NTTP-I and served as a senior facilitator, Executive Committee Member, and former Chairperson of the organization. A respected senior advocate and prominent human rights defender, he played a pivotal role in Nepal’s peace process for nearly two decades.
+Following the restoration of parliamentary democracy in 1990, he served as the Speaker of the House of Representatives. In recognition of his integrity and commitment to dialogue, he was invited to facilitate official peace talks between the Government of Nepal and the Maoists in 2001 and 2003.
+Widely respected for his principled advocacy of democratic values, constitutionalism, and inclusive dialogue, Mr. Dhungana’s legacy continues to inspire efforts toward sustainable peace and democratic governance in Nepal.
+`
   },
   {
     id: 'padma',
     name: 'Late Padma Ratna Tuladhar',
     shortDescription:
-      'was a senior NTTP facilitator, Executive Committee Member and former Chairperson at NTTP-I.',
+      'was a founding member of NTTP-I and served as a senior facilitator and Executive Committee Member. A respected human rights defender, political leader, and mediator, he played a vital....',
     image: 'assets/images/about/padma.png',
-    fullDescription: `Late Padma Ratna Tuladhar (1940–2018) was a senior NTTP facilitator, Executive Committee Member and former Chairperson at NTTP-I. He was a distinguished Nepali politician, human rights defender, and advocate for indigenous rights. Elected to the Rastriya Panchayat in 1986, he boldly championed democracy from within the autocratic system. Following the 1990 democratic movement, he served as Minister for Labour and Health in the 1994 CPN-UML-led government. Tuladhar played a pivotal role in Nepal's peace process, facilitating dialogue between the government and Maoist rebels during the civil war. His unwavering commitment to justice and inclusion made him a revered figure in Nepal's democratic evolution.`
+    fullDescription: `Mr. Padma Ratna Tuladhar was a founding member of NTTP-I and served as a senior facilitator and Executive Committee Member. A respected human rights defender, political leader, and mediator, he played a vital role in Nepal’s peace process. He was invited by the Government of Nepal to facilitate official peace talks with the Maoists in 2001 and 2003. 
+Mr. Tuladhar also served as a minister in the Government of Nepal and was widely known for his commitment to peaceful political settlements and conflict resolution through negotiated dialogues, human rights, inclusivity, and democratic and fair rule. He is remembered for his unwavering struggle for human rights, linguistic and cultural rights, dignity and equality of all identities, especially those of minorities and marginalized groups like Janajatis, Dalits, and Madhesis. Mr. Tulahar’s legacy continues to inspire efforts toward sustainable peace and fair, inclusive democratic governance in Nepal.`
   }
 ];
 
