@@ -79,15 +79,9 @@ const openPopup = () => setIsModalOpen(true);
 const closePopup = () => setIsModalOpen(false);
 
   // Modal content
-  const shortText1 = `(NTTP-I) is a peace research institute founded upon the history of decade-long engagement in Nepal's political transition as a credible and Track 1.5 peace process for mediation, facilitation, and dialogue among the political parties of Nepal since 2005. thaw stalemates and promote peaceful engagement among the political parties even in critical times in a low key and trusted setting.`;
+  const shortText1 = `The root causes of conflict in Nepali society is related to deprivation of social and economic justice, inclusive democratic rule, lack of human rights and human dignity, lack of fair and good governance, and lack of equitable development. Trusted and inclusive dialogues help in finding agreeable solutions to these issues.Honest and efficient implementation of....  `;
 
-  const fullText1 = `Nepal Transition to Peace Institute (NTTP-I) is a peace research institute founded upon the history of decade-long engagement in Nepal's political transition as a credible and Track 1.5 peace process for mediation, facilitation, and dialogue among the political parties of Nepal since 2005.
-
-As a trusted forum for informal dialogues among the political parties, NTTP Forum has been functioning to resolve political standoffs, thaw stalemates and promote peaceful engagement among the political parties even in critical times in a low key and trusted setting.
-
-NTTP-I has the capacity for local, sub-national, national, and regional dialogue process design and facilitation. Dialogues are supported by evidences generated from quality researches and analyses conducted by NTTP Peace Research Units as well as independent experts. Our research spans the issues concerning peace and conflict in Nepal with the mission to prevent and transform conflict.
-
-Envisioning a wider role in Nepal's conflict transformation processes as a peace institute, NTTP Institute conducts evidence-based, non-partial and informal dialogues at the NTTP Forum. In addition to the NTTP Forum, NTTP-I conducts dialogues at thematic level of five thematic groups: NTTP Young Political Leaders Group, NTTP Women Group, NTTP Madhesh Group, NTTP Janajati Group and NTTP Dalit Group.`;
+  const fullText1 = `The root causes of conflict in Nepali society is related to deprivation of social and economic justice, inclusive democratic rule, lack of human rights and human dignity, lack of fair and good governance, and lack of equitable development. Trusted and inclusive dialogues help in finding agreeable solutions to these issues. Honest and efficient implementation of such agreed solutions help in eliminating social, political and economic exclusions paving for way to transform the society into peaceful, inclusive, democratic and prosperous federal republic, as Constitution of Nepal-2015 has charted the courses of the nation. `;
 
   const shortText2 = `Nepal Transition to Peace (NTTP) Initiative was implemented since August 2005 at the request of Nepali polity and with the support of USAID and the Swiss government. At the end of its first phase in 2009, the Ministry of Peace and Reconstruction and other stakeholders requested the USAID and the Swiss Government to continue to provide support to the peace building process.`;
 
