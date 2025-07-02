@@ -346,13 +346,13 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
                   <div className='about-One__img-box'>
                     <div className='about-One__img'>
                       <img
-                        src='assets/images/about/culture_nepal.jpg'
+                        src='assets/images/about/2.jpg'
                         alt=''
                       />
                     </div>
                     <div className='about-One__img-2'>
                       <img
-                        src='assets/images/about/together.jpg'
+                        src='assets/images/about/3.jpg'
                         alt=''
                       />
                     </div>
