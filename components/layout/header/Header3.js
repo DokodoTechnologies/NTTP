@@ -193,7 +193,7 @@ export default function Header1({ scroll, handlePopup, handleMobileMenu }) {
                                                     height: '50px',
                                                     width: 'auto',
                                                     maxWidth: '180px',
-                                                    transform: 'scale(1.6) translateX(-20px)', // scale AND move left
+                                                    transform: 'scale(1.4) translateX(-7px)', // scale AND move left
                                                     transformOrigin: 'left center'
                                                 }}
                                             />
@@ -244,7 +244,7 @@ export default function Header1({ scroll, handlePopup, handleMobileMenu }) {
                                                         height: '50px',
                                                         width: 'auto',
                                                         maxWidth: '180px',
-                                                        transform: 'scale(1.6) translateX(-20px)', // scale AND move left
+                                                        transform: 'scale(1.4) translateX(-7px)', // scale AND move left
                                                         transformOrigin: 'left center'
                                                     }}
                                                 />

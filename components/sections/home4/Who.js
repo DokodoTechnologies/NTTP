@@ -92,7 +92,7 @@ export default function Who() {
                 {/* </div> */}
                 <div className='who-we-are__btn-box'>
                   <Link
-                    href='/'
+                    href='/testimonials'
                     className='who-we-are__btn thm-btn'
                   >
                     See More
@@ -111,11 +111,11 @@ export default function Who() {
               <div className='who-we-are__right'>
                 <div className='who-we-are__img-box'>
                   <div className='who-we-are__img'>
-                    <img src='assets/images/nttp/nepali_kids.jpg' alt='' />
+                    <img src='assets/images/nttp/2.jpg' alt='' />
                   </div>
                   <div className='who-we-are__img-2'>
                     <img
-                      src='assets/images/shapes/who-we-are-img-2.jpg'
+                      src='assets/images/shapes/1.jpg'
                       alt=''
                     />
                   </div>
