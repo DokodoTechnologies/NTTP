@@ -19,6 +19,7 @@ export default function Home() {
         <Who />
         <Blog />
         <Country />
+        <Cta/>
       </Layout>
     </>
   );
