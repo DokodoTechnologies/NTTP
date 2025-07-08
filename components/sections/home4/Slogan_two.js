@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 
-export default function Slogan() {
+export default function Slogan_two() {
   return (
     <>
       {/*Slogan One Start */}
@@ -18,30 +18,24 @@ export default function Slogan() {
         <div className='container'>
           <div className='slogan-one__content text-center'>
             <div className='title-box'>
-              <h2>Message for Peace</h2>
+              <h2>Message from Chairman</h2>
             </div>
             <div className='text-box'>
               <p>
-                Let us create the social space that brings truth, mercy,
-                justice, and peace together within a conflicted group or
-                setting. Then energies are crystallized that create deeper
-                understanding and unexpected new paths, leading toward
-                restoration and reconciliation.
+                Namaskar ! <br />
+It gives me great pleasure to welcome you to the website of the Nepal Transition to Peace
+Institute (NTTP-I).
+                It gives me great pleasure to welcome you to the website of the Nepal Transition to Peace
+Institute (NTTP-I).
               </p>
             </div>
             <div className='btn-box'>
-              {/* <Link href='index4' className='thm-btn'>
-                Learn More
-                <span>
-                  <i className='icon-arrow-right'></i>
-                </span>
-              </Link> */}
-              {/* <Link href='index4' className='thm-btn'>
+              <Link href='index4' className='thm-btn'>
                 learn More
                 <span>
                   <i className='icon-arrow-right'></i>
                 </span>
-              </Link> */}
+              </Link>
             </div>
           </div>
         </div>

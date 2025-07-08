@@ -2531,7 +2531,7 @@ ul {
 # Edit All Css
 --------------------------------------------------------------*/
 .donate-one__btn {
-  color: var(--anity-white);
+  color: var(--anity-red);
   border: 1px solid var(--anity-white);
 }
 

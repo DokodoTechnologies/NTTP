@@ -2,7 +2,8 @@
 import Link from "next/link"
 import Layout from "@/components/layout/Layout"
 import { useState } from "react"
-import { Dialog } from '@headlessui/react'
+// import { Dialog } from '@headlessui/react'
+import {Dialog} from '@headlessui/react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import 'swiper/css/navigation'
