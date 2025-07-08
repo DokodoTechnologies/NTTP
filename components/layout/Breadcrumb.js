@@ -4,12 +4,12 @@ export default function Breadcrumb({ breadcrumbTitle }) {
         <>
          
         <section className="page-header">
-            <div className="page-header__shape-1 float-bob-y">
+            {/* <div className="page-header__shape-1 float-bob-y">
                 <img src="assets/images/shapes/page-header-shape-1.png" alt=""/>
             </div>
             <div className="page-header__shape-2 float-bob-x">
                 <img src="assets/images/shapes/page-header-shape-2.png" alt=""/>
-            </div>
+            </div> */}
             <div className="page-header__bg" style={{ backgroundImage: ' url(assets/images/slider/homepageimage1.jpg)' }} >
             </div>
             <div className="container">
@@ -25,8 +25,6 @@ export default function Breadcrumb({ breadcrumbTitle }) {
                 </div>
             </div>
         </section>
-      
-
         </>
     )
 }

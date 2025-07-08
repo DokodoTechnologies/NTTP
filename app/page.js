@@ -42,6 +42,7 @@ import Mission from "@/components/sections/home4/Mission";
 import Donation from "@/components/sections/home4/Donation";
 import Who from "@/components/sections/home4/Who";
 import Country from "@/components/sections/home4/Country";
+import Slogan_two from "@/components/sections/home4/Slogan_two";
 export default function Home() {
   return (
     <>
@@ -52,6 +53,7 @@ export default function Home() {
         <Mission />
         <Donation />
         <Who />
+        <Slogan_two/>
         <Country />
       </Layout>
     </>
