@@ -69,14 +69,14 @@ export default function Home() {
     setSelectedMember(null);
   };
 
-  
+
   // Define handleOpen and handleClose
   const handleOpen = (modalId) => setOpenModal(modalId);
   const handleClose = () => setOpenModal(null);
 
   const [isModalOpen, setIsModalOpen] = useState(false);
-const openPopup = () => setIsModalOpen(true);
-const closePopup = () => setIsModalOpen(false);
+  const openPopup = () => setIsModalOpen(true);
+  const closePopup = () => setIsModalOpen(false);
 
   // Modal content
   const shortText1 = `The root causes of conflict in Nepali society is related to deprivation of social and economic justice, inclusive democratic rule, lack of human rights and human dignity, lack of fair and good governance, and lack of equitable development. Trusted and inclusive dialogues help in finding agreeable solutions to these issues.Honest and efficient implementation of....  `;
@@ -246,14 +246,14 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
       image: 'assets/images/about/sarita.jpg', // Placeholder, ensure image exists
       fullDescription: `Ms. Sarita Giri is an Office Assistant at NTTP-I. She manages office equipment, sets up meeting venues, and maintains the vehicle and library logbooks, ensuring smooth day-to-day operations with efficiency and dedication.`,
     },
-    {
-      id: 'driver',
-      name: 'Mr. Office Vehicle Driver', // Changed name based on updated content
-      shortDescription:
-        'driver at NTTP-I. with more than 15 years of experience in driving four wheelers. He ....',
-      image: 'assets/images/about/driver.jpg', // Placeholder, ensure image exists
-      fullDescription: `Mr. Office Vehicle Driver at NTTP-I. with more than 15 years of experience in driving four wheelers. He associated with NTTP-I since 2025.`,
-    },
+    // {
+    //   id: 'driver',
+    //   name: 'Mr. Office Vehicle Driver', // Changed name based on updated content
+    //   shortDescription:
+    //     'driver at NTTP-I. with more than 15 years of experience in driving four wheelers. He ....',
+    //   image: 'assets/images/about/driver.jpg', // Placeholder, ensure image exists
+    //   fullDescription: `Mr. Office Vehicle Driver at NTTP-I. with more than 15 years of experience in driving four wheelers. He associated with NTTP-I since 2025.`,
+    // },
   ];
 
 
@@ -425,7 +425,7 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
                         >
                           <div className='tabs-content__inner'>
                             <p>
-                              To become a trusted and credible institute to prevent and transform conflict through inclusive dialogues and high quality resources. 
+                              To become a trusted and credible institute to prevent and transform conflict through inclusive dialogues and high quality resources.
                             </p>
                           </div>
                         </div>
@@ -440,7 +440,7 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
                         >
                           <div className='tabs-content__inner'>
                             <p>
-                              Address root causes of conflict in the country through promotion of dialogue at different layers as a tool for mitigating social, political and economic injustices; and promote inclusive democracy, peaceful coexistence with dignity for all citizens and good governance. 
+                              Address root causes of conflict in the country through promotion of dialogue at different layers as a tool for mitigating social, political and economic injustices; and promote inclusive democracy, peaceful coexistence with dignity for all citizens and good governance.
                             </p>
                           </div>
                         </div>
@@ -498,32 +498,65 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
 
         {/*Volunteer Carousel Page Start - Executive Committee*/}
         {/* backgroundColor: '#e8f1f5', marginBottom: '8rem', paddingBottom: '6rem', paddingTop: '5rem' */}
-        <section className="volunteer-carousel-page" style={{
-          backgroundColor: '#f1f0ec', paddingBottom: '6rem'
-          , paddingTop: '5rem', marginBottom: '8rem'
-        }}>
+        {/*Volunteer Carousel Page Start - Executive Committee*/}
+        <section
+          className="volunteer-carousel-page"
+          style={{
+            backgroundColor: '#f1f0ec',
+            paddingBottom: '6rem',
+            paddingTop: '5rem',
+            marginBottom: '8rem',
+          }}
+        >
           <div className="container">
             {/* Header Section */}
-            <div className="section-header" style={{ textAlign: 'left', marginBottom: '3rem' }}>
-              <p style={{
-                fontSize: '0.9rem',
-                color: '#5ba4d4',
-                fontWeight: '600',
-                letterSpacing: '2px',
-                textTransform: 'uppercase',
-                marginBottom: '0.5rem',
-                margin: '0 0 0.5rem 0'
-              }}>Our Executive Committe</p>
-              <h2 style={{
-                fontSize: '3rem',
-                fontWeight: 'bold',
-                color: '#4a4a4a',
-                lineHeight: '1.2',
-                margin: '0'
-              }}>Meet The Dedicated Leaders <br /></h2>
+            <div
+              className="section-header"
+              style={{ textAlign: 'left', marginBottom: '3rem' }}
+            >
+              <p
+                style={{
+                  fontSize: '0.9rem',
+                  color: '#5ba4d4',
+                  fontWeight: '600',
+                  letterSpacing: '2px',
+                  textTransform: 'uppercase',
+                  marginBottom: '0.5rem',
+                }}
+              >
+                Our Executive Committee
+              </p>
+              <h2
+                style={{
+                  fontSize: '3rem',
+                  fontWeight: 'bold',
+                  color: '#4a4a4a',
+                  lineHeight: '1.2',
+                  margin: '0',
+                }}
+              >
+                Meet The Dedicated Leaders <br />
+              </h2>
             </div>
 
-            <Swiper {...swiperOptions} className="volunteer-carousel-style owl-carousel owl-theme carousel-dot-style ">
+            {/* Swiper Carousel */}
+            <Swiper
+              modules={[Autoplay, Navigation]}
+              autoplay={{
+                delay: 3000,
+                disableOnInteraction: false,
+                reverseDirection: true,
+              }}
+              navigation={true}
+              loop={true}
+              spaceBetween={30}
+              slidesPerView={1}
+              breakpoints={{
+                768: { slidesPerView: 2 },
+                1024: { slidesPerView: 3 },
+              }}
+              className="volunteer-carousel-style owl-carousel owl-theme carousel-dot-style"
+            >
               {committeeMembers.map((member) => (
                 <SwiperSlide key={member.id}>
                   {/*Volunteer Page Single Start*/}
@@ -536,7 +569,6 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
                       </div>
                       <div className="team-one__content">
                         <div className="team-one__name-box">
-                          {/* Changed Link to a clickable div for popup trigger */}
                           <h4 className="team-one__name">
                             <div
                               onClick={() => handleMemberClick(member)}
@@ -545,7 +577,9 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
                               {member.name}
                             </div>
                           </h4>
-                          <p className="team-one__sub-title">{member.shortDescription}</p>
+                          <p className="team-one__sub-title">
+                            {member.shortDescription}
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -554,10 +588,10 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
                 </SwiperSlide>
               ))}
             </Swiper>
-
           </div>
         </section>
         {/*Volunteer Carousel Page End - Executive Committee*/}
+
 
 
 
@@ -676,28 +710,61 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
 
         {/*detail One End */}
 
-        {/*Volunteer Carousel Page Start - International Experts*/}
-        <section className="volunteer-carousel-page" style={{ backgroundColor: '#e8f1f5', paddingBottom: '6rem', paddingTop: '5rem' }}>
+        {/* Volunteer Carousel Page Start - International Experts */}
+        <section
+          className="volunteer-carousel-page"
+          style={{
+            backgroundColor: '#e8f1f5',
+            paddingBottom: '6rem',
+            paddingTop: '5rem',
+          }}
+        >
           <div className="container">
+            {/* Header */}
             <div className="section-header" style={{ textAlign: 'left', marginBottom: '3rem' }}>
-              <p style={{
-                fontSize: '0.9rem',
-                color: '#5ba4d4',
-                fontWeight: '600',
-                letterSpacing: '2px',
-                textTransform: 'uppercase',
-                marginBottom: '0.5rem'
-              }}>International Experts</p>
-              <h2 style={{
-                fontSize: '3rem',
-                fontWeight: 'bold',
-                color: '#4a4a4a',
-                lineHeight: '1.2',
-                margin: '0'
-              }}>Global Expertise Guiding Our Mission</h2>
+              <p
+                style={{
+                  fontSize: '0.9rem',
+                  color: '#5ba4d4',
+                  fontWeight: '600',
+                  letterSpacing: '2px',
+                  textTransform: 'uppercase',
+                  marginBottom: '0.5rem',
+                }}
+              >
+                International Experts
+              </p>
+              <h2
+                style={{
+                  fontSize: '3rem',
+                  fontWeight: 'bold',
+                  color: '#4a4a4a',
+                  lineHeight: '1.2',
+                  margin: '0',
+                }}
+              >
+                Global Expertise Guiding Our Mission
+              </h2>
             </div>
 
-            <Swiper {...swiperOptions} className="volunteer-carousel-style owl-carousel owl-theme carousel-dot-style">
+            {/* Swiper Carousel */}
+            <Swiper
+              modules={[Autoplay, Navigation]}
+              autoplay={{
+                delay: 3000,
+                disableOnInteraction: false,
+                reverseDirection: true,
+              }}
+              navigation={true}
+              loop={true}
+              spaceBetween={30}
+              slidesPerView={1}
+              breakpoints={{
+                768: { slidesPerView: 2 },
+                1024: { slidesPerView: 3 },
+              }}
+              className="volunteer-carousel-style owl-carousel owl-theme carousel-dot-style"
+            >
               {internationalExperts.map((expert) => (
                 <SwiperSlide key={expert.id}>
                   <div className="item">
@@ -727,78 +794,79 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
             </Swiper>
           </div>
         </section>
-        {/*Volunteer Carousel Page End - International Experts*/}
+        {/* Volunteer Carousel Page End - International Experts */}
+
 
         {/* Who We Are Start */}
-<section className='who-we-are' style={{ paddingBottom: '5rem', paddingTop: '5rem' }}>
-  <div className='who-we-are__shape-3 float-bob-y'>
-    <img src='assets/images/shapes/who-we-are-shape-3.png' alt='' />
-  </div>
-  <div className='who-we-are__shape-4 float-bob-x'>
-    <img src='assets/images/shapes/who-we-are-shape-4.png' alt='' />
-  </div>
-  <div className='container'>
-    <div className='row'>
-      <div className='col-xl-6 wow fadeInLeft' data-wow-delay='300ms'>
-        <div className='who-we-are__left'>
-          <div className='section-title text-left sec-title-animation animation-style2'>
-            <div className='section-title__tagline-box'>
-              <span className='section-title__tagline'>Who We Are</span>
-            </div>
-            <h2 className='section-title__title title-animation'>
-              A Trusted Peace Dialogue Platform
-            </h2>
+        <section className='who-we-are' style={{ paddingBottom: '5rem', paddingTop: '5rem' }}>
+          <div className='who-we-are__shape-3 float-bob-y'>
+            <img src='assets/images/shapes/who-we-are-shape-3.png' alt='' />
           </div>
-          <p className='who-we-are__text'>
-            The Nepal Transition to Peace Institute (NTTP-I) is a trusted peace research and dialogue institute dedicated to fostering peaceful political engagement in Nepal. Since 2005, we have facilitated informal, evidence-based dialogues among political parties and diverse groups to resolve conflicts and support Nepal’s transition to peace.
-          </p>
-          <div className='who-we-are__btn-box'>
-            <button onClick={openPopup} className='who-we-are__btn thm-btn'>
-              Read more <span><i className='icon-arrow-right'></i></span>
-            </button>
+          <div className='who-we-are__shape-4 float-bob-x'>
+            <img src='assets/images/shapes/who-we-are-shape-4.png' alt='' />
           </div>
-        </div>
-      </div>
-      <div className='col-xl-6 wow slideInRight' data-wow-delay='100ms' data-wow-duration='2500ms'>
-        <div className='who-we-are__right'>
-          <div className='who-we-are__img-box'>
-            <div className='who-we-are__img'>
-              <img src='assets/images/slider/banner_image_3.png' alt='' />
+          <div className='container'>
+            <div className='row'>
+              <div className='col-xl-6 wow fadeInLeft' data-wow-delay='300ms'>
+                <div className='who-we-are__left'>
+                  <div className='section-title text-left sec-title-animation animation-style2'>
+                    <div className='section-title__tagline-box'>
+                      <span className='section-title__tagline'>Who We Are</span>
+                    </div>
+                    <h2 className='section-title__title title-animation'>
+                      A Trusted Peace Dialogue Platform
+                    </h2>
+                  </div>
+                  <p className='who-we-are__text'>
+                    The Nepal Transition to Peace Institute (NTTP-I) is a trusted peace research and dialogue institute dedicated to fostering peaceful political engagement in Nepal. Since 2005, we have facilitated informal, evidence-based dialogues among political parties and diverse groups to resolve conflicts and support Nepal’s transition to peace.
+                  </p>
+                  <div className='who-we-are__btn-box'>
+                    <button onClick={openPopup} className='who-we-are__btn thm-btn'>
+                      Read more <span><i className='icon-arrow-right'></i></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div className='col-xl-6 wow slideInRight' data-wow-delay='100ms' data-wow-duration='2500ms'>
+                <div className='who-we-are__right'>
+                  <div className='who-we-are__img-box'>
+                    <div className='who-we-are__img'>
+                      <img src='assets/images/slider/banner_image_3.png' alt='' />
+                    </div>
+                    <div className='who-we-are__img-2'>
+                      <img src='assets/images/slider/banner_img_2.png' alt='' />
+                    </div>
+                    <div className='who-we-are__shape-1 img-bounce'></div>
+                    <div className='who-we-are__shape-2'></div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className='who-we-are__img-2'>
-              <img src='assets/images/slider/banner_img_2.png' alt='' />
-            </div>
-            <div className='who-we-are__shape-1 img-bounce'></div>
-            <div className='who-we-are__shape-2'></div>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-{/* Who We Are End */}
+        </section>
+        {/* Who We Are End */}
 
-{/* Modal Popup */}
-{isModalOpen && (
-  <div className='modal-overlay' onClick={closePopup}>
-    <div className='modal-content' onClick={(e) => e.stopPropagation()}>
-      <button className='close-btn' onClick={closePopup}>&times;</button>
-      <h2>About NTTP-I</h2>
-      <p>
-        Nepal Transition to Peace Institute (NTTP-I) is a peace institute with trusted space for dialogue among multi-stakeholders for conflict resolution and specializes in research work to generate evidence-based and informed choices for peacebuilders in Nepal. It was founded as a peace initiative with supports from various friends of Nepal in 2005 when Maoist’s armed struggle was at peak and a negotiated peaceful settlement was sought by all stakeholders. It has a history of decade-long engagement in Nepal’s political transition as a credible track 1.5 dialogue - space for mediation, facilitation, and quiet deliberations (in a Chatham House setting) among the rebel groups and political forces of Nepal before this peace initiative was transformed into the Institute (NTTP-I) in 2015 through its charter.
-        <br /><br />
-        NTTP-I continues to run the forum for dialogue at national level, named NTTP Forum, which was initiated in 2005. This is a trusted forum for informal dialogues among the political forces and actively supports resolving political standoffs and constitutional stalemates while promoting peaceful engagement among the political parties in a quiet trusted setting.
-        <br /><br />
-        NTTP-I has the capacity to sense emerging conflicts and design processes for sub-national and national dialogues and facilitation to resolve such conflicts. It specializes in conflict sensitivity analyses, scenario building exercises and research activities to raise alarms and seek evidence-based choices to mitigate emerging conflicts at both national and sub-national levels. Dialogues are supported by evidence generated from quality research and analyses conducted by NTTP Peace Research Units as well as independent experts.
-        <br /><br />
-        In addition to the NTTP Forum, NTTP-I conducts dialogues at thematic level of five thematic groups: NTTP Young Political Leaders Group, NTTP Women Group, NTTP Madhesh Group, NTTP Janajati Group and NTTP Dalit Group.
-      </p>
-    </div>
-  </div>
-)}
+        {/* Modal Popup */}
+        {isModalOpen && (
+          <div className='modal-overlay' onClick={closePopup}>
+            <div className='modal-content' onClick={(e) => e.stopPropagation()}>
+              <button className='close-btn' onClick={closePopup}>&times;</button>
+              <h2>About NTTP-I</h2>
+              <p>
+                Nepal Transition to Peace Institute (NTTP-I) is a peace institute with trusted space for dialogue among multi-stakeholders for conflict resolution and specializes in research work to generate evidence-based and informed choices for peacebuilders in Nepal. It was founded as a peace initiative with supports from various friends of Nepal in 2005 when Maoist’s armed struggle was at peak and a negotiated peaceful settlement was sought by all stakeholders. It has a history of decade-long engagement in Nepal’s political transition as a credible track 1.5 dialogue - space for mediation, facilitation, and quiet deliberations (in a Chatham House setting) among the rebel groups and political forces of Nepal before this peace initiative was transformed into the Institute (NTTP-I) in 2015 through its charter.
+                <br /><br />
+                NTTP-I continues to run the forum for dialogue at national level, named NTTP Forum, which was initiated in 2005. This is a trusted forum for informal dialogues among the political forces and actively supports resolving political standoffs and constitutional stalemates while promoting peaceful engagement among the political parties in a quiet trusted setting.
+                <br /><br />
+                NTTP-I has the capacity to sense emerging conflicts and design processes for sub-national and national dialogues and facilitation to resolve such conflicts. It specializes in conflict sensitivity analyses, scenario building exercises and research activities to raise alarms and seek evidence-based choices to mitigate emerging conflicts at both national and sub-national levels. Dialogues are supported by evidence generated from quality research and analyses conducted by NTTP Peace Research Units as well as independent experts.
+                <br /><br />
+                In addition to the NTTP Forum, NTTP-I conducts dialogues at thematic level of five thematic groups: NTTP Young Political Leaders Group, NTTP Women Group, NTTP Madhesh Group, NTTP Janajati Group and NTTP Dalit Group.
+              </p>
+            </div>
+          </div>
+        )}
 
-{/* Modal CSS */}
-<style jsx>{`
+        {/* Modal CSS */}
+        <style jsx>{`
   .modal-overlay {
     position: fixed;
     inset: 0;
@@ -842,36 +910,61 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
 `}</style>
 
         {/*Who We Are End */}
-
         {/*Volunteer Carousel Page Start - Core Staff*/}
-        <section className="volunteer-carousel-page" style={{
-          backgroundColor: '#ffff',
-
-          paddingBottom: '6rem',
-          paddingTop: '5rem'
-        }}>
+        <section
+          className="volunteer-carousel-page"
+          style={{
+            backgroundColor: '#ffffff',
+            paddingBottom: '6rem',
+            paddingTop: '5rem',
+          }}
+        >
           <div className="container">
             {/* Header Section */}
             <div className="section-header" style={{ textAlign: 'left', marginBottom: '3rem' }}>
-              <p style={{
-                fontSize: '0.9rem',
-                color: '#5ba4d4',
-                fontWeight: '600',
-                letterSpacing: '2px',
-                textTransform: 'uppercase',
-                marginBottom: '0.5rem',
-                margin: '0 0 0.5rem 0'
-              }}>Core Staffs </p>
-              <h2 style={{
-                fontSize: '3rem',
-                fontWeight: 'bold',
-                color: '#4a4a4a',
-                lineHeight: '1.2',
-                margin: '0'
-              }}>Dedicated Team Behind the Vision <br /></h2>
+              <p
+                style={{
+                  fontSize: '0.9rem',
+                  color: '#5ba4d4',
+                  fontWeight: '600',
+                  letterSpacing: '2px',
+                  textTransform: 'uppercase',
+                  marginBottom: '0.5rem',
+                }}
+              >
+                Core Staffs
+              </p>
+              <h2
+                style={{
+                  fontSize: '3rem',
+                  fontWeight: 'bold',
+                  color: '#4a4a4a',
+                  lineHeight: '1.2',
+                  margin: '0',
+                }}
+              >
+                Dedicated Team Behind the Vision <br />
+              </h2>
             </div>
 
-            <Swiper {...swiperOptions} className="volunteer-carousel-style owl-carousel owl-theme carousel-dot-style ">
+            {/* Swiper Carousel */}
+            <Swiper
+              modules={[Autoplay, Navigation]}
+              autoplay={{
+                delay: 3000,
+                disableOnInteraction: false,
+                reverseDirection: true,
+              }}
+              navigation={true}
+              loop={true}
+              spaceBetween={30}
+              slidesPerView={1}
+              breakpoints={{
+                768: { slidesPerView: 2 },
+                1024: { slidesPerView: 3 },
+              }}
+              className="volunteer-carousel-style owl-carousel owl-theme carousel-dot-style"
+            >
               {coreStaffMembers.map((member) => (
                 <SwiperSlide key={member.id}>
                   {/*Volunteer Page Single Start*/}
@@ -884,7 +977,6 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
                       </div>
                       <div className="team-one__content">
                         <div className="team-one__name-box">
-                          {/* Changed Link to a clickable div for popup trigger */}
                           <h4 className="team-one__name">
                             <div
                               onClick={() => handleMemberClick(member)}
@@ -902,10 +994,10 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
                 </SwiperSlide>
               ))}
             </Swiper>
-
           </div>
         </section>
         {/*Volunteer Carousel Page End - Core Staff*/}
+
 
         {/* Render the Popup component here */}
         <MemberPopup member={selectedMember} onClose={handleClosePopup} />
