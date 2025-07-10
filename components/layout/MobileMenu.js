@@ -66,7 +66,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                                     </ul>
                                     {/* <button className={isActive.key == 2 ? "expanded open" : ""} onClick={() => handleToggle(2)}><span className="fa fa-angle-right" /></button> */}
                                 </li>
-                                <li className={isActive.key == 5 ? "dropdown current" : "dropdown"}><Link href="/project-details">Forums</Link>
+                                <li className={isActive.key == 5 ? "dropdown current" : "dropdown"}><Link href="/forum">Forums</Link>
                                     
                                     {/* <button className={isActive.key == 5 ? "expanded open" : ""} onClick={() => handleToggle(5)}><span className="fa fa-angle-right" /></button> */}
                                 </li>
@@ -83,6 +83,8 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                                     </ul> */}
                                     {/* <button className={isActive.key == 7 ? "expanded open" : ""} onClick={() => handleToggle(7)}><span className="fa fa-angle-right" /></button> */}
                                 </li>
+                                <li><Link href="/research">Research</Link></li>
+                                <li><Link href="/supporter">Supporter</Link></li>
                                 <li><Link href="/contact">Contact</Link></li>
                             </ul>
                         </div>

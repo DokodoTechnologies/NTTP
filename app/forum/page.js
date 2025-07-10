@@ -238,6 +238,11 @@ export default function Home() {
         {/*Project Details End*/}
 
         <style jsx>{`
+
+                    .project-details {
+  padding-top: 20px !important; /* Reduce from default (maybe 80px or more) */
+  margin-top: 0 !important;
+}
                     .project-details__pagination--top {
                         display: flex;
                         justify-content: center;

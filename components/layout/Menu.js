@@ -155,10 +155,10 @@ export default function Menu() {
           <Link href='/events'>Events</Link>
         </li>
         <li>
-          <Link href='/project-details'>Forums</Link>
+          <Link href='/forum'>Forums</Link>
         </li>
         <li>
-          <Link href='/volunteer'>Supporters</Link>
+          <Link href='/supporter'>Supporters</Link>
         </li>
         <li>
           <Link href='/gallery'>Gallery</Link>
@@ -246,7 +246,7 @@ export default function Menu() {
           </ul>
         </li> */}
         <li>
-          <Link href='/testimonials'>Research</Link>
+          <Link href='/research'>Research</Link>
         </li>
       </ul>
     </>

@@ -8,6 +8,14 @@ export default function About() {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
+    <style jsx>{`
+  .about-four {
+    padding-top:80px !important; /* reduce top space */
+    
+    margin-top: 0 !important;     /* just in case margin is causing space */
+  }
+`}</style>
+
       {/*About Four Start */}
       <section className='about-four'>
         <div className='container'>
@@ -153,5 +161,6 @@ export default function About() {
         onClose={() => setOpen(false)}
       />
     </>
+    
   );
 }

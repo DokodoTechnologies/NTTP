@@ -79,7 +79,7 @@ export default function TestimonialsPage() { // Renamed the component for clarit
                         color: #4a4a4a; /* Adjust color if needed */
                     }
                     .project-details {
-                        margin-top: 80px; /* Space at the top */
+                        margin-top: -80px; /* Space at the top */
                     }
                 `}</style>
 
