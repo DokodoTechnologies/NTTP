@@ -40,7 +40,7 @@ export default function Banner() {
                   className='image-layer'
                   style={{
                     backgroundImage:
-                      'url("/assets/images/slider/homepageimage1.jpg")',
+                      'url("/assets/images/slider/home.jpg")',
                   }}
                 ></div>
                 <div className='main-slider-four__inner'>
@@ -82,7 +82,7 @@ export default function Banner() {
                   className='image-layer'
                   style={{
                     backgroundImage:
-                      "url(assets/images/slider/banner_image_3.png)",
+                      "url(assets/images/slider/home2.jpg)",
                   }}
                 ></div>
                 <div className='main-slider-four__inner'>
