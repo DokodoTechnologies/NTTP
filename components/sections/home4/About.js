@@ -31,7 +31,7 @@ export default function About() {
                 </div>
                 <div className='about-four-img'>
                   <img
-                    src='assets/images/resources/youtube_img.jpg'
+                    src='assets/images/resources/cna.jpg'
                     alt='Image'
                   />
 
@@ -149,7 +149,7 @@ export default function About() {
         channel='youtube'
         autoplay
         isOpen={isOpen}
-        videoId='F0GYEj_jhWY'
+        videoId='NCnSQHFQGps'
         onClose={() => setOpen(false)}
       />
     </>
