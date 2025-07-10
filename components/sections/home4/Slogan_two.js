@@ -18,18 +18,19 @@ export default function Slogan_two() {
         position: "relative",
         zIndex: 1,
         color: "#000", // All text black
+        fontFamily: "'Times New Roman', Times, serif", // Times New Roman font
       }}
     >
       <div className='container'>
         <div className='slogan-one__content text-center max-w-4xl mx-auto'>
           <div className='title-box mb-6'>
-            <h2 className='text-3xl md:text-4xl font-bold' style={{ color: "#000" }}>
+            <h2 className='text-3xl md:text-4xl font-bold' style={{ color: "#000", fontFamily: "'Times New Roman', Times, serif" }}>
               Message from Chairperson
             </h2>
           </div>
           <div
             className='text-box leading-relaxed text-lg text-left'
-            style={{ color: "#000" }}
+            style={{ color: "#000", fontFamily: "'Times New Roman', Times, serif" }}
           >
             {showFullMessage ? (
               <p>
@@ -38,7 +39,7 @@ export default function Slogan_two() {
                 <br /><br />
                 Namaskar!<br />
                 It gives me great pleasure to welcome you to the website of the Nepal Transition to Peace Institute (NTTP-I).<br /><br />
-                NTTP was established in 2005 as a peace initiative by a prominent group of peace enthusiasts, at a critical time in Nepal’s history when Maoists’ armed struggle was at peak. Quiet dialogues through back-channels were only options available for negotiations among the Maoists and mainstream political parties, who themselves were struggling on urban streets for political freedom and democratic constitutional rule against autocratic rule.
+                NTTP was established in 2005 as a peace initiative by a prominent group of peace enthusiasts, at a critical time in Nepal's history when Maoists' armed struggle was at peak. Quiet dialogues through back-channels were only options available for negotiations among the Maoists and mainstream political parties, who themselves were struggling on urban streets for political freedom and democratic constitutional rule against autocratic rule.
                 <br /><br />
                 Dialogues and negotiated settlements were very much required to bring peace, stability and constitutional rule in the country. The NTTP initiative, which transformed itself later into an organized Institute (NTTP-I) played a unique and trusted role in initiating and supporting inclusive and informed dialogues at various levels and in varied shapes and formulations for political-consensus-building and peaceful democratic transition.
                 <br /><br />
@@ -48,7 +49,7 @@ export default function Slogan_two() {
                 <br /><br />
                 We largely work at national level but listen empathetically the voices from the ground to stay alert to emerging scenarios and achieve objectively the futuristic results of peacebuilding.
                 <br /><br />
-                As we launch this new website, we hope to make our efforts more accessible, transparent, and interactive. Here, you will find updates on our programs, research, publications, and events that shape Nepal’s transition to sustained peace and constitutional reforms landscape.
+                As we launch this new website, we hope to make our efforts more accessible, transparent, and interactive. Here, you will find updates on our programs, research, publications, and events that shape Nepal's transition to sustained peace and constitutional reforms landscape.
                 <br /><br />
                 I invite you to engage with us, take active interest in our work, and join us in our shared mission of transforming Nepal into an inclusive, righteous, peaceful, fair and democratic nation.
                 <br /><br />
@@ -67,6 +68,7 @@ export default function Slogan_two() {
             <button
               onClick={handleToggleMessage}
               className='thm-btn px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-all duration-300'
+              style={{ fontFamily: "'Times New Roman', Times, serif" }}
             >
               {showFullMessage ? "Show Less" : "Learn More"}
               <span className='ml-2'>
