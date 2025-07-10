@@ -49,11 +49,10 @@ export default function Home() {
       <Layout headerStyle={3} footerStyle={3}>
         <Banner />
         <About />
-        <Slogan />
+        <Slogan_two/>
         <Mission />
         <Donation />
         <Who />
-        <Slogan_two/>
         <Country />
       </Layout>
     </>

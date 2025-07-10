@@ -11,31 +11,42 @@ export default function Slogan_two() {
 
   return (
     <section
-      className='slogan-one'
+      className='slogan-one relative'
       style={{
-        backgroundColor: "#e6f4ff", // Light blue background
+        backgroundColor: "#e6f4ff",
         padding: "60px 20px",
         position: "relative",
         zIndex: 1,
-        color: "#000", // All text black
-        fontFamily: "'Times New Roman', Times, serif", // Times New Roman font
+        color: "#000",
+        fontFamily: "'Times New Roman', Times, serif",
       }}
     >
-      <div className='container'>
+      <div className='container relative'>
+        
+
         <div className='slogan-one__content text-center max-w-4xl mx-auto'>
           <div className='title-box mb-6'>
-            <h2 className='text-3xl md:text-4xl font-bold' style={{ color: "#000", fontFamily: "'Times New Roman', Times, serif" }}>
+            <h2 className='text-3xl md:text-4xl font-bold' style={{ color: "#000" }}>
               Message from Chairperson
             </h2>
-          </div>
+             {showFullMessage && (
           <div
-            className='text-box leading-relaxed text-lg text-left'
-            style={{ color: "#000", fontFamily: "'Times New Roman', Times, serif" }}
+            className='absolute right-0 top-0 m-4 w-24 h-32 border border-gray-300 rounded overflow-hidden shadow-md'
+            style={{ zIndex: 10 }}
           >
+            <img
+              src='/assets/images/about/malik.jpg'
+              alt='Chairperson Vidyadhar Mallik'
+              className='w-full h-full object-cover'
+            />
+          </div>
+        )}
+          </div>
+
+          <div className='text-box leading-relaxed text-lg text-left' style={{ color: "#000" }}>
             {showFullMessage ? (
               <p>
-                <strong>
-                  Vidyadhar Mallik, Chairperson, NTTP-I</strong>
+                <strong>Vidyadhar Mallik, Chairperson, NTTP-I</strong>
                 <br /><br />
                 Namaskar!<br />
                 It gives me great pleasure to welcome you to the website of the Nepal Transition to Peace Institute (NTTP-I).<br /><br />
@@ -70,10 +81,21 @@ export default function Slogan_two() {
               className='thm-btn px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-all duration-300'
               style={{ fontFamily: "'Times New Roman', Times, serif" }}
             >
-              {showFullMessage ? "Show Less" : "Learn More"}
-              <span className='ml-2'>
-                <i className='icon-arrow-right'></i>
-              </span>
+              {showFullMessage ? (
+                <>
+                  Show Less
+                  <span className='ml-2'>
+                    <i className='icon-arrow-left'></i>
+                  </span>
+                </>
+              ) : (
+                <>
+                  Learn More
+                  <span className='ml-2'>
+                    <i className='icon-arrow-right'></i>
+                  </span>
+                </>
+              )}
             </button>
           </div>
         </div>
