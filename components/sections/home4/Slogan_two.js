@@ -17,7 +17,7 @@ export default function Slogan_two() {
         padding: "60px 20px",
         position: "relative",
         zIndex: 1,
-        color: "#000",
+        color: "#1a1a1a",
         fontFamily: "'Times New Roman', Times, serif",
       }}
     >
@@ -26,7 +26,7 @@ export default function Slogan_two() {
 
         <div className='slogan-one__content text-center max-w-4xl mx-auto'>
           <div className='title-box mb-6'>
-            <h2 className='text-3xl md:text-4xl font-bold' style={{ color: "#000" }}>
+            <h2 className='text-3xl md:text-4xl font-bold' style={{ color: "#1a1a1a" }}>
               Message from Chairperson
             </h2>
              {showFullMessage && (
@@ -43,10 +43,10 @@ export default function Slogan_two() {
         )}
           </div>
 
-          <div className='text-box leading-relaxed text-lg text-left' style={{ color: "#000" }}>
+          <div className='text-box leading-relaxed text-lg text-left' style={{ color: "#0d1117" }}>
             {showFullMessage ? (
-              <p>
-                <strong>Vidyadhar Mallik, Chairperson, NTTP-I</strong>
+              <p style={{ color: "#0d1117" }}>
+                <strong style={{ color: "#0d1117" }}>Vidyadhar Mallik, Chairperson, NTTP-I</strong>
                 <br /><br />
                 Namaskar!<br />
                 It gives me great pleasure to welcome you to the website of the Nepal Transition to Peace Institute (NTTP-I).<br /><br />
@@ -65,10 +65,10 @@ export default function Slogan_two() {
                 I invite you to engage with us, take active interest in our work, and join us in our shared mission of transforming Nepal into an inclusive, righteous, peaceful, fair and democratic nation.
                 <br /><br />
                 With warm regards,<br />
-                <strong>Vidyadhar Mallik<br />(Chairperson)</strong>
+                <strong style={{ color: "#0d1117" }}>Vidyadhar Mallik<br />(Chairperson)</strong>
               </p>
             ) : (
-              <p>
+              <p style={{ color: "#0d1117" }}>
                 Namaskar!<br />
                 It gives me great pleasure to welcome you to the website of the Nepal Transition to Peace Institute (NTTP-I).
               </p>
@@ -78,8 +78,8 @@ export default function Slogan_two() {
           <div className='btn-box mt-8'>
             <button
               onClick={handleToggleMessage}
-              className='thm-btn px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-all duration-300'
-              style={{ fontFamily: "'Times New Roman', Times, serif" }}
+              className='thm-btn px-6 py-3 bg-blue-600 rounded-lg hover:bg-blue-700 transition-all duration-300'
+              style={{ fontFamily: "'Times New Roman', Times, serif", color: "#0d1117" }}
             >
               {showFullMessage ? (
                 <>

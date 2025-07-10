@@ -30,12 +30,14 @@ export default function Banner() {
           <div className='banner-slide'>
             <div className='banner-content'>
               <h2>
-                Together We Can Make
-                <br /> an Impact
+                 Together for 
+
+                <br /> Sustainable Peace:
               </h2>
               <p>
-                Youth Empowerment, Community Enrichment, Brightening Childhoods,
-                Strengthening Futures. Love, Support for Every Child
+                We are committed to fostering sustainable peace 
+                by promoting inclusive and constructive dialogue.
+
               </p>
               <Link href='/about' className='thm-btn'>
                 Read More <span><i className='icon-arrow-right'></i></span>
@@ -51,12 +53,11 @@ export default function Banner() {
           <div className='banner-slide'>
             <div className='banner-content'>
               <h2>
-                Together We Can Make
-                <br /> a Difference
+                Our Commitment to 
+                <br /> Inclusive Democracy:
               </h2>
               <p>
-                Youth Empowerment, Community Enrichment, Brightening Childhoods,
-                Strengthening Futures. Love, Support for Every Child
+                At the heart of our mission is a steadfast advocacy for impartiality and fairness.
               </p>
               <Link href='/about' className='thm-btn'>
                 Read More <span><i className='icon-arrow-right'></i></span>
@@ -80,73 +81,82 @@ export default function Banner() {
 
       <style jsx>{`
         .main-banner {
-          width: 100%;
-        }
+  width: 100%;
+    background-color: #f1f1f1; /* light grey background */
 
-        .banner-slide {
-          display: flex;
-          align-items: stretch;
-          height: 500px;
-        }
+}
 
-        .banner-content {
-          flex: 1;
-          padding: 40px;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          background-color: #e6f4ff;
-        }
+.banner-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  gap: 30px;
+  padding: 20px;
+}
 
-        .banner-content h2 {
-          font-size: 36px;
-          font-weight: bold;
-          margin-bottom: 20px;
-        }
+.banner-content {
+  max-width: 500px;
+  padding: 30px;
+  background-color: #e6f4ff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
 
-        .banner-content p {
-          font-size: 18px;
-          margin-bottom: 30px;
-        }
+.banner-content h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
 
-        .thm-btn {
-          background-color: #2563eb;
-          color: white;
-          padding: 10px 20px;
-          border-radius: 5px;
-          text-decoration: none;
-          display: inline-flex;
-          align-items: center;
-          gap: 5px;
-        }
+.banner-content p {
+  font-size: 16px;
+  margin-bottom: 25px;
+}
 
-        .banner-image {
-          flex: 1;
-          height: 100%;
-          overflow: hidden;
-        }
+.thm-btn {
+  background-color: #2563eb;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
 
-        .banner-image img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-        }
+.banner-image {
+  flex-shrink: 0;
+  max-width: 600px;
+}
 
-        @media (max-width: 768px) {
-          .banner-slide {
-            flex-direction: column;
-            height: auto;
-          }
+.banner-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: contain;
+}
 
-          .banner-content {
-            padding: 20px;
-            text-align: center;
-          }
+@media (max-width: 768px) {
+  .banner-slide {
+    flex-direction: column;
+    height: auto;
+  }
 
-          .banner-image {
-            height: 300px;
-          }
-        }
+  .banner-content {
+    max-width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .banner-image {
+    max-width: 100%;
+  }
+}
+
       `}</style>
     </section>
   );
