@@ -125,8 +125,7 @@ Recognition, ownership and desire to carry on the legacy of the significant role
       shortDescription:
         'is General Secretary at NTTP-I.  He has more than 19 years of professional experience in the field of professional experience in the field of media,...',
       image: 'assets/images/about/youba.png',
-      fullDescription: `Mr. Youba Raj Acharya is General Secretary at NTTP-I.  He has more than 19 years of professional experience in the field of media, political analysis, peacebuilding, conflict transformation and electoral affairs. He has worked for 8 years in UN carrying out various responsibilities related to conflict prevention, peace building, political analysis and political coordination and dialogue facilitation. His experience includes Coordination and Liaison Officer with Peacebuilding and Recovery Unit, Political
-Affairs Officer with UNMIN and media and outreach consultant with UNDP’s SKILLS Program. Before joining the UN, Mr Acharya was a journalist with leading media organizations.`,
+      fullDescription: `Mr. Youba Raj Acharya is General Secretary at NTTP-I since early 2021. A recipient of Rotary International Peace Fellowship (2021-22), Acharya bring in more than 25 years of professional experience in the field of post-conflict governance reforms, political process strengthening, peacebuilding and conflict transformation, electoral affairs and media. He has worked as head of International Republican Institute (IRI)’s Nepal office, held various positions including Regional Dialogue Coordinator in the UNDP, and Political Affairs Officer with UNMIN, and has handled conflict prevention, peace building, political analysis and dialogue facilitation responsibilities at Kathmandu and regional levels. Acharya has over a decade-long experience in national and international media outlets, including in Associated Press, The Times of India, The Kathmandu Post and Republica`,
     },
     {
       id: 'birendra',
