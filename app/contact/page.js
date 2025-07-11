@@ -14,7 +14,7 @@ export default function Home() {
                 </div>
                 <h2 className='section-title__title title-animation'>
                   Empowering Communities
-                  <br /> through Donations
+                  <br /> through Peace
                 </h2>
               </div>
               <form
