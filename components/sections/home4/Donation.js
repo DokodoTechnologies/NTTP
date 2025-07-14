@@ -93,8 +93,7 @@ export default function Donation() {
                   >
                     <li>A politically trusted facilitation team. </li>
                     <li>
-                      Decade-long involvment in core political dialogues at
-                      crucial times
+                      Two-decade long involvement in core political dialogues at the crucial times
                     </li>
                     <li>
                       Inclusive participatory and influential dialouges table{" "}
