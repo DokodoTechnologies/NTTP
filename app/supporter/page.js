@@ -10,6 +10,12 @@ import 'swiper/css/navigation'
 import { Navigation } from 'swiper/modules'
 
 const supporters = [
+   {
+    title: "KURVE Wustrow - Nepal Office",
+    image: 'assets/images/about/kurvewustrow.png',
+    summary: "Enhancing social cohesiveness and sustainable peace and development",
+    details: `March 2025 - December 2027\nTo promote the positive and sensitive handling of history`,
+  },
   {
     title: "UNDP Nepal",
     image: 'assets/images/about/UNDP.jpg',
@@ -34,12 +40,12 @@ const supporters = [
     summary: "Dialogue among the Party Whips and Leaders on Parliamentary Issues",
     details: `May-July 2023\nTo foster trust and collaboration among political parties for achieving a shared goal`,
   },
-  {
-    title: "KURVE Wustrow - Nepal Office",
-    image: 'assets/images/about/kurvewustrow.png',
-    summary: "Enhancing social cohesiveness and sustainable peace and development",
-    details: `March 2025 - December 2027\nTo promote the positive and sensitive handling of history`,
-  }
+   {
+    title: "British Embassy in Kathmandu ",
+    image: 'assets/images/partners/image.png',
+    summary: "",
+    details: `May-July 2023\nTo foster trust and collaboration among political parties for achieving a shared goal`,
+  },
 ]
 
 export default function Home() {
@@ -53,11 +59,11 @@ export default function Home() {
 
   return (
     <>
-      <Layout headerStyle={3} footerStyle={3} breadcrumbTitle="Supporters">
+      <Layout headerStyle={3} footerStyle={3} breadcrumbTitle="Partners">
         <section className="found-one">
           <div className="container">
             <div className="section-title text-center">
-              <span className="section-title__tagline">Our Supporters</span>
+              <span className="section-title__tagline">Our Partners</span>
               <h2 className="section-title__title">Partners Behind Our Initiatives</h2>
             </div>
 

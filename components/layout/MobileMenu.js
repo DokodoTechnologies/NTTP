@@ -84,7 +84,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                                     {/* <button className={isActive.key == 7 ? "expanded open" : ""} onClick={() => handleToggle(7)}><span className="fa fa-angle-right" /></button> */}
                                 </li>
                                 <li><Link href="/research">Research</Link></li>
-                                <li><Link href="/supporter">Supporter</Link></li>
+                                <li><Link href="/supporter">Partners</Link></li>
                                 <li><Link href="/contact">Contact</Link></li>
                             </ul>
                         </div>

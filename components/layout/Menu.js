@@ -158,7 +158,7 @@ export default function Menu() {
           <Link href='/forum'>Forums</Link>
         </li>
         <li>
-          <Link href='/supporter'>Supporters</Link>
+          <Link href='/supporter'>Partners</Link>
         </li>
         <li>
           <Link href='/gallery'>Gallery</Link>
