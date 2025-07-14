@@ -1,10 +1,19 @@
 "use client";
 import Link from "next/link";
+import { useState } from "react";
 
 export default function Who() {
+  const [showFullContent, setShowFullContent] = useState(false);
+
+  const shortContent = "Nepal Transition to Peace (NTTP) began in 2005 as a confidential dialogue forum between CPN UML (Maoist) and political forces in response to Nepal's internal demand for peace, with support from national and international originations. After the initial project concluded in 2009, the Government of Nepal, Ministry of Peace and Reconstruction and other stakeholders requested to continue national and international support for concluding the peace process.";
+
+  const fullContent = `Nepal Transition to Peace (NTTP) began in 2005 as a confidential dialogue forum between CPN UML (Maoist) and political forces in response to Nepal's internal demand for peace, with support from national and international originations. After the initial project concluded in 2009, the Government of Nepal, Ministry of Peace and Reconstruction and other stakeholders requested to continue national and international support for concluding the peace process. The Asia Foundation took over implementation from the Academy for Educational Development, running the Nepal Peace Support Project until early 2015. That same year, NTTP-Institute was formally established as an independent entity, registered with the Ministry of Home and the Social Welfare Council. It successfully implemented major peacebuilding projects supported by both the USAID and the Swiss government, earning recognition as a key institution for political dialogue and conflict resolution. This recognition was largely due to the credibility and experience of its founding facilitators, Late Mr. Daman Nath Dhungana and Late Mr. Padma Ratna Tuladhar, who had played crucial roles during Nepal's early peace negotiations.
+
+NTTP-Institute envisions a peaceful society that addresses the root causes of conflict through dialogue at multiple levels and promotes inclusive democracy, social justice, and good governance. Its mission is to be a trusted and credible institution for conflict prevention and transformation through inclusive dialogue and the provision of high-quality resources. The institute honors the legacy of its founding facilitators and integrates their values into its principles, which emphasize inclusive and equitable peace processes, impartiality in conflict transformation, and strong ethical conduct. NTTP-I is committed to professionalism, collaboration with like-minded organizations, and advocacy for inclusive democratic values. It applies evidence-based approaches and continually seeks innovative ways to sustain lasting peace in Nepal.`;
+
   return (
     <>
-    <style jsx>{`
+      <style jsx>{`
         .section-title__tagline {
           font-family: "Times New Roman", Times, serif;
           font-size: 20px; /* slightly bigger text */
@@ -26,90 +35,57 @@ export default function Who() {
               <div className='who-we-are__left'>
                 <div className='section-title text-left sec-title-animation animation-style2'>
                   <div className='section-title__tagline-box'>
-                    <span className='section-title__tagline'>NTTP's research encompasses the following key areas within
-                  Nepal and South Asia:</span>
+                    <span className='section-title__tagline'>Who We Are?</span>
                   </div>
-                  {/* <h2 className='section-title__title title-animation'>
-                    Our Research Focus
-                  </h2> */}
                 </div>
-                {/* <p className='who-we-are__text'>
-                  NTTP's research encompasses the following key areas within
-                  Nepal and South Asia:
-                </p> */}
-                {/* <div className='who-we-are__progress-box'> */}
-                {/* <ul className='who-we-are__progress-list list-unstyled'>
-                    <li>
-                      <div className='who-we-are__progress-single'>
-                        <p>
-                          Total Fund Worth: <span>450,896,070$</span>
-                        </p>
-                        <div className='who-we-are__progress'>
-                          <div className='bar'>
-                            <div
-                              className='bar-inner count-bar'
-                              data-percent='75%'
-                              style={{ width: "75%" }}
-                            ></div>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div className='who-we-are__progress-single'>
-                        <p>
-                          Total Cases Helped: <span>200+</span>
-                        </p>
-                        <div className='who-we-are__progress'>
-                          <div className='bar'>
-                            <div
-                              className='bar-inner count-bar'
-                              data-percent='80%'
-                              style={{ width: "80%" }}
-                            ></div>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                  </ul> */}
+                
                 <div
                   style={{
                     paddingLeft: "32px",
                     marginBottom: "32px",
                   }}
                 >
-                  <ul
+                  <div
                     style={{
-                      listStyle: "inside",
+                      lineHeight: "1.6",
+                      color: "#4a4a4a",
+                      fontSize: "1rem",
                     }}
-                    className='home-page__list'
+                    className='home-page__content'
                   >
-                    <li>A politically trusted facilitation team. </li>
-                    <li>
-                      Decade-long involvment in core political dialogues at
-                      crucial times
-                    </li>
-                    <li>
-                      Inclusive participatory and influential dialouges table{" "}
-                    </li>
-                    <li>
-                      Quality analysis and evidence-based research on issue of
-                      peace and conflict
-                    </li>
-                  </ul>
+                    <p style={{ marginBottom: "1rem" }}>
+                      {shortContent}
+                    </p>
+                    <a
+                      href="#"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        setShowFullContent(true);
+                      }}
+                      style={{
+                        color: '#5ba4d4',
+                        textDecoration: 'none',
+                        fontSize: '0.9rem',
+                        fontWeight: '500',
+                        cursor: 'pointer',
+                      }}
+                    >
+                      Show More
+                    </a>
+                  </div>
                 </div>
-                {/* </div> */}
-                <div className='who-we-are__btn-box'>
+                
+                {/* <div className='who-we-are__btn-box'>
                   <Link
                     href='/testimonials'
                     className='who-we-are__btn thm-btn'
                   >
-                    See More
+                    See More11
                     <span>
                       <i className='icon-arrow-right'></i>
                     </span>
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
             <div
@@ -136,7 +112,94 @@ export default function Who() {
           </div>
         </div>
       </section>
+
+      {/* Full Content Modal */}
+      {showFullContent && (
+        <div 
+          className="content-modal-overlay" 
+          style={{
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            width: '100%',
+            height: '100%',
+            backgroundColor: 'rgba(0, 0, 0, 0.6)',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            zIndex: 1000,
+          }}
+          onClick={() => setShowFullContent(false)}
+        >
+          <div 
+            className="content-modal"
+            style={{
+              backgroundColor: 'white',
+              padding: '2rem',
+              borderRadius: '12px',
+              maxWidth: '800px',
+              width: '90%',
+              maxHeight: '80vh',
+              overflowY: 'auto',
+              position: 'relative',
+              boxShadow: '0 10px 30px rgba(0,0,0,0.3)',
+            }}
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Close Button */}
+            <button
+              onClick={() => setShowFullContent(false)}
+              style={{
+                position: 'absolute',
+                top: '1rem',
+                right: '1rem',
+                background: 'none',
+                border: 'none',
+                fontSize: '1.5rem',
+                cursor: 'pointer',
+                color: '#666',
+                padding: '0.5rem',
+                borderRadius: '50%',
+                width: '40px',
+                height: '40px',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              ×
+            </button>
+
+            {/* Modal Header */}
+            <div style={{ marginBottom: '1.5rem' }}>
+              <h3 style={{ 
+                margin: '0', 
+                color: '#4a4a4a', 
+                fontSize: '1.8rem',
+                borderBottom: '2px solid #5ba4d4',
+                paddingBottom: '0.5rem',
+              }}>
+                Who We Are
+              </h3>
+            </div>
+
+            {/* Modal Content */}
+            <div style={{
+              lineHeight: '1.6',
+              color: '#4a4a4a',
+              fontSize: '1rem',
+            }}>
+              {fullContent.split('\n\n').map((paragraph, index) => (
+                <p key={index} style={{ marginBottom: '1rem' }}>
+                  {paragraph}
+                </p>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
+      
       {/*Who We Are End */}
     </>
   );
-}
+} 

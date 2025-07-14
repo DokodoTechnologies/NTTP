@@ -16,6 +16,12 @@ const supporters = [
     details: "March 2025 - December 2027\nTo promote the positive and sensitive handling of history.",
   },
   {
+    title: "Asia Foundation",
+    image: 'assets/images/about/asian.png',
+    summary: "",
+    details: "May-July 2023\nTo foster trust and collaboration among political parties for achieving a shared goal.",
+  },
+  {
     title: "UNDP Nepal",
     image: 'assets/images/about/UNDP.jpg',
     summary: "Social Cohesion and Democratic Participation (SCDP) Program and Electoral Support Project",
@@ -46,7 +52,6 @@ const supporters = [
     details: "May-July 2023\nTo foster trust and collaboration among political parties for achieving a shared goal.",
   },
 ]
-
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false)
   const [selectedSupporter, setSelectedSupporter] = useState(null)
