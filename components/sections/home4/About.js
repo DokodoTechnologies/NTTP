@@ -47,12 +47,7 @@ export default function About() {
                   </h2>
                 </div>
 
-                <div className='text'>
-                  <p>
-                    We have been dedicated to making a positive impact in our
-                    community.
-                  </p>
-                </div>
+                
 
                 <div className='about-four-img'>
                   <img
