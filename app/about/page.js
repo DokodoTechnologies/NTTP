@@ -83,16 +83,15 @@ export default function Home() {
 
   const fullText1 = `The root causes of conflict in Nepali society is related to deprivation of social and economic justice, inclusive democratic rule, lack of human rights and human dignity, lack of fair and good governance, and lack of equitable development. Trusted and inclusive dialogues help in finding agreeable solutions to these issues. Honest and efficient implementation of such agreed solutions help in eliminating social, political and economic exclusions paving for way to transform the society into peaceful, inclusive, democratic and prosperous federal republic, as Constitution of Nepal-2015 has charted the courses of the nation. `;
 
-  const shortText2 = `Nepal Transition to Peace (NTTP) Initiative was implemented since August 2005 at the request of Nepali polity and with the support of USAID and the Swiss government. At the end of its first phase in 2009, the Ministry of Peace and Reconstruction and other stakeholders requested the USAID and the Swiss Government to continue to provide support to the peace building process.`;
+  const shortText2 = `Nepal Transition to Peace (NTTP) was initiated in August 2005 as a quiet dialogue platform between Maoist rebel groups and political forces, supported by USAID and the Swiss government. Following its initial phase, the Ministry of Peace and Reconstruction and stakeholders requested continued support for Nepal’s peace process.`;
 
-  const fullText2 = `Nepal Transition to Peace (NTTP) Initiative was implemented as an informal peace initiative supported by various partners and friends of Nepal. A peace support project to this aim was initiated in August 2005 at the request of Nepali stakeholders with the support of USAID and the Swiss government.
+const fullText2 = `Nepal Transition to Peace (NTTP) was envisioned as a peace initiative to conduct quiet dialogues in a trusted setting between the Maoist rebel groups and political forces of Nepal, as demanded by Nepali stakeholders and supported by friends of Nepal in 2005. A peace support project to this aim was initiated in August 2005 with the support of USAID and the Swiss government.
 
-At the end this project in 2009, the Ministry of Peace and Reconstruction and other stakeholders requested the USAID and the Swiss Government to continue to provide support to the peace building process. From 2009, The Asia Foundation (TAF) succeeded the Academy for Education and Development (AED) as the implementation partner for Nepal Peace Support Project (NPSP) until early 2015.
+At the end of this project in 2009, the Ministry of Peace and Reconstruction and other stakeholders requested USAID and the Swiss Government to continue providing support to the peace building process in Nepal. The Asia Foundation (TAF) succeeded the Academy for Education and Development (AED) as the implementation partner for the Nepal Peace Support Project (NPSP) from 2009 until early 2015.
 
-With the institutionalization of the NTTP program, NTTP Institute (NTTP-I) has been implementing the NTTP processes independently from February 2015. NTTP-I is currently implementing the USAID-supported Inclusive Dialogue for Political Transition (IDPT, 2015-18) project and Supporting Inclusive Dialogues (SID, 2015-17) project supported by the Swiss government.
+The NTTP – Institute (NTTP-I) was established in February 2015 with its own charter and is registered under the National Guidance Act, 1961 at the Ministry of Home, and at the Social Welfare Council. NTTP-I has successfully implemented the USAID-supported ‘Inclusive Dialogue for Political Transition (IDPT, 2015-18)’ project and the Swiss government-supported ‘Supporting Inclusive Dialogues (SID, 2015-17)’ project.
 
-Recognition, ownership and desire to carry on the legacy of the significant role played by the NTTP Forum in Nepal's political transition in the stakeholders led to the establishment of NTTP Institute in February 2015. The trusted convening ability of its senior facilitators, who were the official facilitators during the formal negotiations between the then governments and the CPN (Maoist) at the advent of the peace process, has enabled and entrusted the NTTP Forum to get recognition as a core institution for high level political dialogues aimed at conflict resolution and peace building.`;
-
+The trusted convening ability of its then senior facilitators, Late Mr. Daman Nath Dhungana and Mr. Padma Ratna Tuladhar, who were official observers/facilitators during the formal negotiations between the then governments and the CPN (Maoist), has enabled and entrusted the Institute and the NTTP Forum to gain recognition as a core institution for high-level political dialogues aimed at conflict resolution and peace building.`;
 
   const committeeMembers = [
     {
@@ -117,7 +116,9 @@ Recognition, ownership and desire to carry on the legacy of the significant role
       shortDescription:
         'a former Minister, is one of the NTTP facilitators and Executive Committee Member and Chairperson at NTTP-I. ...',
       image: 'assets/images/about/malik.jpg',
-      fullDescription: `Mr.Vidyadhar Malik a former Minister, is one of the NTTP facilitators and Executive Committee Member and Chairperson at NTTP-I. With a former career as Peace Secretary and with expertise in trusted peace dialogue, conflict resolution and governance, he played a significant role in negotiating with the CPN-Maoist and later, holding the Constituent Assembly election as a Minister in the Election Government formed under the Chairmanship of Chief Justice Khilaraj Regmi in 2013. As a minister, he led negotiations with political parties and rebel groups for their active participation in Constituent Assembly-II election. Also a former advisor to the President, his civil service stints included Education Secretary and Finance Secretary. `,
+      fullDescription: `A former Minister, is one of the founding members of the NTTP-I, currently serving as the Chairperson of its Executive Committee. He is the facilitator of the NTTP Forum as well. Equipped with the experience of Peace Secretary and expertise in trusted peace dialogue, conflict resolution and governance, he played a significant role in negotiating with the CPN-Maoist and later, holding the Constituent Assembly II (CA II) election as a Minister in the Election Government during 2013 - 2014. As a minister, he led negotiations with political parties and rebel groups to persuade them for active participation in the CA II election. Mr. Mallik also served as an advisor to the first President of Nepal. His civil service stints included the roles of Education Secretary and Finance Secretary. His range of specialization includes convening and facilitating multi-stakeholder dialogues, broader governance and federalism issues as well as economic affairs and taxation.
+
+ `,
     },
     {
       id: 'youba',
@@ -359,7 +360,7 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
                       </div>
                       <div className='about-One__provide-content'>
                         <div className='about-One__provide-count count-box'>
-                          <h3 className='count-text'>3</h3>
+                          <h3 className='count-text'>20</h3>
                           <span>+</span>
                         </div>
                         <p className='about-One__provide-count-text'>
@@ -424,8 +425,7 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
                         >
                           <div className='tabs-content__inner'>
                             <p>
-                              To become a trusted and credible institute to prevent and transform conflict through inclusive dialogues and high quality resources.
-                            </p>
+                              To become a trusted and credible institute to prevent and transform conflict through inclusive dialogues and high-quality resources.                             </p>
                           </div>
                         </div>
                         {/*tab*/}
@@ -439,8 +439,7 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
                         >
                           <div className='tabs-content__inner'>
                             <p>
-                              Address root causes of conflict in the country through promotion of dialogue at different layers as a tool for mitigating social, political and economic injustices; and promote inclusive democracy, peaceful coexistence with dignity for all citizens and good governance.
-                            </p>
+                              Seek peaceful solutions to the root causes of conflict in the country through promotion of dialogue at different layers as a tool for addressing social, political and economic injustices; and promote inclusive democracy, peaceful coexistence and good governance.                             </p>
                           </div>
                         </div>
                         {/*tab*/}
@@ -454,8 +453,7 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
                         >
                           <div className='tabs-content__inner'>
                             <p>
-                              NTTP highly values the legacy and contributions of the two legendary founding facilitators (Late D. N. Dhungana, and Late P. R. Tuladhar) and the capacity of present facilitators. NTTP-I aims to integrate their philosophy and principles into the values of the institute.
-                            </p>
+                              NTTP highly values the legacy and contributions of the two legendary founding facilitators (Late D. N. Dhungana, and Late P. R. Tuladhar) and the capacity of present facilitators. NTTP-I aims to integrate their philosophy and principles into the values of the institute.                            </p>
                           </div>
                         </div>
                         {/*tab*/}
@@ -601,6 +599,28 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
         <section className='donate-one'>
           <div className='container'>
             <div className='row'>
+              {/* Second Box */}
+              <div
+                className='col-xl-6 col-lg-6 wow slideInRight'
+                data-wow-delay='100ms'
+                data-wow-duration='2500ms'
+              >
+                <div className='donate-one__single donate-one__single-2'>
+                  <div
+                    className='donate-one__single-bg'
+                    style={{ backgroundImage: 'url(assets/images/about/history.jpg)' }}
+                  ></div>
+                  <h3 className='donate-one__title'>
+                    <Link href='become-volunteer'>Our History</Link>
+                  </h3>
+                  <p className='donate-one__text'>{shortText2}</p>
+                  <div className='donate-one__btn-box'>
+                    <button onClick={() => handleOpen('modal2')} className='donate-one__btn thm-btn'>
+                      Read more <span><i className='icon-arrow-right'></i></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
               {/* First Box */}
               <div
                 className='col-xl-6 col-lg-6 wow slideInLeft'
@@ -624,28 +644,7 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
                 </div>
               </div>
 
-              {/* Second Box */}
-              <div
-                className='col-xl-6 col-lg-6 wow slideInRight'
-                data-wow-delay='100ms'
-                data-wow-duration='2500ms'
-              >
-                <div className='donate-one__single donate-one__single-2'>
-                  <div
-                    className='donate-one__single-bg'
-                    style={{ backgroundImage: 'url(assets/images/about/history.jpg)' }}
-                  ></div>
-                  <h3 className='donate-one__title'>
-                    <Link href='become-volunteer'>Our History</Link>
-                  </h3>
-                  <p className='donate-one__text'>{shortText2}</p>
-                  <div className='donate-one__btn-box'>
-                    <button onClick={() => handleOpen('modal2')} className='donate-one__btn thm-btn'>
-                      Read more <span><i className='icon-arrow-right'></i></span>
-                    </button>
-                  </div>
-                </div>
-              </div>
+              
             </div>
           </div>
         </section>

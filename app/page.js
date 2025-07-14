@@ -49,7 +49,7 @@ export default function Home() {
       <Layout headerStyle={3} footerStyle={3}>
         <Banner />
         <About />
-        <Slogan_two/>
+        {/* <Slogan_two/> */}
         <Mission />
         <Donation />
         <Who />

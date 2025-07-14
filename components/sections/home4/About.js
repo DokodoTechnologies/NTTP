@@ -1,22 +1,37 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
-import ModalVideo from "react-modal-video";
 import CounterUp from "@/components/elements/CounterUp";
 
 export default function About() {
-  const [isOpen, setOpen] = useState(false);
+  const currentYear = new Date().getFullYear();
+  const yearsOfPeace = currentYear - 2005;
+
   return (
     <>
-    <style jsx>{`
-  .about-four {
-    padding-top:80px !important; /* reduce top space */
-    
-    margin-top: 0 !important;     /* just in case margin is causing space */
-  }
-`}</style>
+      <style jsx>{`
+        .about-four {
+          padding-top: 80px !important;
+          margin-top: 0 !important;
+        }
 
-      {/*About Four Start */}
+        .about-four__left .text {
+          margin-top: 40px;
+        }
+
+        .about-four__left .text p {
+          font-size: 18px;
+          line-height: 1.7;
+          color: #333;
+        }
+
+        .text2 p {
+          font-size: 18px;
+          line-height: 1.7;
+          color: #333;
+        }
+      `}</style>
+
       <section className='about-four'>
         <div className='container'>
           <div className='row'>
@@ -31,28 +46,35 @@ export default function About() {
                     to Peace
                   </h2>
                 </div>
+
                 <div className='text'>
                   <p>
-                    we have been dedicated to making a positive impact in our
+                    We have been dedicated to making a positive impact in our
                     community.
                   </p>
                 </div>
+
                 <div className='about-four-img'>
                   <img
                     src='assets/images/resources/cna.jpg'
                     alt='Image'
                   />
-
                   <div className='about-four-video'>
                     <a
                       className='video-popup'
-                      title='Video Gallery'
-                      onClick={() => setOpen(true)}
+                      title='Watch Video'
+                      onClick={() =>
+                        window.open(
+                          "https://www.channelnewsasia.com/watch/peacemakers/solving-nepals-deadly-conflict-4620256",
+                          "_blank"
+                        )
+                      }
                     >
                       <span className='icon-play'></span>
                     </a>
                   </div>
                 </div>
+
                 <div className='btn-box'>
                   <Link href='about' className='thm-btn'>
                     About More
@@ -66,32 +88,20 @@ export default function About() {
 
             <div className='col-xl-8'>
               <div className='about-four__right'>
-                <div className='text1'>
-                  <p>
-                    As we continue our efforts to make a difference in our
-                    community, we are reaching out to compassionate individuals
-                    like you who understand the importance of giving back.
-                  </p>
-                </div>
+                <div className='text1'></div>
+
                 <div className='text2'>
                   <p>
-                    Together, we can create lasting change and bring hope to
-                    those who need it most. If you have any questions or would
-                    like to discuss our mission further, please do not hesitate
-                    to reach out.
-                  </p>
-                  <p>
-                    Please let me know the best way to proceed with my donation,
-                    and if there are any specific projects that could benefit
-                    from additional support. I would also appreciate any updates
-                    on your current programs, as it would be wonderful to see
-                    firsthand the impact of our collective efforts.
+                    Nepal Transition to Peace Institute (NTTP-I) is a peace
+                    institute with trusted space for dialogue among
+                    multi-stakeholders for conflict resolution and specializes
+                    in research work to generate evidence-based and informed
+                    choices for peacebuilders in Nepal.
                   </p>
                 </div>
 
                 <div className='about-four__right-counter'>
                   <div className='row'>
-                    {/*About Two Counter Single Start*/}
                     <div className='col-xl-4 col-lg-4'>
                       <div className='about-four__right-counter-single text-center'>
                         <div className='icon-box'>
@@ -99,7 +109,7 @@ export default function About() {
                         </div>
                         <div className='count-box count-box'>
                           <h2>
-                            <CounterUp end={25} />
+                            <CounterUp end={yearsOfPeace} />
                           </h2>
                           <span>+</span>
                         </div>
@@ -108,8 +118,7 @@ export default function About() {
                         </div>
                       </div>
                     </div>
-                    {/*About Two Counter Single End*/}
-                    {/*About Two Counter Single Start*/}
+
                     <div className='col-xl-4 col-lg-4'>
                       <div className='about-four__right-counter-single text-center'>
                         <div className='icon-box'>
@@ -117,7 +126,7 @@ export default function About() {
                         </div>
                         <div className='count-box count-box'>
                           <h2>
-                            <CounterUp end={3} />
+                            <CounterUp end={4} />
                           </h2>
                           <span>+</span>
                         </div>
@@ -126,8 +135,7 @@ export default function About() {
                         </div>
                       </div>
                     </div>
-                    {/*About Two Counter Single End*/}
-                    {/*About Two Counter Single Start*/}
+
                     <div className='col-xl-4 col-lg-4'>
                       <div className='about-four__right-counter-single text-center'>
                         <div className='icon-box'>
@@ -144,7 +152,7 @@ export default function About() {
                         </div>
                       </div>
                     </div>
-                    {/*About Two Counter Single End*/}
+                    {/* End Counters */}
                   </div>
                 </div>
               </div>
@@ -152,15 +160,6 @@ export default function About() {
           </div>
         </div>
       </section>
-      {/*About Four End */}
-      <ModalVideo
-        channel='youtube'
-        autoplay
-        isOpen={isOpen}
-        videoId='NCnSQHFQGps'
-        onClose={() => setOpen(false)}
-      />
     </>
-    
   );
 }

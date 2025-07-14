@@ -4,6 +4,14 @@ import Link from "next/link";
 export default function Who() {
   return (
     <>
+    <style jsx>{`
+        .section-title__tagline {
+          font-family: "Times New Roman", Times, serif;
+          font-size: 20px; /* slightly bigger text */
+          line-height: 1.6;
+          color: #333;
+        }
+      `}</style>
       {/*Who We Are Start */}
       <section className='who-we-are'>
         <div className='who-we-are__shape-3 float-bob-y'>
@@ -18,16 +26,17 @@ export default function Who() {
               <div className='who-we-are__left'>
                 <div className='section-title text-left sec-title-animation animation-style2'>
                   <div className='section-title__tagline-box'>
-                    <span className='section-title__tagline'>Who We Are</span>
+                    <span className='section-title__tagline'>NTTP's research encompasses the following key areas within
+                  Nepal and South Asia:</span>
                   </div>
-                  <h2 className='section-title__title title-animation'>
+                  {/* <h2 className='section-title__title title-animation'>
                     Our Research Focus
-                  </h2>
+                  </h2> */}
                 </div>
-                <p className='who-we-are__text'>
+                {/* <p className='who-we-are__text'>
                   NTTP's research encompasses the following key areas within
                   Nepal and South Asia:
-                </p>
+                </p> */}
                 {/* <div className='who-we-are__progress-box'> */}
                 {/* <ul className='who-we-are__progress-list list-unstyled'>
                     <li>
