@@ -96,7 +96,7 @@ NTTP-Institute envisions a peaceful society that addresses the root causes of co
               <div className='who-we-are__right'>
                 <div className='who-we-are__img-box'>
                   <div className='who-we-are__img'>
-                    <img src='assets/images/nttp/2.jpg' alt='' />
+                    <img src='assets/images/nttp/0.jpg' alt='' />
                   </div>
                   <div className='who-we-are__img-2'>
                     <img
