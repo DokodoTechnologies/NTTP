@@ -130,9 +130,8 @@ export default function Footer3() {
                       <Link href='#'>
                         <i className='icon-instagram'></i>
                       </Link>
-                      <Link href='#'>
-                        <i className='icon-pintarest'></i>
-                      </Link>
+                     
+                      <Link href="#"><i className="icon-link-in"></i></Link>
                     </div>
                   </div>
                 </div>

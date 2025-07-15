@@ -169,7 +169,7 @@ export default function Header1({ scroll, handlePopup, handleMobileMenu }) {
                                     <p className="main-menu__social-title">Follow Us On:</p>
                                     <div className="main-menu__social">
                                         <Link href="#"><i className="icon-facebook"></i></Link>
-                                        <Link href="#"><i className="icon-twitter"></i></Link>
+                                        {/* <Link href="#"><i className="icon-twitter"></i></Link> */}
                                         <Link href="#"><i className="icon-link-in"></i></Link>
                                         <Link href="#"><i className="icon-instagram"></i></Link>
                                     </div>
