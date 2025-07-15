@@ -21,7 +21,7 @@ Widely respected for his principled advocacy of democratic values, constitutiona
   },
   {
     id: 'padma',
-    name: 'Late Padma Ratna Tuladhar',
+    name: 'Late Mr.Padma Ratna Tuladhar',
     shortDescription:
       'was a founding member of NTTP-I and served as a senior facilitator and Executive Committee Member. A respected human rights defender, political leader, and mediator, he played a vital....',
     image: 'assets/images/about/padma.png',

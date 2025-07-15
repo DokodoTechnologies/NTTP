@@ -83,91 +83,83 @@ export default function Home() {
 
   const fullText1 = `The root causes of conflict in Nepali society is related to deprivation of social and economic justice, inclusive democratic rule, lack of human rights and human dignity, lack of fair and good governance, and lack of equitable development. Trusted and inclusive dialogues help in finding agreeable solutions to these issues. Honest and efficient implementation of such agreed solutions help in eliminating social, political and economic exclusions paving for way to transform the society into peaceful, inclusive, democratic and prosperous federal republic, as Constitution of Nepal-2015 has charted the courses of the nation. `;
 
-  const shortText2 = `Nepal Transition to Peace (NTTP) Initiative was implemented since August 2005 at the request of Nepali polity and with the support of USAID and the Swiss government. At the end of its first phase in 2009, the Ministry of Peace and Reconstruction and other stakeholders requested the USAID and the Swiss Government to continue to provide support to the peace building process.`;
+  const shortText2 = `Nepal Transition to Peace (NTTP) was initiated in August 2005 as a quiet dialogue platform between Maoist rebel groups and political forces, supported by USAID and the Swiss government. Following its initial phase, the Ministry of Peace and Reconstruction and stakeholders requested continued support for Nepal’s peace process.`;
 
-  const fullText2 = `Nepal Transition to Peace (NTTP) Initiative was implemented as an informal peace initiative supported by various partners and friends of Nepal. A peace support project to this aim was initiated in August 2005 at the request of Nepali stakeholders with the support of USAID and the Swiss government.
+const fullText2 = `Nepal Transition to Peace (NTTP) was envisioned as a peace initiative to conduct quiet dialogues in a trusted setting between the Maoist rebel groups and political forces of Nepal, as demanded by Nepali stakeholders and supported by friends of Nepal in 2005. A peace support project to this aim was initiated in August 2005 with the support of USAID and the Swiss government.
 
-At the end this project in 2009, the Ministry of Peace and Reconstruction and other stakeholders requested the USAID and the Swiss Government to continue to provide support to the peace building process. From 2009, The Asia Foundation (TAF) succeeded the Academy for Education and Development (AED) as the implementation partner for Nepal Peace Support Project (NPSP) until early 2015.
+At the end of this project in 2009, the Ministry of Peace and Reconstruction and other stakeholders requested USAID and the Swiss Government to continue providing support to the peace building process in Nepal. The Asia Foundation (TAF) succeeded the Academy for Education and Development (AED) as the implementation partner for the Nepal Peace Support Project (NPSP) from 2009 until early 2015.
 
-With the institutionalization of the NTTP program, NTTP Institute (NTTP-I) has been implementing the NTTP processes independently from February 2015. NTTP-I is currently implementing the USAID-supported Inclusive Dialogue for Political Transition (IDPT, 2015-18) project and Supporting Inclusive Dialogues (SID, 2015-17) project supported by the Swiss government.
+The NTTP – Institute (NTTP-I) was established in February 2015 with its own charter and is registered under the National Guidance Act, 1961 at the Ministry of Home, and at the Social Welfare Council. NTTP-I has successfully implemented the USAID-supported ‘Inclusive Dialogue for Political Transition (IDPT, 2015-18)’ project and the Swiss government-supported ‘Supporting Inclusive Dialogues (SID, 2015-17)’ project.
 
-Recognition, ownership and desire to carry on the legacy of the significant role played by the NTTP Forum in Nepal's political transition in the stakeholders led to the establishment of NTTP Institute in February 2015. The trusted convening ability of its senior facilitators, who were the official facilitators during the formal negotiations between the then governments and the CPN (Maoist) at the advent of the peace process, has enabled and entrusted the NTTP Forum to get recognition as a core institution for high level political dialogues aimed at conflict resolution and peace building.`;
-
+The trusted convening ability of its then senior facilitators, Late Mr. Daman Nath Dhungana and Mr. Padma Ratna Tuladhar, who were official observers/facilitators during the formal negotiations between the then governments and the CPN (Maoist), has enabled and entrusted the Institute and the NTTP Forum to gain recognition as a core institution for high-level political dialogues aimed at conflict resolution and peace building.`;
 
   const committeeMembers = [
-    {
-      id: 'stella',
-      name: 'Ms.Stella Tamang',
-      shortDescription:
-        'is immediate-past chairperson at NTTP-I. She is the Founding Chair and currently Advisor of the National...',
-      image: 'assets/images/about/stella.png',
-      fullDescription: `Mrs. Stella Tamang is immediate-past chairperson at NTTP-I. She is the Founding Chair and currently Advisor of the National Indigenous Women Federation of Nepal (NIWF). She is also the convener and Chairperson of the South Asia Indigenous Women Forum. An educationist by profession, Ms. Tamang has received numerous awards including the Presidential Award for Education and ASHOKA Fellowship for her innovative work for social change through Bikalpa Gyan Tatha Bikas Kendra.Committed to advancing the rights of women, indigenous peoples, and religious minorities, Ms. Tamang coordinates the NTTP Women Group.`,
-    },
-    {
-      id: 'sagar',
-      name: 'Mr.Sagar Prasai',
-      shortDescription:
-        'Is treasurer of NTTP Institute. He has worked for The Asia Foundation for more than 12 years includi...',
-      image: 'assets/images/about/sagar.png',
-      fullDescription: `Mr. Sagar Prasai Is treasurer of NTTP Institute. He has worked for The Asia Foundation for more than 12 years including four-and-half years in the capacity of country representative in India.  He has worked for UNDP as District Development Adviser for two years before studying Masters’ Degree in Urban Planning from University of Hawaii in USA and obtaining Doctor of Philosophy (PhD) Degree in Regional Planning from University of Illinois is USA. `,
-    },
-    {
-      id: 'malik',
-      name: 'Mr.Vidyadhar Malik',
-      shortDescription:
-        'a former Minister, is one of the NTTP facilitators and Executive Committee Member and Chairperson at NTTP-I. ...',
-      image: 'assets/images/about/malik.jpg',
-      fullDescription: `Mr.Vidyadhar Malik a former Minister, is one of the NTTP facilitators and Executive Committee Member and Chairperson at NTTP-I. With a former career as Peace Secretary and with expertise in trusted peace dialogue, conflict resolution and governance, he played a significant role in negotiating with the CPN-Maoist and later, holding the Constituent Assembly election as a Minister in the Election Government formed under the Chairmanship of Chief Justice Khilaraj Regmi in 2013. As a minister, he led negotiations with political parties and rebel groups for their active participation in Constituent Assembly-II election. Also a former advisor to the President, his civil service stints included Education Secretary and Finance Secretary. `,
-    },
-    {
-      id: 'youba',
-      name: 'Mr.Youba Raj Acharya',
-      shortDescription:
-        'is General Secretary at NTTP-I.  He has more than 19 years of professional experience in the field of professional experience in the field of media,...',
-      image: 'assets/images/about/youba.png',
-      fullDescription: `Mr. Youba Raj Acharya is General Secretary at NTTP-I since early 2021. A recipient of Rotary International Peace Fellowship (2021-22), Acharya bring in more than 25 years of professional experience in the field of post-conflict governance reforms, political process strengthening, peacebuilding and conflict transformation, electoral affairs and media. He has worked as head of International Republican Institute (IRI)’s Nepal office, held various positions including Regional Dialogue Coordinator in the UNDP, and Political Affairs Officer with UNMIN, and has handled conflict prevention, peace building, political analysis and dialogue facilitation responsibilities at Kathmandu and regional levels. Acharya has over a decade-long experience in national and international media outlets, including in Associated Press, The Times of India, The Kathmandu Post and Republica`,
-    },
-    {
-      id: 'birendra',
-      name: 'Mr.Birendra P Mishra',
-      shortDescription:
-        'is an eminent member of Nepal\'s civil society and a regular contributor of opinion pieces in major n...',
-      image: 'assets/images/about/birendra.png',
-      fullDescription: `Mr. Birendra P. Mishra is an eminent member of Nepal’s civil society and a regular contributor of opinion pieces in major national dailies. After two decades of experience as a Professor of Philosophy in Tribhuvan University, he was appointed as Commissioner of the Election Commission, Nepal (1994-2000) where he oversaw two parliamentary elections. He also served as the Coordinator of the National Monitoring Committee on Code of Conduct for Ceasefire (NMCC)formed to monitor the ceasefire arrangements between the Government of Nepal and the Maoists until the Comprehensive Peace Accord (CPA) was signed in November, 2006. Currently, Dr. Mishra is one of the core facilitators in NTTP Forum meetings and dialogues related to constitutional reforms and electoral system reforms. `,
-    },
-    {
-      id: 'sajana',
-      name: 'Ms.Sajana Maharjan',
-      shortDescription:
-        'is one of the founding members of NTTP-I and is currently one of the members of executive committee ...',
-      image: 'assets/images/about/sajana.png',
-      fullDescription: `Ms. Sajana Maharjan is one of the founding members of NTTP-I and is currently one of the members of executive committee of NTTP-I. She has served NTTP-I in the capacity of Executive Director until April 30, 2016. She has served as the Deputy Chief of Party for FHI360 implemented USAID Civil Society Mutual Accountability Project (CS:MAP). She has extensive experiences working with civil society groups, political actors, government officials, media and women both at national and sub-national levels. She has extensive experience of working in various sectors of peace and governance. `,
-    },
-    {
-      id: 'nitika',
-      name: 'Ms. Nitika Dhungana',
-      shortDescription:
-        'is one of the executive board members of the NTTP-I. Ms. Dhungana is an advocate at the Supreme Court...',
-      image: 'assets/images/about/Nitika.png', // Placeholder, ensure image exists
-      fullDescription: `Ms. Nitika Dhungana  is one of the executive board members of the NTTP-I. Ms. Dhungana is an advocate at the Supreme Court Bar Association of Nepal and social activist committed to empowering women and underserved communities. She champions women’s leadership and economic participation. She is also involved in various national and international initiatives promoting legal literacy, social justice, and community development. Through her work, Ms. Dhungana continues to inspire young leaders and contribute meaningfully to Nepal’s social transformation.`,
-    },
-    {
-      id: 'tseten',
-      name: 'Dr. Tseten Yonjen Tamang',
-      shortDescription:
-        'is one of the members of the Executive Board of the NTTP-I. She is a renowned Nepali general surgeon...',
-      image: 'assets/images/about/tseten.png', // Placeholder, ensure image exists
-      fullDescription: `Dr. Tseten Yonjen Tamang  is one of the members of the Executive Board of the NTTP-I. She is a renowned Nepali general surgeon specializing in hepatobiliary and liver transplant surgery. Alongside her medical career, she is deeply committed to social transformation through her work in girls’ education, women’s skill development, and peace-building. A strong advocate for inclusive development, she actively promotes access to health and education for marginalized communities.`,
-    },
-    // {
-    //   id: 'padma',
-    //   name: 'Late Padma Ratna Tuladhar',
-    //   shortDescription:
-    //     'was a senior NTTP facilitator, Executive Committee Member and former Chairperson at NTTP-I...',
-    //   image: 'assets/images/about/padma.png', // Placeholder, ensure image exists
-    //   fullDescription: `Late Padma Ratna Tuladhar (1940–2018) was a senior NTTP facilitator, Executive Committee Member and former Chairperson at NTTP-I. He was a distinguished Nepali politician, human rights defender, and advocate for indigenous rights. Elected to the Rastriya Panchayat in 1986, he boldly championed democracy from within the autocratic system. Following the 1990 democratic movement, he served as Minister for Labour and Health in the 1994 CPN-UML-led government. Tuladhar played a pivotal role in Nepal’s peace process, facilitating dialogue between the government and Maoist rebels during the civil war. His unwavering commitment to justice and inclusion made him a revered figure in Nepal’s democratic evolution.`,
-    // },
-  ];
+  {
+    id: 'malik',
+    name: 'Mr.Vidyadhar Malik',
+    shortDescription:
+      'a former Minister, is one of the NTTP facilitators and Executive Committee Member and Chairperson at NTTP-I. ...',
+    image: 'assets/images/about/malik.jpg',
+    fullDescription: `A former Minister, is one of the founding members of the NTTP-I, currently serving as the Chairperson of its Executive Committee...`,
+  },
+  {
+    id: 'stella',
+    name: 'Ms.Stella Tamang',
+    shortDescription:
+      'is immediate-past chairperson at NTTP-I. She is the Founding Chair and currently Advisor of the National...',
+    image: 'assets/images/about/stella.png',
+    fullDescription: `Mrs. Stella Tamang is immediate-past chairperson at NTTP-I...`,
+  },
+  {
+    id: 'sajana',
+    name: 'Ms.Sajana Maharjan',
+    shortDescription:
+      'is one of the founding members of NTTP-I and is currently one of the members of executive committee ...',
+    image: 'assets/images/about/sajana.png',
+    fullDescription: `Ms. Sajana Maharjan is one of the founding members of NTTP-I... served as Executive Director until April 30, 2016...`,
+  },
+  {
+    id: 'sagar',
+    name: 'Mr.Sagar Prasai',
+    shortDescription:
+      'Is treasurer of NTTP Institute. He has worked for The Asia Foundation for more than 12 years includi...',
+    image: 'assets/images/about/sagar.png',
+    fullDescription: `Mr. Sagar Prasai Is treasurer of NTTP Institute...`,
+  },
+  {
+    id: 'youba',
+    name: 'Mr.Youba Raj Acharya',
+    shortDescription:
+      'is General Secretary at NTTP-I. He has more than 19 years of professional experience in the field of...',
+    image: 'assets/images/about/youba.png',
+    fullDescription: `Mr. Youba Raj Acharya is General Secretary at NTTP-I since early 2021...`,
+  },
+  {
+    id: 'nitika',
+    name: 'Ms. Nitika Dhungana',
+    shortDescription:
+      'is one of the executive board members of the NTTP-I. Ms. Dhungana is an advocate at the Supreme Court...',
+    image: 'assets/images/about/Nitika.png',
+    fullDescription: `Ms. Nitika Dhungana is one of the executive board members of the NTTP-I...`,
+  },
+  {
+    id: 'tseten',
+    name: 'Dr. Tseten Yonjen Tamang',
+    shortDescription:
+      'is one of the members of the Executive Board of the NTTP-I. She is a renowned Nepali general surgeon...',
+    image: 'assets/images/about/tseten.png',
+    fullDescription: `Dr. Tseten Yonjen Tamang is one of the members of the Executive Board of the NTTP-I...`,
+  },
+  {
+    id: 'birendra',
+    name: 'Mr.Birendra P Mishra',
+    shortDescription:
+      'is an eminent member of Nepal\'s civil society and a regular contributor of opinion pieces in major n...',
+    image: 'assets/images/about/birendra.png',
+    fullDescription: `Mr. Birendra P. Mishra is an eminent member of Nepal’s civil society...`,
+  },
+];
+
   const internationalExperts = [
     {
       id: 'lederach',
@@ -189,14 +181,14 @@ He was the founding director for the Center for Justice and Peacebuilding at Eas
 He has authored several articles on local peace building and was a Jennings Randolph Senior Fellow at the US Institute of Peace (USIP) in 2009–2010. His study on local peace committees, A Crucial Link: Local Peace Committees and National Peacebuilding, was published in 2013 by USIP.
 `,
     },
-    {
-      id: 'spies',
-      name: 'Chris Spies',
-      shortDescription:
-        'is a South African conflict transformation expert and international advisor to NTTP-I, supporting UNDP and Asia Foundation projects in Nepal...',
-      image: 'assets/images/about/spies.jpg',
-      fullDescription: `Chris Spies is an international advisor to NTTP-I. He is a Senior Research Fellow of the Institute for Justice and Reconciliation in South Africa and the lead trainer of the Swedish Folke Bernadotte Academy’s courses on dialogue and mediation. In Nepal, he is supporting the UNDP’s efforts to promote collaboration and dialogue as well as the community mediation project of the Asia Foundation. He is a South African conflict transformation practitioner with many years of experience in dialogue and mediation in South Africa and various international settings. He was the Regional Organiser of the National Peace Accord structure in the Western Cape and later served as the first full-time UN Peace and Development Advisor in Guyana.`,
-    },
+    // {
+    //   id: 'spies',
+    //   name: 'Chris Spies',
+    //   shortDescription:
+    //     'is a South African conflict transformation expert and international advisor to NTTP-I, supporting UNDP and Asia Foundation projects in Nepal...',
+    //   image: 'assets/images/about/spies.jpg',
+    //   fullDescription: `Chris Spies is an international advisor to NTTP-I. He is a Senior Research Fellow of the Institute for Justice and Reconciliation in South Africa and the lead trainer of the Swedish Folke Bernadotte Academy’s courses on dialogue and mediation. In Nepal, he is supporting the UNDP’s efforts to promote collaboration and dialogue as well as the community mediation project of the Asia Foundation. He is a South African conflict transformation practitioner with many years of experience in dialogue and mediation in South Africa and various international settings. He was the Regional Organiser of the National Peace Accord structure in the Western Cape and later served as the first full-time UN Peace and Development Advisor in Guyana.`,
+    // },
     {
       id: 'joshi',
       name: 'Dr. Madhav Joshi',
@@ -339,7 +331,7 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
                   <div className='about-One__img-box'>
                     <div className='about-One__img'>
                       <img
-                        src='assets/images/about/2.jpg'
+                        src='assets/images/about/0.jpg'
                         alt=''
                       />
                     </div>
@@ -359,7 +351,7 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
                       </div>
                       <div className='about-One__provide-content'>
                         <div className='about-One__provide-count count-box'>
-                          <h3 className='count-text'>3</h3>
+                          <h3 className='count-text'>20</h3>
                           <span>+</span>
                         </div>
                         <p className='about-One__provide-count-text'>
@@ -424,8 +416,7 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
                         >
                           <div className='tabs-content__inner'>
                             <p>
-                              To become a trusted and credible institute to prevent and transform conflict through inclusive dialogues and high quality resources.
-                            </p>
+                              To become a trusted and credible institute to prevent and transform conflict through inclusive dialogues and high-quality resources.                             </p>
                           </div>
                         </div>
                         {/*tab*/}
@@ -439,8 +430,7 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
                         >
                           <div className='tabs-content__inner'>
                             <p>
-                              Address root causes of conflict in the country through promotion of dialogue at different layers as a tool for mitigating social, political and economic injustices; and promote inclusive democracy, peaceful coexistence with dignity for all citizens and good governance.
-                            </p>
+                              Seek peaceful solutions to the root causes of conflict in the country through promotion of dialogue at different layers as a tool for addressing social, political and economic injustices; and promote inclusive democracy, peaceful coexistence and good governance.                             </p>
                           </div>
                         </div>
                         {/*tab*/}
@@ -454,8 +444,7 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
                         >
                           <div className='tabs-content__inner'>
                             <p>
-                              NTTP highly values the legacy and contributions of the two legendary founding facilitators (Late D. N. Dhungana, and Late P. R. Tuladhar) and the capacity of present facilitators. NTTP-I aims to integrate their philosophy and principles into the values of the institute.
-                            </p>
+                              NTTP highly values the legacy and contributions of the two legendary founding facilitators (Late D. N. Dhungana, and Late P. R. Tuladhar) and the capacity of present facilitators. NTTP-I aims to integrate their philosophy and principles into the values of the institute.                            </p>
                           </div>
                         </div>
                         {/*tab*/}
@@ -513,7 +502,7 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
               className="section-header"
               style={{ textAlign: 'left', marginBottom: '3rem' }}
             >
-              <p
+              {/* <p
                 style={{
                   fontSize: '0.9rem',
                   color: '#5ba4d4',
@@ -524,7 +513,7 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
                 }}
               >
                 Our Executive Committee
-              </p>
+              </p> */}
               <h2
                 style={{
                   fontSize: '3rem',
@@ -534,28 +523,24 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
                   margin: '0',
                 }}
               >
-                Meet The Dedicated Leaders <br />
+                Meet The Dedicated Executive Committee<br />
               </h2>
             </div>
 
             {/* Swiper Carousel */}
             <Swiper
-              modules={[Autoplay, Navigation]}
-              autoplay={{
-                delay: 3000,
-                disableOnInteraction: false,
-                reverseDirection: true,
-              }}
-              navigation={true}
-              loop={true}
-              spaceBetween={30}
-              slidesPerView={1}
-              breakpoints={{
-                768: { slidesPerView: 2 },
-                1024: { slidesPerView: 3 },
-              }}
-              className="volunteer-carousel-style owl-carousel owl-theme carousel-dot-style"
-            >
+  modules={[Navigation]} // Removed Autoplay from modules
+  navigation={true}
+  loop={true}
+  spaceBetween={30}
+  slidesPerView={1}
+  breakpoints={{
+    768: { slidesPerView: 2 },
+    1024: { slidesPerView: 3 },
+  }}
+  className="volunteer-carousel-style owl-carousel owl-theme carousel-dot-style"
+>
+
               {committeeMembers.map((member) => (
                 <SwiperSlide key={member.id}>
                   {/*Volunteer Page Single Start*/}
@@ -601,6 +586,28 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
         <section className='donate-one'>
           <div className='container'>
             <div className='row'>
+              {/* Second Box */}
+              <div
+                className='col-xl-6 col-lg-6 wow slideInRight'
+                data-wow-delay='100ms'
+                data-wow-duration='2500ms'
+              >
+                <div className='donate-one__single donate-one__single-2'>
+                  <div
+                    className='donate-one__single-bg'
+                    style={{ backgroundImage: 'url(assets/images/about/history.jpg)' }}
+                  ></div>
+                  <h3 className='donate-one__title'>
+                    <Link href='become-volunteer'>Our History</Link>
+                  </h3>
+                  <p className='donate-one__text'>{shortText2}</p>
+                  <div className='donate-one__btn-box'>
+                    <button onClick={() => handleOpen('modal2')} className='donate-one__btn thm-btn'>
+                      Read more <span><i className='icon-arrow-right'></i></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
               {/* First Box */}
               <div
                 className='col-xl-6 col-lg-6 wow slideInLeft'
@@ -624,28 +631,7 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
                 </div>
               </div>
 
-              {/* Second Box */}
-              <div
-                className='col-xl-6 col-lg-6 wow slideInRight'
-                data-wow-delay='100ms'
-                data-wow-duration='2500ms'
-              >
-                <div className='donate-one__single donate-one__single-2'>
-                  <div
-                    className='donate-one__single-bg'
-                    style={{ backgroundImage: 'url(assets/images/about/history.jpg)' }}
-                  ></div>
-                  <h3 className='donate-one__title'>
-                    <Link href='become-volunteer'>Our History</Link>
-                  </h3>
-                  <p className='donate-one__text'>{shortText2}</p>
-                  <div className='donate-one__btn-box'>
-                    <button onClick={() => handleOpen('modal2')} className='donate-one__btn thm-btn'>
-                      Read more <span><i className='icon-arrow-right'></i></span>
-                    </button>
-                  </div>
-                </div>
-              </div>
+              
             </div>
           </div>
         </section>
@@ -748,22 +734,18 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
 
             {/* Swiper Carousel */}
             <Swiper
-              modules={[Autoplay, Navigation]}
-              autoplay={{
-                delay: 3000,
-                disableOnInteraction: false,
-                reverseDirection: true,
-              }}
-              navigation={true}
-              loop={true}
-              spaceBetween={30}
-              slidesPerView={1}
-              breakpoints={{
-                768: { slidesPerView: 2 },
-                1024: { slidesPerView: 3 },
-              }}
-              className="volunteer-carousel-style owl-carousel owl-theme carousel-dot-style"
-            >
+  modules={[Navigation]} // Removed Autoplay from modules
+  navigation={true}
+  loop={true}
+  spaceBetween={30}
+  slidesPerView={1}
+  breakpoints={{
+    768: { slidesPerView: 2 },
+    1024: { slidesPerView: 3 },
+  }}
+  className="volunteer-carousel-style owl-carousel owl-theme carousel-dot-style"
+>
+
               {internationalExperts.map((expert) => (
                 <SwiperSlide key={expert.id}>
                   <div className="item">
@@ -947,23 +929,19 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
             </div>
 
             {/* Swiper Carousel */}
-            <Swiper
-              modules={[Autoplay, Navigation]}
-              autoplay={{
-                delay: 3000,
-                disableOnInteraction: false,
-                reverseDirection: true,
-              }}
-              navigation={true}
-              loop={true}
-              spaceBetween={30}
-              slidesPerView={1}
-              breakpoints={{
-                768: { slidesPerView: 2 },
-                1024: { slidesPerView: 3 },
-              }}
-              className="volunteer-carousel-style owl-carousel owl-theme carousel-dot-style"
-            >
+           <Swiper
+  modules={[Navigation]} // Removed Autoplay from modules
+  navigation={true}
+  loop={true}
+  spaceBetween={30}
+  slidesPerView={1}
+  breakpoints={{
+    768: { slidesPerView: 2 },
+    1024: { slidesPerView: 3 },
+  }}
+  className="volunteer-carousel-style owl-carousel owl-theme carousel-dot-style"
+>
+
               {coreStaffMembers.map((member) => (
                 <SwiperSlide key={member.id}>
                   {/*Volunteer Page Single Start*/}

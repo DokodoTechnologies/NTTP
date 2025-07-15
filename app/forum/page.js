@@ -19,8 +19,7 @@ export default function Home() {
         text3: "NTTP Forum plays a key role in fostering understanding among political parties, addressing disputes, and ensuring inclusive discussions during Nepal's political transition and peacebuilding process, and transitional justice process. "
       },
       rightImages: {
-        img1: "assets/images/project/1.jpg",
-        img2: "assets/images/project/2.jpg"
+        img2: "assets/images/fourms/1.jpg"
       }
     },
     {
@@ -40,8 +39,7 @@ export default function Home() {
         text3: "NTTP-I supports YPLG to bring innovative, cooperative approaches into the political space. This helps bridge the leadership gap and promotes inclusive and youth-led contributions to Nepal's peace and political transformation."
       },
       rightImages: {
-        img1: "assets/images/project/1.jpg",
-        img2: "assets/images/project/2.jpg"
+        img2: "assets/images/fourms/1.jpg"
       }
     },
     {
@@ -54,14 +52,14 @@ export default function Home() {
           "Gender-Friendly Constitution Drafting",
           "Policy Formulation & Legislative Reforms",
           "Implementation of Gender Policies",
-          "Leadership & Political Representation"
+          "Leadership & Political Representation",
+          "Empowering Women for Inclusive Governance"
         ],
-        title2: "Empowering Women for Inclusive Governance",
+        // title2: "",
         text3: "NTTP-I supports the WG in amplifying women's voices in governance and policy-making. Through collaborative action and institutional engagement, WG advances the cause of gender justice and addresses the leadership gap in Nepal's political landscape."
       },
       rightImages: {
-        img1: "assets/images/project/1.jpg",
-        img2: "assets/images/project/2.jpg"
+        img2: "assets/images/fourms/3.jpg"
       }
     }, {
       id: 4,
@@ -78,8 +76,7 @@ export default function Home() {
         text3: "Through research, reflective dialogue, and direct engagement with lawmakers, the Madhesh Group works to make Nepal's constitution-making and governance more responsive to the needs and aspirations of Madheshi communities."
       },
       rightImages: {
-        img1: "assets/images/project/1.jpg",
-        img2: "assets/images/project/2.jpg"
+        img2: "assets/images/fourms/1.jpg"
       }
     },
     {
@@ -97,8 +94,7 @@ export default function Home() {
         text3: "By fostering collaboration and reducing conflict, the NTTP Janajati Group plays a vital role in shaping a governance model that recognizes Nepal's ethnic diversity and builds bridges across communities."
       },
       rightImages: {
-        img1: "assets/images/project/1.jpg",
-        img2: "assets/images/project/2.jpg"
+        img2: "assets/images/fourms/5.jpg"
       }
     },
     {
@@ -117,8 +113,7 @@ export default function Home() {
         text3: "By challenging systemic exclusion and mobilizing action across sectors, the NTTP Dalit Group works to ensure the voices and rights of the Dalit community are recognized and respected within Nepal's political and social landscape."
       },
       rightImages: {
-        img1: "assets/images/project/1.jpg",
-        img2: "assets/images/project/2.jpg"
+        img2: "assets/images/fourms/6.jpg"
       }
     },
     {
@@ -136,8 +131,7 @@ export default function Home() {
         text3: "These groups are instrumental in deepening understanding between regional and national actors, ensuring that local perspectives shape the broader peace and policy discourse. NTTP-I aims to expand this successful model to more conflict-sensitive areas across Nepal."
       },
       rightImages: {
-        img1: "assets/images/project/1.jpg",
-        img2: "assets/images/project/2.jpg"
+        img2: "assets/images/fourms/7.jpg"
       }
     }
     // Other sections ...
