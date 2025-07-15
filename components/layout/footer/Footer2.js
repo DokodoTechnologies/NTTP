@@ -22,7 +22,7 @@ export default function Footer3() {
                 >
                   <div className='footer-widget-two__about'>
                     <h2 className='footer-widget-two__about-title'>
-                      Nepal Transition To Peace
+                      Nepal transition to Peace
                     </h2>
                     <p className='footer-widget-two__about-text'>
                       An organization dedicated to

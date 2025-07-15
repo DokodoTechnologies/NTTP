@@ -13,13 +13,14 @@ export default function Home() {
         points: [
           "Facilitated by senior political figures",
           "Monthly or need-based meetings",
-          "Focus on peace and constitution drafting"
+          "Focus on peace and constitution drafting",
+          "Strengthening National Dialogue"
         ],
-        title2: "Strengthening National Dialogue",
+        
         text3: "NTTP Forum plays a key role in fostering understanding among political parties, addressing disputes, and ensuring inclusive discussions during Nepal's political transition and peacebuilding process, and transitional justice process. "
       },
       rightImages: {
-        img2: "assets/images/fourms/1.jpg"
+        // img2: "assets/images/fourms/1.jpg"
       }
     },
     {
@@ -33,13 +34,14 @@ export default function Home() {
           "Peace Process & Transitional Justice",
           "State Restructuring & Federalism",
           "Conflict Mitigation & Dialogue Facilitation",
-          "Political Party Reforms & Democratization"
+          "Political Party Reforms & Democratization",
+          "Shaping the Future of Democratic Leadership"
         ],
-        title2: "Shaping the Future of Democratic Leadership",
+      
         text3: "NTTP-I supports YPLG to bring innovative, cooperative approaches into the political space. This helps bridge the leadership gap and promotes inclusive and youth-led contributions to Nepal's peace and political transformation."
       },
       rightImages: {
-        img2: "assets/images/fourms/1.jpg"
+        // img2: "assets/images/fourms/1.jpg"
       }
     },
     {
@@ -70,13 +72,14 @@ export default function Home() {
         points: [
           "Policy Research on Inclusion & Federalism",
           "Consensus Building through Action Research",
-          "Public Hearings on Constitution & Governance"
+          "Public Hearings on Constitution & Governance",
+          "Bridging Dialogue for Regional Inclusion"
         ],
-        title2: "Bridging Dialogue for Regional Inclusion",
+       
         text3: "Through research, reflective dialogue, and direct engagement with lawmakers, the Madhesh Group works to make Nepal's constitution-making and governance more responsive to the needs and aspirations of Madheshi communities."
       },
       rightImages: {
-        img2: "assets/images/fourms/1.jpg"
+        // img2: "assets/images/fourms/1.jpg"
       }
     },
     {
@@ -88,9 +91,10 @@ export default function Home() {
         points: [
           "Clarity on Rights & Governance Through Research",
           "Mediation on Identity-Based Political Differences",
-          "Linking Networks for Collective Problem Solving"
+          "Linking Networks for Collective Problem Solving",
+          "Advancing Equity Through Inclusive Dialogue"
         ],
-        title2: "Advancing Equity Through Inclusive Dialogue",
+      
         text3: "By fostering collaboration and reducing conflict, the NTTP Janajati Group plays a vital role in shaping a governance model that recognizes Nepal's ethnic diversity and builds bridges across communities."
       },
       rightImages: {
@@ -107,13 +111,14 @@ export default function Home() {
           "Raising Political & Public Awareness",
           "Institutional Reform for Equitable Representation",
           "Budget Monitoring for Dalit Inclusion",
-          "Conflict Mitigation Through Dialogue"
+          "Conflict Mitigation Through Dialogue",
+          "Fighting Caste Discrimination with Dialogue and Action"
         ],
-        title2: "Fighting Caste Discrimination with Dialogue and Action",
+     
         text3: "By challenging systemic exclusion and mobilizing action across sectors, the NTTP Dalit Group works to ensure the voices and rights of the Dalit community are recognized and respected within Nepal's political and social landscape."
       },
       rightImages: {
-        img2: "assets/images/fourms/6.jpg"
+        // img2: "assets/images/fourms/6.jpg"
       }
     },
     {
@@ -125,13 +130,14 @@ export default function Home() {
         points: [
           "Mitigating Regional Conflicts via Dialogue",
           "Creating Strong Vertical Linkages with National Forums",
-          "Conducting Regular Regional Consultations"
+          "Conducting Regular Regional Consultations",
+          "Local Peacebuilding Through Inclusive Dialogues"
         ],
-        title2: "Local Peacebuilding Through Inclusive Dialogues",
+     
         text3: "These groups are instrumental in deepening understanding between regional and national actors, ensuring that local perspectives shape the broader peace and policy discourse. NTTP-I aims to expand this successful model to more conflict-sensitive areas across Nepal."
       },
       rightImages: {
-        img2: "assets/images/fourms/7.jpg"
+        // img2: "assets/images/fourms/7.jpg"
       }
     }
     // Other sections ...

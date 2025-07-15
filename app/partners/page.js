@@ -8,19 +8,14 @@ import 'swiper/css'
 import 'swiper/css/navigation'
 import { Navigation } from 'swiper/modules'
 
-const supporters = [
+const partners = [
    {
     title: "KURVE Wustrow - Nepal Office",
     image: 'assets/images/about/kurvewustrow.png',
     summary: "Enhancing social cohesiveness and sustainable peace and development",
     details: `March 2025 - December 2027\nTo promote the positive and sensitive handling of history`,
   },
-  {
-    title: "KURVE Wustrow - Nepal Office",
-    image: 'assets/images/about/kurvewustrow.png',
-    summary: "Enhancing social cohesiveness and sustainable peace and development",
-    details: "March 2025 - December 2027\nTo promote the positive and sensitive handling of history.",
-  },
+ 
   {
     title: "Asia Foundation",
     image: 'assets/images/about/asian.png',
@@ -57,13 +52,19 @@ const supporters = [
     summary: "",
     details: "May-July 2023\nTo foster trust and collaboration among political parties for achieving a shared goal.",
   },
+   {
+    title: "International Alert",
+    image: 'assets/images/partners/internalAlert.png',
+    summary: "",
+    details: "May-July 2023\nTo foster trust and collaboration among political parties for achieving a shared goal.",
+  },
 ]
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false)
-  const [selectedSupporter, setSelectedSupporter] = useState(null)
+  const [selectedpartners, setSelectedpartners] = useState(null)
 
-  const openModal = (supporter) => {
-    setSelectedSupporter(supporter)
+  const openModal = (partners) => {
+    setSelectedpartners(partners)
     setIsOpen(true)
   }
 
@@ -89,17 +90,17 @@ export default function Home() {
               }}
               className="mySwiper"
             >
-              {supporters.map((supporter, index) => (
+              {partners.map((partners, index) => (
                 <SwiperSlide key={index}>
                   <div
                     className="found-one__single flex flex-col h-96 cursor-pointer border border-gray-100 rounded-lg shadow-sm hover:shadow-md transition-shadow"
-                    onClick={() => openModal(supporter)}
+                    onClick={() => openModal(partners)}
                   >
                     <div className="found-one__img-box">
                       <div className="found-one__img w-full h-48 overflow-hidden rounded-lg border border-gray-200 bg-white flex items-center justify-center p-4">
                         <img
-                          src={supporter.image}
-                          alt={supporter.title}
+                          src={partners.image}
+                          alt={partners.title}
                           className="max-w-full max-h-full object-contain"
                           style={{ width: 'auto', height: 'auto', maxWidth: '100%', maxHeight: '100%' }}
                         />
@@ -107,9 +108,9 @@ export default function Home() {
                     </div>
                     <div className="found-one__content flex-grow flex flex-col justify-between p-4 min-h-0">
                       <div className="flex-grow">
-                        <h4 className="found-one__title text-lg font-semibold mb-2 line-clamp-2">{supporter.title}</h4>
-                        {supporter.summary && (
-                          <p className="found-one__text text-sm text-gray-600 line-clamp-3">{supporter.summary}</p>
+                        <h4 className="found-one__title text-lg font-semibold mb-2 line-clamp-2">{partners.title}</h4>
+                        {partners.summary && (
+                          <p className="found-one__text text-sm text-gray-600 line-clamp-3">{partners.summary}</p>
                         )}
                       </div>
                     </div>
@@ -122,10 +123,10 @@ export default function Home() {
               <div className="flex items-center justify-center min-h-screen px-4">
                 <Dialog.Panel className="bg-white p-6 rounded-lg max-w-lg w-full shadow-xl">
                   <Dialog.Title className="text-lg font-bold mb-4">
-                    {selectedSupporter?.title}
+                    {selectedpartners?.title}
                   </Dialog.Title>
                   <p className="text-sm whitespace-pre-line">
-                    {selectedSupporter?.details}
+                    {selectedpartners?.details}
                   </p>
                   <div className="mt-4 text-right">
                     <button onClick={() => setIsOpen(false)} className="text-blue-600 hover:underline">
