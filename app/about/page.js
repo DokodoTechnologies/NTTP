@@ -339,7 +339,7 @@ The trusted convening ability of its then senior facilitators, Late Mr. Daman Na
                     </div>
                     <div className='about-One__img-2'>
                       <img
-                        src='assets/images/about/.jpg'
+                        src='assets/images/about/aboutus1.jpg'
                         alt=''
                       />
                     </div>
