@@ -106,7 +106,7 @@ export default function Donation() {
                 </div>
                 <div className='donate-now wow fadeInUp' data-wow-delay='.7s'>
                   <div className='donation-one__btn-box'>
-                    <Link href='about' className='donation-one__btn thm-btn'>
+                    <Link href='research' className='donation-one__btn thm-btn'>
                       Learn more
                       <span>
                         <i className='icon-arrow-right'></i>

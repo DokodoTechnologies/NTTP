@@ -100,7 +100,7 @@ The trusted convening ability of its then senior facilitators, Late Mr. Daman Na
     shortDescription:
       'a former Minister, is one of the NTTP facilitators and Executive Committee Member and Chairperson at NTTP-I. ...',
     image: 'assets/images/about/malik.jpg',
-    fullDescription: `A former Minister, is one of the founding members of the NTTP-I, currently serving as the Chairperson of its Executive Committee...`,
+    fullDescription: `A former Minister, is one of the founding members of the NTTP-I, currently serving as the Chairperson of its Executive Committee. He is the facilitator of the NTTP Forum as well. Equipped with the experience of Peace Secretary and expertise in trusted peace dialogue, conflict resolution and governance, he played a significant role in negotiating with the CPN-Maoist and later, holding the Constituent Assembly II (CA II) election as a Minister in the Election Government during 2013 - 2014. As a minister, he led negotiations with political parties and rebel groups to persuade them for active participation in the CA II election. Mr. Mallik also served as an advisor to the first President of Nepal. His civil service stints included the roles of Education Secretary and Finance Secretary. His range of specialization includes convening and facilitating multi-stakeholder dialogues, broader governance and federalism issues as well as economic affairs and taxation.`,
   },
   {
     id: 'stella',
@@ -161,26 +161,26 @@ The trusted convening ability of its then senior facilitators, Late Mr. Daman Na
 ];
 
   const internationalExperts = [
-    {
-      id: 'lederach',
-      name: 'Professor John Paul Lederach',
-      shortDescription:
-        'is an international advisor to NTTP-I and a Professor of International Peace Building at the University of Notre Dame...',
-      image: 'assets/images/about/lederach.jpg',
-      fullDescription: `Professor John Paul Lederach is an international advisor to NTTP-I. He is a Professor of International Peace Building and Director of Peace Accords Matrix, Kroc Institute for International Peace Studies at University of Notre dame and Distinguished Scholar at Eastern Mennonite University, USA. Peace Accords Matrix is Kroc Institute’s unique source of comparable data on all comprehensive peace agreements that have been signed since 1989.
-He was the founding director for the Center for Justice and Peacebuilding at Eastern Mennonite University in 1994. Widely known for his pioneering work in conflict transformation, he is involved in conciliation work in Colombia, the Philippines, and Nepal, in addition to countries in East and West Africa. He has helped design and conduct training programs in 25 countries across five continents. Prof Lederach is the author of 22 books, including When Blood and Bones Cry Out: Journeys Through the Soundscape of Healing and Reconciliation (University of Queensland Press, 2010), The Moral Imagination: The Art and Soul of Building Peace (Oxford University Press, 2005), The Journey Toward Reconciliation (Herald Press, 1999), Building Peace: Sustainable Reconciliation in Divided Societies (USIP, 1997), and Preparing for Peace: Confliction Transformation Across Cultures (Syracuse University Press, 1995). He holds a Ph.D. in Sociology from the University of Colorado (1988).
-`,
-    },
-    {
-      id: 'odendaal',
-      name: 'Andries Odendaal',
-      shortDescription:
-        'is an international advisor to NTTP-I and Senior Associate at the Centre for Mediation in Africa, University of Pretoria...',
-      image: 'assets/images/about/odendaal.jpg',
-      fullDescription: `Andries Odendaal is an international advisor to NTTP-I. He is a Senior Associate at the Centre for Mediation in Africa at the University of Pretoria. He was a regional coordinator of the Western Cape Peace Committee in 1993–1994 during South Africa’s political transition, responsible for establishing and supporting local peace committees. During 1995–1998, he continued experimenting with local peace committees in post-apartheid South Africa and Lesotho under the auspices of the Centre for Conflict Resolution at the University of Cape Town. From 1999 to 2004, he coordinated projects of the Centre for Conflict Resolution in other African countries, and since 2005 provided freelancing support to peace-building initiatives of the UN and international organisations in Africa and elsewhere. Contracted by the Nepal Transition to Peace Initiative (NTTP) during 2006–2007, in collaboration with the Ministry of Peace and Reconstruction, he assisted with the conceptualization and implementation of local peace committees.
-He has authored several articles on local peace building and was a Jennings Randolph Senior Fellow at the US Institute of Peace (USIP) in 2009–2010. His study on local peace committees, A Crucial Link: Local Peace Committees and National Peacebuilding, was published in 2013 by USIP.
-`,
-    },
+//     {
+//       id: 'lederach',
+//       name: 'Professor John Paul Lederach',
+//       shortDescription:
+//         'is an international advisor to NTTP-I and a Professor of International Peace Building at the University of Notre Dame...',
+//       image: 'assets/images/about/lederach.jpg',
+//       fullDescription: `Professor John Paul Lederach is an international advisor to NTTP-I. He is a Professor of International Peace Building and Director of Peace Accords Matrix, Kroc Institute for International Peace Studies at University of Notre dame and Distinguished Scholar at Eastern Mennonite University, USA. Peace Accords Matrix is Kroc Institute’s unique source of comparable data on all comprehensive peace agreements that have been signed since 1989.
+// He was the founding director for the Center for Justice and Peacebuilding at Eastern Mennonite University in 1994. Widely known for his pioneering work in conflict transformation, he is involved in conciliation work in Colombia, the Philippines, and Nepal, in addition to countries in East and West Africa. He has helped design and conduct training programs in 25 countries across five continents. Prof Lederach is the author of 22 books, including When Blood and Bones Cry Out: Journeys Through the Soundscape of Healing and Reconciliation (University of Queensland Press, 2010), The Moral Imagination: The Art and Soul of Building Peace (Oxford University Press, 2005), The Journey Toward Reconciliation (Herald Press, 1999), Building Peace: Sustainable Reconciliation in Divided Societies (USIP, 1997), and Preparing for Peace: Confliction Transformation Across Cultures (Syracuse University Press, 1995). He holds a Ph.D. in Sociology from the University of Colorado (1988).
+// `,
+//     },
+//     {
+//       id: 'odendaal',
+//       name: 'Andries Odendaal',
+//       shortDescription:
+//         'is an international advisor to NTTP-I and Senior Associate at the Centre for Mediation in Africa, University of Pretoria...',
+//       image: 'assets/images/about/odendaal.jpg',
+//       fullDescription: `Andries Odendaal is an international advisor to NTTP-I. He is a Senior Associate at the Centre for Mediation in Africa at the University of Pretoria. He was a regional coordinator of the Western Cape Peace Committee in 1993–1994 during South Africa’s political transition, responsible for establishing and supporting local peace committees. During 1995–1998, he continued experimenting with local peace committees in post-apartheid South Africa and Lesotho under the auspices of the Centre for Conflict Resolution at the University of Cape Town. From 1999 to 2004, he coordinated projects of the Centre for Conflict Resolution in other African countries, and since 2005 provided freelancing support to peace-building initiatives of the UN and international organisations in Africa and elsewhere. Contracted by the Nepal Transition to Peace Initiative (NTTP) during 2006–2007, in collaboration with the Ministry of Peace and Reconstruction, he assisted with the conceptualization and implementation of local peace committees.
+// He has authored several articles on local peace building and was a Jennings Randolph Senior Fellow at the US Institute of Peace (USIP) in 2009–2010. His study on local peace committees, A Crucial Link: Local Peace Committees and National Peacebuilding, was published in 2013 by USIP.
+// `,
+//     },
     // {
     //   id: 'spies',
     //   name: 'Chris Spies',
@@ -189,19 +189,21 @@ He has authored several articles on local peace building and was a Jennings Rand
     //   image: 'assets/images/about/spies.jpg',
     //   fullDescription: `Chris Spies is an international advisor to NTTP-I. He is a Senior Research Fellow of the Institute for Justice and Reconciliation in South Africa and the lead trainer of the Swedish Folke Bernadotte Academy’s courses on dialogue and mediation. In Nepal, he is supporting the UNDP’s efforts to promote collaboration and dialogue as well as the community mediation project of the Asia Foundation. He is a South African conflict transformation practitioner with many years of experience in dialogue and mediation in South Africa and various international settings. He was the Regional Organiser of the National Peace Accord structure in the Western Cape and later served as the first full-time UN Peace and Development Advisor in Guyana.`,
     // },
-    {
-      id: 'joshi',
-      name: 'Dr. Madhav Joshi',
-      shortDescription:
-        'is an international advisor to NTTP-I and Associate Director at the Kroc Institute, University of Notre Dame...',
-      image: 'assets/images/about/joshi.jpg',
-      fullDescription: `Dr. Madhav Joshi is an international advisor to NTTP-I. He is Research Assistant Professor and Associate Director of the Peace Accords Matric (PAM) at the Kroc Institute of International Peace Studies, University of Notre Dame, USA. The PAM provides reliable and comparable online data on more than 30 recent peace accords and their implementation.
-Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research focuses on civil wars, post-civil war transition and survival of democracy, post-civil war peacebuilding, the role of third parties in the conflict process, and the Maoist insurgency in Nepal. His articles have appeared in International Studies Quarterly, Social Science Quarterly, Democratization, the Journal of Peace Research, and Asian Survey.
+//     {
+//       id: 'joshi',
+//       name: 'Dr. Madhav Joshi',
+//       shortDescription:
+//         'is an international advisor to NTTP-I and Associate Director at the Kroc Institute, University of Notre Dame...',
+//       image: 'assets/images/about/joshi.jpg',
+//       fullDescription: `Dr. Madhav Joshi is an international advisor to NTTP-I. He is Research Assistant Professor and Associate Director of the Peace Accords Matric (PAM) at the Kroc Institute of International Peace Studies, University of Notre Dame, USA. The PAM provides reliable and comparable online data on more than 30 recent peace accords and their implementation.
+// Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research focuses on civil wars, post-civil war transition and survival of democracy, post-civil war peacebuilding, the role of third parties in the conflict process, and the Maoist insurgency in Nepal. His articles have appeared in International Studies Quarterly, Social Science Quarterly, Democratization, the Journal of Peace Research, and Asian Survey.
 
-`,
-    },
+// `,
+//     },
   ];
 
+
+  
   // Updated Data for Core Staff Members (reflecting deletions and additions)
   const coreStaffMembers = [
     {
@@ -337,7 +339,7 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
                     </div>
                     <div className='about-One__img-2'>
                       <img
-                        src='assets/images/about/3.jpg'
+                        src='assets/images/about/.jpg'
                         alt=''
                       />
                     </div>
@@ -373,8 +375,8 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
                       <span className='section-title__tagline'>About Us</span>
                     </div>
                     <h2 className='section-title__title title-animation'>
-                      Nepal Transition
-                      <br /> To Peace
+                      Nepal transition
+                      <br /> to Peace
                     </h2>
                   </div>
                   <div className='about-One__vission-mission'>
@@ -454,7 +456,7 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
                   <div className='about-One__btn-and-need-help'>
                     <div className='about-One__btn-box'>
                       <Link
-                        href='donation-details'
+                        href='contact'
                         className='about-One__btn thm-btn'
                       >
                         Contact Now
@@ -502,7 +504,7 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
               className="section-header"
               style={{ textAlign: 'left', marginBottom: '3rem' }}
             >
-              {/* <p
+              <p
                 style={{
                   fontSize: '0.9rem',
                   color: '#5ba4d4',
@@ -513,7 +515,7 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
                 }}
               >
                 Our Executive Committee
-              </p> */}
+              </p>
               <h2
                 style={{
                   fontSize: '3rem',
@@ -695,18 +697,18 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
 
         {/*detail One End */}
 
-        {/* Volunteer Carousel Page Start - International Experts */}
+        {/*  International Experts */}
         <section
-          className="volunteer-carousel-page"
-          style={{
-            backgroundColor: '#e8f1f5',
-            paddingBottom: '6rem',
-            paddingTop: '5rem',
-          }}
+          // className="volunteer-carousel-page"
+          // style={{
+          //   backgroundColor: '#e8f1f5',
+          //   paddingBottom: '6rem',
+          //   paddingTop: '5rem',
+          // }}
         >
           <div className="container">
             {/* Header */}
-            <div className="section-header" style={{ textAlign: 'left', marginBottom: '3rem' }}>
+            {/* <div className="section-header" style={{ textAlign: 'left', marginBottom: '3rem' }}>
               <p
                 style={{
                   fontSize: '0.9rem',
@@ -716,9 +718,9 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
                   textTransform: 'uppercase',
                   marginBottom: '0.5rem',
                 }}
-              >
-                International Experts
-              </p>
+              > */}
+                {/* International Experts */}
+              {/* </p>
               <h2
                 style={{
                   fontSize: '3rem',
@@ -727,10 +729,10 @@ Dr. Joshi holds a Ph.D. from University of North Texas, USA (2010). His research
                   lineHeight: '1.2',
                   margin: '0',
                 }}
-              >
-                Global Expertise Guiding Our Mission
-              </h2>
-            </div>
+              > */}
+                {/* Global Expertise Guiding Our Mission */}
+              {/* </h2>
+            </div> */}
 
             {/* Swiper Carousel */}
             <Swiper

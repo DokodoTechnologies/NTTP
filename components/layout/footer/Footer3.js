@@ -22,7 +22,7 @@ export default function Footer3() {
                 >
                   <div className='footer-widget-two__about'>
                     <h2 className='footer-widget-two__about-title'>
-                      Nepal Transition To Peace
+                      Nepal transition to Peace
                     </h2>
                     <p className='footer-widget-two__about-text'>
                       An organization dedicated to
@@ -46,21 +46,28 @@ export default function Footer3() {
                   data-wow-delay='200ms'
                 >
                   <div className='footer-widget-two__services'>
-                    <h4 className='footer-widget-two__title'>Supporters</h4>
+                    <h4 className='footer-widget-two__title'>Partners</h4>
                     <ul className='footer-widget-two__services-list list-unstyled'>
                       <li>
-                        <Link href='/volunteer'>UNDP Nepal</Link>
+                        <Link href='/volunteer'>KURVE Wustro</Link>
                       </li>
                       <li>
                         <Link href='/volunteer'>
-                          US Agency for International Development/Nepal
+                          Asia Foundation
                         </Link>
                       </li>
                       <li>
                         <Link href='/volunteer'>
-                          Embassy of Switzerland in Nepal
+                          UNDP Nepal
                         </Link>
                       </li>
+                       <li>
+                        <Link href='/volunteer'>
+                          USAID Nepal
+                        </Link>
+                      </li>
+                     
+                      
                     </ul>
                   </div>
                 </div>
@@ -69,20 +76,18 @@ export default function Footer3() {
                   data-wow-delay='300ms'
                 >
                   <div className='footer-widget-two__links'>
-                    <h4 className='footer-widget-two__title'>Links</h4>
+                    <h4 className='footer-widget-two__title'></h4>
                     <ul className='footer-widget-two__services-list list-unstyled'>
                       <li>
-                        <Link href='/project-details'>Political Dialogue</Link>
+                        <Link href='/supporter'>Embassy of Swizerland Nepal</Link>
                       </li>
                       <li>
-                        <Link href='/project-details'>Community Empowerment</Link>
+                        <Link href='/supporter'>UNDP/Parliamentary Nepal</Link>
                       </li>
                       <li>
-                        <Link href='/project-details'>Inclusive Peace</Link>
+                        <Link href='/supporter'>British Embassy Nepal</Link>
                       </li>
-                      <li>
-                        <Link href='/project-details'>Local Conflict Work</Link>
-                      </li>
+                    
 
                     </ul>
                   </div>
@@ -119,9 +124,9 @@ export default function Footer3() {
                       <Link href='#'>
                         <i className='icon-facebook'></i>
                       </Link>
-                      <Link href='#'>
+                      {/* <Link href='#'>
                         <i className='icon-twitter'></i>
-                      </Link>
+                      </Link> */}
                       <Link href='#'>
                         <i className='icon-instagram'></i>
                       </Link>
