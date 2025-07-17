@@ -53,7 +53,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                                     {/* <button className={isActive.key == 1 ? "expanded open" : ""} onClick={() => handleToggle(1)}><span className="fa fa-angle-right" /></button> */}
                                 </li>
                                 <li><Link href="/about">About</Link></li>
-                                <li className={isActive.key == 2 ? "dropdown current" : "dropdown"}><Link href="/events">Events</Link>
+                                <li className={isActive.key == 2 ? "dropdown current" : "dropdown"}><Link href="/events">News & Events</Link>
                                     <ul style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>                                 
                                         
                                        

@@ -320,7 +320,7 @@ The trusted convening ability of its then senior facilitators, Late Mr. Daman Na
   return (
     <>
       <Layout headerStyle={3} footerStyle={3} breadcrumbTitle='About Us'>
-        {/*About One Start */}
+        {/* Frist About us */}
         <section className='about-One'>
           <div className='container'>
             <div className='row'>
@@ -484,11 +484,9 @@ The trusted convening ability of its then senior facilitators, Late Mr. Daman Na
             </div>
           </div>
         </section>
+        {/* Frist About us End*/}
 
-
-        {/*Volunteer Carousel Page Start - Executive Committee*/}
-        {/* backgroundColor: '#e8f1f5', marginBottom: '8rem', paddingBottom: '6rem', paddingTop: '5rem' */}
-        {/*Volunteer Carousel Page Start - Executive Committee*/}
+{/* Our exectuive comittee */}
         <section
           className="volunteer-carousel-page"
           style={{
@@ -576,15 +574,15 @@ The trusted convening ability of its then senior facilitators, Late Mr. Daman Na
             </Swiper>
           </div>
         </section>
-        {/*Volunteer Carousel Page End - Executive Committee*/}
+        {/*l Page End - Executive Committee*/}
 
 
 
 
 
 
-        {/*detail One Start */}
-        {/* Section Start */}
+        {/*Our history ra arko */}
+       
         <section className='donate-one'>
           <div className='container'>
             <div className='row'>
@@ -694,90 +692,64 @@ The trusted convening ability of its then senior facilitators, Late Mr. Daman Na
     cursor: pointer;
   }
 `}</style>
+        {/*our history ra arko end*/}
 
-        {/*detail One End */}
 
         {/*  International Experts */}
         <section
-          // className="volunteer-carousel-page"
-          // style={{
-          //   backgroundColor: '#e8f1f5',
-          //   paddingBottom: '6rem',
-          //   paddingTop: '5rem',
-          // }}
-        >
-          <div className="container">
-            {/* Header */}
-            {/* <div className="section-header" style={{ textAlign: 'left', marginBottom: '3rem' }}>
-              <p
-                style={{
-                  fontSize: '0.9rem',
-                  color: '#5ba4d4',
-                  fontWeight: '600',
-                  letterSpacing: '2px',
-                  textTransform: 'uppercase',
-                  marginBottom: '0.5rem',
-                }}
-              > */}
-                {/* International Experts */}
-              {/* </p>
-              <h2
-                style={{
-                  fontSize: '3rem',
-                  fontWeight: 'bold',
-                  color: '#4a4a4a',
-                  lineHeight: '1.2',
-                  margin: '0',
-                }}
-              > */}
-                {/* Global Expertise Guiding Our Mission */}
-              {/* </h2>
-            </div> */}
-
-            {/* Swiper Carousel */}
-            <Swiper
-  modules={[Navigation]} // Removed Autoplay from modules
-  navigation={true}
-  loop={true}
-  spaceBetween={30}
-  slidesPerView={1}
-  breakpoints={{
-    768: { slidesPerView: 2 },
-    1024: { slidesPerView: 3 },
+  className="nepali-experts"
+  style={{
+    backgroundColor: "#f5f3ef",
+    padding: "80px 0",
   }}
-  className="volunteer-carousel-style owl-carousel owl-theme carousel-dot-style"
 >
+  <div className="container">
+    {/* <div className="section-title text-center mb-5">
+      <h2
+        className="section-title__title"
+        style={{
+          fontSize: "38px",
+          fontWeight: "600",
+          color: "#222",
+        }}
+      >
+        Nepali Experts
+      </h2>
+    </div> */}
 
-              {internationalExperts.map((expert) => (
-                <SwiperSlide key={expert.id}>
-                  <div className="item">
-                    <div className="team-one__single">
-                      <div className="team-one__img-box">
-                        <div className="team-one__img">
-                          <img src={expert.image} alt={expert.name} />
-                        </div>
-                      </div>
-                      <div className="team-one__content">
-                        <div className="team-one__name-box">
-                          <h4 className="team-one__name">
-                            <div
-                              onClick={() => handleMemberClick(expert)}
-                              style={{ cursor: 'pointer' }}
-                            >
-                              {expert.name}
-                            </div>
-                          </h4>
-                          <p className="team-one__sub-title">{expert.shortDescription}</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
-              ))}
-            </Swiper>
-          </div>
-        </section>
-        {/* Volunteer Carousel Page End - International Experts */}
+    <div className="row">
+      {/* Expert 1 */}
+      <div className="col-md-6 mb-4">
+        <div
+          style={{
+            backgroundImage: "url('/assets/images/about/replacequire.jpg')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            height: "420px",
+            borderRadius: "12px",
+            boxShadow: "0 6px 18px rgba(0, 0, 0, 0.1)",
+          }}
+        ></div>
+      </div>
+
+      {/* Expert 2 */}
+      <div className="col-md-6 mb-4">
+        <div
+          style={{
+            backgroundImage: "url('/assets/images/about/replacequire2.jpg')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            height: "420px",
+            borderRadius: "12px",
+            boxShadow: "0 6px 18px rgba(0, 0, 0, 0.1)",
+          }}
+        ></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+        {/*   International Experts end*/}
 
 
         {/* Who We Are Start */}
@@ -891,9 +863,11 @@ The trusted convening ability of its then senior facilitators, Late Mr. Daman Na
     line-height: 1.7;
   }
 `}</style>
-
         {/*Who We Are End */}
-        {/*Volunteer Carousel Page Start - Core Staff*/}
+
+
+
+        {/*  Start - Core Staff*/}
         <section
           className="volunteer-carousel-page"
           style={{
@@ -975,7 +949,7 @@ The trusted convening ability of its then senior facilitators, Late Mr. Daman Na
             </Swiper>
           </div>
         </section>
-        {/*Volunteer Carousel Page End - Core Staff*/}
+        {/*End - Core Staff*/}
 
 
         {/* Render the Popup component here */}

@@ -49,20 +49,20 @@ export default function Footer3() {
                     <h4 className='footer-widget-two__title'>Partners</h4>
                     <ul className='footer-widget-two__services-list list-unstyled'>
                       <li>
-                        <Link href='/volunteer'>KURVE Wustro</Link>
+                        <Link href='https://www.kurvewustrow.org/en/nepal'>KURVE Wustro</Link>
                       </li>
                       <li>
-                        <Link href='/volunteer'>
+                        <Link href='https://asiafoundation.org/'>
                           Asia Foundation
                         </Link>
                       </li>
                       <li>
-                        <Link href='/volunteer'>
+                        <Link href='https://www.undp.org/nepal'>
                           UNDP Nepal
                         </Link>
                       </li>
                        <li>
-                        <Link href='/volunteer'>
+                        <Link href='https://www.usaid.gov/'>
                           USAID Nepal
                         </Link>
                       </li>
@@ -79,13 +79,13 @@ export default function Footer3() {
                     <h4 className='footer-widget-two__title'></h4>
                     <ul className='footer-widget-two__services-list list-unstyled'>
                       <li>
-                        <Link href='/supporter'>Embassy of Swizerland Nepal</Link>
+                        <Link href='https://www.eda.admin.ch/kathmandu'>Embassy of Swizerland Nepal</Link>
                       </li>
                       <li>
-                        <Link href='/supporter'>UNDP/Parliamentary Nepal</Link>
+                        <Link href='https://www.undp.org/nepal/publications/parliamentary-committee-practices-nepal'>UNDP/Parliamentary Nepal</Link>
                       </li>
                       <li>
-                        <Link href='/supporter'>British Embassy Nepal</Link>
+                        <Link href='https://www.gov.uk/world/organisations/british-embassy-kathmandu'>British Embassy Nepal</Link>
                       </li>
                     
 
