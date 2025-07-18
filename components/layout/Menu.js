@@ -148,10 +148,10 @@ export default function Menu() {
           {/* </li>
           </ul> */}
         </li>
-        {/* <li>
+        <li>
           <Link href='/about'>About</Link>
-        </li> */}
-         <li className='dropdown'>
+        </li>
+         {/* <li className='dropdown'>
           <Link href='/about'>About</Link>
           <ul className='shadow-box'>
             <li>
@@ -162,7 +162,7 @@ export default function Menu() {
             </li>
           
           </ul>
-        </li>
+        </li> */}
         <li>
           <Link href='/events'>News & Events</Link>
         </li>
