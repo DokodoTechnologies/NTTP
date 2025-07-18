@@ -51,10 +51,11 @@ export default function Home() {
         <Banner />
         <About />
         <Principles/>
-        {/* <Slogan_two/> */}
+       
         <Mission />
         <Donation />
-        <Who />
+         <Slogan_two/>
+        {/* <Who /> */}
         <Country />
       </Layout>
     </>
