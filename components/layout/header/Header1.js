@@ -265,7 +265,7 @@ export default function Header1({ scroll, handlePopup, handleMobileMenu }) {
                     <div className='main-menu__logo'>
                       <Link href='/'>
                         <img
-                          src='assets/images/logos/nttp_logo.png'
+                          src='/assets/images/logos/nttp_logo.png'
                           alt='NTTP Logo'
                           style={{
                             height: "50px",
