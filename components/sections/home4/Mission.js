@@ -31,7 +31,7 @@ export default function Mission() {
                     </p>
                   </div>
                   <div className='btn-box'>
-                    <Link href='/forum' className='thm-btn'>
+                    <Link href='/forum/yplg' className='thm-btn'>
                       Read More
                     </Link>
                   </div>
@@ -56,7 +56,7 @@ export default function Mission() {
                     </p>
                   </div>
                   <div className='btn-box'>
-                    <Link href='/forum' className='thm-btn'>
+                    <Link href='/forum/wg' className='thm-btn'>
                       Read More
                     </Link>
                   </div>
@@ -81,7 +81,7 @@ export default function Mission() {
                     </p>
                   </div>
                   <div className='btn-box'>
-                    <Link href='/forum' className='thm-btn'>
+                    <Link href='/forum/mg' className='thm-btn'>
                       Read More
                     </Link>
                   </div>
@@ -106,7 +106,7 @@ export default function Mission() {
                     </p>
                   </div>
                   <div className='btn-box'>
-                    <Link href='/forum' className='thm-btn'>
+                    <Link href='/forum/jg' className='thm-btn'>
                       Read More
                     </Link>
                   </div>
@@ -131,7 +131,7 @@ export default function Mission() {
                     </p>
                   </div>
                   <div className='btn-box'>
-                    <Link href='/forum' className='thm-btn'>
+                    <Link href='/forum/dg' className='thm-btn'>
                       Read More
                     </Link>
                   </div>
@@ -156,7 +156,7 @@ export default function Mission() {
                     </p>
                   </div>
                   <div className='btn-box'>
-                    <Link href='/forum' className='thm-btn'>
+                    <Link href='/forum/sndg' className='thm-btn'>
                       Read More
                     </Link>
                   </div>
@@ -164,7 +164,7 @@ export default function Mission() {
               </div>
             </div>
             {/* Single Mission One End */}
-{/* <div className='col-xl-4'>
+            {/* <div className='col-xl-4'>
   <div className='single-mission-one'>
     <div className='icon-box'>
       <div className='inner-box' style={{overflow: 'hidden'}}>
@@ -197,7 +197,6 @@ export default function Mission() {
     </div>
   </div>
 </div> */}
-            
           </div>
         </div>
       </section>
