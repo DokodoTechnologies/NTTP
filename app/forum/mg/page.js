@@ -21,16 +21,16 @@ export default function MgPage() {
 
   return (
     <Layout
-      headerStyle={1}
-      footerStyle={2}
-      breadcrumbTitle='NTTP Madhesh Group (MG)'
+      // headerStyle={1}
+      // footerStyle={2}
+      // breadcrumbTitle='NTTP Madhesh Group (MG)'
     >
       <section className='project-details'>
         <div className='container'>
           <div className='row'>
             <div className='col-xl-8 col-lg-7'>
               <div className='project-details__left'>
-                <h3 className='project-details__title-1'>{content.title}</h3>
+                <h3 className='project-details__title-1'>{content.title1}</h3>
                 <p className='project-details__text-1'>{content.text1}</p>
                 <p className='project-details__text-2'>{content.text2}</p>
                 <ul className='project-details__points list-unstyled'>
@@ -49,10 +49,10 @@ export default function MgPage() {
             <div className='col-xl-4 col-lg-5'>
               <div className='project-details__right'>
                 <div className='project-details__right-img-2'>
-                  <img
-                    src='/assets/images/fourms/1.jpg'
+                  {/* <img
+                    // src='/assets/images/fourms/1.jpg'
                     alt='NTTP Madhesh Group (MG)'
-                  />
+                  /> */}
                 </div>
               </div>
             </div>

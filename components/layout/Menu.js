@@ -240,26 +240,28 @@ export default function Menu() {
             </li>
           </ul>
         </li> */}
-        {/* <li className='dropdown'>
-          <Link href='#'>Blog</Link>
+        <li className='dropdown'>
+          <Link href='/research'>Document</Link>
           <ul className='shadow-box'>
+           
             <li>
-              <Link href='blog'>Blog</Link>
+              <Link href='/research'>NTTP Peace Initiatives</Link>
             </li>
             <li>
-              <Link href='blog-carousel'>Blog Carousel</Link>
+              <Link href='/research'>Laws</Link>
             </li>
             <li>
-              <Link href='blog-list'>Blog List</Link>
+              <Link href='/document'>External Link</Link>
             </li>
-            <li>
-              <Link href='blog-details'>Blog Details</Link>
+             <li>
+              <Link href='research'>Research</Link>
             </li>
           </ul>
-        </li> */}
-        <li>
-          <Link href='/research'>Research</Link>
         </li>
+        {/* <li>
+          <Link href='/research'>Research</Link>
+        
+        </li> */}
       </ul>
     </>
   );

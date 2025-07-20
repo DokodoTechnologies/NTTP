@@ -20,7 +20,9 @@ export default function Page3() {
   };
 
   return (
-    <Layout headerStyle={1} footerStyle={2} breadcrumbTitle='Women Group'>
+    <Layout 
+    // headerStyle={1} footerStyle={2} breadcrumbTitle='Women Group'
+    >
       <section className='project-details'>
         <div className='container'>
           <div className='row'>
