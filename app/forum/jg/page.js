@@ -21,16 +21,16 @@ export default function JgPage() {
 
   return (
     <Layout
-      headerStyle={1}
-      footerStyle={2}
-      breadcrumbTitle='NTTP Janajati Group (JG)'
+      // headerStyle={1}
+      // footerStyle={2}
+      // breadcrumbTitle='NTTP Janajati Group (JG)'
     >
       <section className='project-details'>
         <div className='container'>
           <div className='row'>
             <div className='col-xl-8 col-lg-7'>
               <div className='project-details__left'>
-                <h3 className='project-details__title-1'>{content.title}</h3>
+                <h3 className='project-details__title-1'>{content.title1}</h3>
                 <p className='project-details__text-1'>{content.text1}</p>
                 <p className='project-details__text-2'>{content.text2}</p>
                 <ul className='project-details__points list-unstyled'>
@@ -57,6 +57,8 @@ export default function JgPage() {
               </div>
             </div>
           </div>
+
+          
         </div>
 
         <style jsx>{`

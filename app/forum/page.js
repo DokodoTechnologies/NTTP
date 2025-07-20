@@ -22,7 +22,7 @@ export default function Home() {
           "NTTP Forum plays a key role in fostering understanding among political parties, addressing disputes, and ensuring inclusive discussions during Nepal's political transition and peacebuilding process, and transitional justice process. ",
       },
       rightImages: {
-        img2: "assets/images/fourms/1.jpg",
+        // img2: "assets/images/fourms/1.jpg",
       },
     },
     {
@@ -46,7 +46,7 @@ export default function Home() {
           "NTTP-I supports YPLG to bring innovative, cooperative approaches into the political space. This helps bridge the leadership gap and promotes inclusive and youth-led contributions to Nepal's peace and political transformation.",
       },
       rightImages: {
-        img2: "assets/images/fourms/1.jpg",
+        // img2: "assets/images/fourms/1.jpg",
       },
     },
     {
@@ -91,7 +91,7 @@ export default function Home() {
           "Through research, reflective dialogue, and direct engagement with lawmakers, the Madhesh Group works to make Nepal's constitution-making and governance more responsive to the needs and aspirations of Madheshi communities.",
       },
       rightImages: {
-        img2: "assets/images/fourms/1.jpg",
+        // img2: "assets/images/fourms/1.jpg",
       },
     },
     {
@@ -136,7 +136,7 @@ export default function Home() {
           "By challenging systemic exclusion and mobilizing action across sectors, the NTTP Dalit Group works to ensure the voices and rights of the Dalit community are recognized and respected within Nepal's political and social landscape.",
       },
       rightImages: {
-        img2: "assets/images/fourms/6.jpg",
+        // img2: "assets/images/fourms/6.jpg",
       },
     },
     {
@@ -158,7 +158,7 @@ export default function Home() {
           "These groups are instrumental in deepening understanding between regional and national actors, ensuring that local perspectives shape the broader peace and policy discourse. NTTP-I aims to expand this successful model to more conflict-sensitive areas across Nepal.",
       },
       rightImages: {
-        img2: "assets/images/fourms/7.jpg",
+        // img2: "assets/images/fourms/7.jpg",
       },
     },
     // Other sections ...

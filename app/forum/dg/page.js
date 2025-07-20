@@ -22,16 +22,16 @@ export default function DgPage() {
 
   return (
     <Layout
-      headerStyle={1}
-      footerStyle={2}
-      breadcrumbTitle='NTTP Dalit Group (DG)'
+      // headerStyle={1}
+      // footerStyle={2}
+      // breadcrumbTitle='NTTP Dalit Group (DG)'
     >
       <section className='project-details'>
         <div className='container'>
           <div className='row'>
             <div className='col-xl-8 col-lg-7'>
               <div className='project-details__left'>
-                <h3 className='project-details__title-1'>{content.title}</h3>
+                <h3 className='project-details__title-1'>{content.title1}</h3>
                 <p className='project-details__text-1'>{content.text1}</p>
                 <p className='project-details__text-2'>{content.text2}</p>
                 <ul className='project-details__points list-unstyled'>
@@ -50,10 +50,10 @@ export default function DgPage() {
             <div className='col-xl-4 col-lg-5'>
               <div className='project-details__right'>
                 <div className='project-details__right-img-2'>
-                  <img
-                    src='/assets/images/fourms/6.jpg'
+                  {/* <img
+                    // src='/assets/images/fourms/6.jpg'
                     alt='NTTP Dalit Group (DG)'
-                  />
+                  /> */}
                 </div>
               </div>
             </div>
