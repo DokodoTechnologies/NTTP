@@ -89,7 +89,7 @@ export default function DocumentPage() {
                                 className="bg-white rounded-lg shadow-md overflow-hidden"
                             >
                                 {/* Category Header - Adjust py-X to change header height */}
-                                <div className="bg-blue-600 px-6 py-3">
+                                <div className="bg-blue-600 px-6 ">
                                     <h2 className="text-xl font-semibold text-white">
                                         {category.title}
                                     </h2>
