@@ -245,11 +245,29 @@ export default function Menu() {
           <ul className='shadow-box'>
            
             <li>
-              <Link href='/research'>NTTP Peace Initiatives</Link>
-            </li>
-            <li>
-              <Link href='/research'>Laws</Link>
-            </li>
+  <a
+    href='/assets/pdf/NTTP Peace Initiatives.pdf'
+    target='_blank'
+    rel='noopener noreferrer'
+  >
+    NTTP Peace Initiatives 
+  </a>
+  <br />
+ 
+</li>
+
+<li>
+  <a
+    href='/assets/pdf/Laws.pdf'
+    target='_blank'
+    rel='noopener noreferrer'
+  >
+    Laws 
+  </a>
+  <br />
+  
+</li>
+
             <li>
               <Link href='/document'>External Link</Link>
             </li>

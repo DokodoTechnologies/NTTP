@@ -789,7 +789,7 @@ The trusted convening ability of its then senior facilitators, Late Mr. Daman Na
                       <img src='assets/images/slider/banner_image_3.png' alt='' />
                     </div>
                     <div className='who-we-are__img-2'>
-                      <img src='assets/images/slider/banner_img_2.png' alt='' />
+                      <img src='assets/images/slider/21.jpg' alt='' />
                     </div>
                     <div className='who-we-are__shape-1 img-bounce'></div>
                     <div className='who-we-are__shape-2'></div>
