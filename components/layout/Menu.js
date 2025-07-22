@@ -151,7 +151,7 @@ export default function Menu() {
         <li>
           <Link href='/about'>About</Link>
         </li>
-         {/* <li className='dropdown'>
+        {/* <li className='dropdown'>
           <Link href='/about'>About</Link>
           <ul className='shadow-box'>
             <li>
@@ -243,35 +243,24 @@ export default function Menu() {
         <li className='dropdown'>
           <Link href='/research'>Document</Link>
           <ul className='shadow-box'>
-           
-            <li>
-  <a
-    href='/assets/pdf/NTTP Peace Initiatives.pdf'
-    target='_blank'
-    rel='noopener noreferrer'
-  >
-    NTTP Peace Initiatives 
-  </a>
-  <br />
- 
-</li>
 
-<li>
-  <a
-    href='/assets/pdf/Laws.pdf'
-    target='_blank'
-    rel='noopener noreferrer'
-  >
-    Laws 
-  </a>
-  <br />
-  
-</li>
+            <li>
+              <a
+                href='/assets/pdf/NTTP Peace Initiatives.pdf'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                NTTP Peace Initiatives
+              </a>
+            </li>
+            <li>
+              <Link href='/laws'> Laws</Link>
+            </li>
 
             <li>
               <Link href='/document'>External Link</Link>
             </li>
-             <li>
+            <li>
               <Link href='research'>Research</Link>
             </li>
           </ul>
@@ -280,6 +269,7 @@ export default function Menu() {
           <Link href='/research'>Research</Link>
         
         </li> */}
+        
       </ul>
     </>
   );
