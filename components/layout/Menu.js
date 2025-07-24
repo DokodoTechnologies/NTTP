@@ -245,14 +245,9 @@ export default function Menu() {
           <ul className='shadow-box'>
 
             <li>
-              <a
-                href='/assets/pdf/NTTP Peace Initiatives.pdf'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                NTTP Peace Initiatives
-              </a>
+              <a href="/nttp">NTTP Peace Initiatives</a>
             </li>
+
             <li>
               <Link href='/laws'> Laws</Link>
             </li>
@@ -269,7 +264,7 @@ export default function Menu() {
           <Link href='/research'>Research</Link>
         
         </li> */}
-        
+
       </ul>
     </>
   );
