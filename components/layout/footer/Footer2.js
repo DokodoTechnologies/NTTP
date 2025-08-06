@@ -74,7 +74,7 @@ export default function Footer3() {
                   data-wow-delay='300ms'
                 >
                   <div className='footer-widget-two__links'>
-                    <h4 className='footer-widget-two__title'></h4>
+                    <h4 className='footer-widget-two__title'>External Links</h4>
                     <ul className='footer-widget-two__services-list list-unstyled'>
                       <li>
                         <Link href='https://dcpds.tu.edu.np/'>
