@@ -170,7 +170,7 @@ export default function Menu() {
           <Link href='/forum'>Forums</Link>
         </li>
         <li>
-          <Link href="/partners">Partners</Link>
+          <Link href='/partners'>Partners</Link>
         </li>
         <li>
           <Link href='/gallery'>Gallery</Link>
@@ -243,13 +243,12 @@ export default function Menu() {
         <li className='dropdown'>
           <Link href='/research'>Document</Link>
           <ul className='shadow-box'>
-
             <li>
-              <a href="/nttp">NTTP Peace Initiatives</a>
+              <Link href='/nttp'>NTTP-I Document</Link>
             </li>
 
             <li>
-              <Link href='/laws'> Laws</Link>
+              <Link href='/laws'> Constitution & Law </Link>
             </li>
 
             <li>
@@ -264,7 +263,6 @@ export default function Menu() {
           <Link href='/research'>Research</Link>
         
         </li> */}
-
       </ul>
     </>
   );

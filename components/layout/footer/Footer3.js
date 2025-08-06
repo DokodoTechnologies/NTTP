@@ -49,7 +49,9 @@ export default function Footer3() {
                     <h4 className='footer-widget-two__title'>Partners</h4>
                     <ul className='footer-widget-two__services-list list-unstyled'>
                       <li>
-                        <Link href='https://www.kurvewustrow.org/en/nepal'>KURVE Wustro</Link>
+                        <Link href='https://www.kurvewustrow.org/en/nepal'>
+                          KURVE Wustro
+                        </Link>
                       </li>
                       <li>
                         <Link href='https://asiafoundation.org/'>
@@ -61,13 +63,9 @@ export default function Footer3() {
                           UNDP Nepal
                         </Link>
                       </li>
-                       <li>
-                        <Link href='https://www.usaid.gov/'>
-                          USAID Nepal
-                        </Link>
+                      <li>
+                        <Link href='https://www.usaid.gov/'>USAID Nepal</Link>
                       </li>
-                     
-                      
                     </ul>
                   </div>
                 </div>
@@ -79,16 +77,21 @@ export default function Footer3() {
                     <h4 className='footer-widget-two__title'></h4>
                     <ul className='footer-widget-two__services-list list-unstyled'>
                       <li>
-                        <Link href='https://www.eda.admin.ch/kathmandu'>Embassy of Swizerland Nepal</Link>
+                        <Link href='https://dcpds.tu.edu.np/'>
+                          TU-Department
+                        </Link>
                       </li>
                       <li>
-                        <Link href='https://www.undp.org/nepal/publications/parliamentary-committee-practices-nepal'>UNDP/Parliamentary Nepal</Link>
+                        <Link href='https://trc.gov.np/'>T&RC</Link>
                       </li>
                       <li>
-                        <Link href='https://www.gov.uk/world/organisations/british-embassy-kathmandu'>British Embassy Nepal</Link>
+                        <Link href='https://www.crisisgroup.org/'>
+                          International Crisis Group
+                        </Link>
                       </li>
-                    
-
+                      <li>
+                        <Link href='https://www.moha.gov.np/'>MoHA</Link>
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -130,8 +133,10 @@ export default function Footer3() {
                       <Link href='#'>
                         <i className='icon-instagram'></i>
                       </Link>
-                     
-                      <Link href="#"><i className="icon-link-in"></i></Link>
+
+                      <Link href='#'>
+                        <i className='icon-link-in'></i>
+                      </Link>
                     </div>
                   </div>
                 </div>
