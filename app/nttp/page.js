@@ -3,24 +3,31 @@ import Layout from "@/components/layout/Layout";
 import Link from "next/link";
 
 const pdfCards = [
+    // {
+    //   title: "NTTP Peace Initiatives Document",
+    //   description:
+    //     "Official document outlining NTTP’s peace facilitation strategies and efforts.",
+    //   filePath: "/assets/pdf/NTTP Peace Initiatives.pdf",
+    // },
   {
-    title: "NTTP Peace Initiatives Document",
-    description:
-      "Official document outlining NTTP’s peace facilitation strategies and efforts.",
-    filePath: "/assets/pdf/NTTP Peace Initiatives.pdf",
-  },
-  {
-    title: "Nepal Bidhaan DAO",
+    title: "नेपाल शान्ति प्रतिष्ठानको विधान",
     description: "A detailed overview of Nepal's Bidhaan DAO",
     filePath: "/assets/pdf/bidhaan-dao.pdf",
   },
   {
-    title: "नेपाल शान्ति प्रतिष्ठानको (पहिलो संशोधन) विधान,_0001",
+    title: "नेपाल शान्ति प्रतिष्ठानको (पहिलो संशोधन) विधान_0001",
     description:
       "Official amended statute outlining the first revision of the Nepal Peace Trust's foundational regulations.",
     filePath:
       "/assets/pdf/नेपाल शान्ति प्रतिष्ठानको (पहिलो संशोधन) विधान,_0001.pdf",
   },
+    {
+      title: "Nepal Transitional to peace: A Decade of the Comprehensive Peace Accord (2006-2016)",
+      description:
+        "A comprehensive overview of Nepal’s peace process over a decade following the signing of the CPA in 2006.",
+      filePath: "/assets/pdf/Nepal Transition to peace Accord (2006-2016).pdf",
+    },
+ 
 ];
 
 export default function NTTPPage() {
@@ -31,7 +38,7 @@ export default function NTTPPage() {
           {/* Header */}
           <div className='text-center mb-8'>
             <h1 className='text-3xl font-bold text-gray-900 mb-2'>
-              NTTP Peace Initiatives
+              NTTP-I Documents
             </h1>
             <p className='text-lg text-gray-600 max-w-2xl mx-auto'>
               Learn more about the NTTP’s role in peacebuilding in Nepal.

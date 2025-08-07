@@ -3,6 +3,18 @@ import Layout from "@/components/layout/Layout";
 
 export default function LawsPage() {
   const pdfDocuments = [
+       {
+      title: "नेपालको संविधान",
+      url: "/assets/pdf/नेपालको-संविधान-1.pdf",
+      description:
+        "The Constitution of Nepal, providing the legal foundation for democratic governance and inclusion post-conflict.",
+    },
+      {
+      title: "नेपालको अन्तरिम संविधान, २०६३",
+      url: "/assets/pdf/नपालको-अन्तरिम-सविधान-२०६३.pdf",
+      description:
+        "Interim constitution that guided Nepal during its transitional period after the civil conflict.",
+    },
     {
       title: "बेपत्ता पारिएका व्यक्तिको छानबिन आयोग नियमावली, २०७२",
       url: "/assets/pdf/बेपत्ता पारिएका व्यक्तिको छानबिन आयोग नियमावली, २०७२.pdf",
@@ -14,24 +26,14 @@ export default function LawsPage() {
       url: "/assets/pdf/बेपत्ता पारिएका व्यक्तिको छानविन, सत्य निरुपण तथा मेलमिलाप आयोग ऐन, २०७१.pdf",
       description: "Supplementary legal document for peace-building",
     },
-    {
-      title: "नेपालको संविधान",
-      url: "/assets/pdf/नेपालको-संविधान-1.pdf",
-      description:
-        "The Constitution of Nepal, providing the legal foundation for democratic governance and inclusion post-conflict.",
-    },
-    {
-      title: "नेपालको अन्तरिम संविधान, २०६३",
-      url: "/assets/pdf/नपालको-अन्तरिम-सविधान-२०६३.pdf",
-      description:
-        "Interim constitution that guided Nepal during its transitional period after the civil conflict.",
-    },
-    {
-      title: "Nepal Transition to Peace Accord (2006–2016)",
-      url: "/assets/pdf/Nepal Transition to peace Accord (2006-2016).pdf",
-      description:
-        "A comprehensive overview of Nepal’s peace process over a decade following the signing of the CPA in 2006.",
-    },
+ 
+  
+    // {
+    //   title: "Nepal Transitional to peace: A Decade of the Comprehensive Peace Accord (2006-2016)",
+    //   url: "/assets/pdf/Nepal Transition to peace Accord (2006-2016).pdf",
+    //   description:
+    //     "A comprehensive overview of Nepal’s peace process over a decade following the signing of the CPA in 2006.",
+    // },
   ];
 
   return (

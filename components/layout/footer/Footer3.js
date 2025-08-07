@@ -82,16 +82,17 @@ export default function Footer3() {
                         </Link>
                       </li>
                       <li>
-                        <Link href='https://trc.gov.np/'>T&RC</Link>
+                        <Link href='https://trc.gov.np/'>TRC</Link>
                       </li>
                       <li>
                         <Link href='https://www.crisisgroup.org/'>
-                          International Crisis Group
+                          Intl Crisis Group
                         </Link>
                       </li>
                       <li>
                         <Link href='https://www.moha.gov.np/'>MoHA</Link>
                       </li>
+                       
                     </ul>
                   </div>
                 </div>
@@ -150,11 +151,11 @@ export default function Footer3() {
                   <div className='site-footer-two__bottom-inner'>
                     <div className='site-footer-two__copyright'>
                       <p className='site-footer-two__copyright-text'>
-                        Copywight 2024 by <Link href='#'>Global IT</Link>. All
+                        Copyright 2024 by <Link href='#'>Global IT</Link>. All
                         Rights Reserved.
                       </p>
                     </div>
-                    <div className='site-footer-two__bottom-menu-box'>
+                    {/* <div className='site-footer-two__bottom-menu-box'>
                       <ul className='list-unstyled site-footer-two__bottom-menu'>
                         <li>
                           <Link href='about'>Privacy Policy</Link>
@@ -166,7 +167,7 @@ export default function Footer3() {
                           <Link href='about'>Cookies Settings</Link>
                         </li>
                       </ul>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
