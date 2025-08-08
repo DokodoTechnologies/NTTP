@@ -92,7 +92,7 @@ export default function TestimonialsPage() {
                     className='block'
                   >
                     <h3 className='text-lg font-semibold text-gray-900 hover:text-blue-600 mb-2'>
-                      May, Future of LPCs
+                      Future of LPCs
                     </h3>
                     {/* <p className='text-gray-600 text-sm mb-2'>
                         {link.description}
