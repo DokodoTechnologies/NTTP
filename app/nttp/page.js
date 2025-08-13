@@ -3,12 +3,12 @@ import Layout from "@/components/layout/Layout";
 import Link from "next/link";
 
 const pdfCards = [
-    // {
-    //   title: "NTTP Peace Initiatives Document",
-    //   description:
-    //     "Official document outlining NTTP’s peace facilitation strategies and efforts.",
-    //   filePath: "/assets/pdf/NTTP Peace Initiatives.pdf",
-    // },
+  // {
+  //   title: "NTTP Peace Initiatives Document",
+  //   description:
+  //     "Official document outlining NTTP’s peace facilitation strategies and efforts.",
+  //   filePath: "/assets/pdf/NTTP Peace Initiatives.pdf",
+  // },
   {
     title: "नेपाल शान्ति प्रतिष्ठानको विधान",
     description: "A detailed overview of Nepal's Bidhaan DAO",
@@ -21,13 +21,13 @@ const pdfCards = [
     filePath:
       "/assets/pdf/नेपाल शान्ति प्रतिष्ठानको (पहिलो संशोधन) विधान,_0001.pdf",
   },
-    {
-      title: "Nepal Transitional to peace: A Decade of the Comprehensive Peace Accord (2006-2016)",
-      description:
-        "A comprehensive overview of Nepal’s peace process over a decade following the signing of the CPA in 2006.",
-      filePath: "/assets/pdf/Nepal Transition to peace Accord (2006-2016).pdf",
-    },
- 
+  {
+    title:
+      "Nepal Transitional to peace: A Decade of the Comprehensive Peace Accord (2006-2016)",
+    description:
+      "A comprehensive overview of Nepal’s peace process over a decade following the signing of the CPA in 2006.",
+    filePath: "/assets/pdf/Nepal Transition to peace Accord (2006-2016).pdf",
+  },
 ];
 
 export default function NTTPPage() {
@@ -82,7 +82,7 @@ export default function NTTPPage() {
             ))}
           </div>
           {/* Footer */}
-          <div className='mt-10 text-center' style={{ marginTop: "16px" }}>
+          <div className='mt-10 text-center' style={{ marginBlock: "40px" }}>
             <div className='bg-white rounded-lg shadow-md p-6'>
               <h3
                 className='font-semibold text-gray-900 mb-2'

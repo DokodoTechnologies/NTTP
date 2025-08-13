@@ -3,13 +3,13 @@ import Layout from "@/components/layout/Layout";
 
 export default function LawsPage() {
   const pdfDocuments = [
-       {
+    {
       title: "नेपालको संविधान",
       url: "/assets/pdf/नेपालको-संविधान-1.pdf",
       description:
         "The Constitution of Nepal, providing the legal foundation for democratic governance and inclusion post-conflict.",
     },
-      {
+    {
       title: "नेपालको अन्तरिम संविधान, २०६३",
       url: "/assets/pdf/नपालको-अन्तरिम-सविधान-२०६३.pdf",
       description:
@@ -26,8 +26,7 @@ export default function LawsPage() {
       url: "/assets/pdf/बेपत्ता पारिएका व्यक्तिको छानविन, सत्य निरुपण तथा मेलमिलाप आयोग ऐन, २०७१.pdf",
       description: "Supplementary legal document for peace-building",
     },
- 
-  
+
     // {
     //   title: "Nepal Transitional to peace: A Decade of the Comprehensive Peace Accord (2006-2016)",
     //   url: "/assets/pdf/Nepal Transition to peace Accord (2006-2016).pdf",
@@ -87,7 +86,7 @@ export default function LawsPage() {
           </div>
 
           {/* Footer */}
-          <div className='mt-10 text-center'>
+          <div className='mt-10 text-center' style={{ marginBlock: "40px" }}>
             <div className='bg-white rounded-lg shadow-md p-6'>
               <h3 className='font-semibold text-gray-900 mb-2'>
                 Need Help Accessing Documents?

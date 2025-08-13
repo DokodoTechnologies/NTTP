@@ -251,9 +251,9 @@ export default function Menu() {
               <Link href='/laws'> Constitution & Law </Link>
             </li>
 
-            {/* <li>
-              <Link href='/document'>External Link</Link>
-            </li> */}
+            <li>
+              <Link href='/press-release'>Press release</Link>
+            </li>
             <li>
               <Link href='research'>Research</Link>
             </li>
