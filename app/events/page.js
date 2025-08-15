@@ -11,8 +11,8 @@ export default function Home() {
 
     const modalContents = {
         1: {
-            title: "Interaction Program with CPCS",
-            content: `An interaction program between the Centre for Peace and Conflict Studies (CPCS), Siem Reap,Cambodia, and the Nepal Transition to Peace Institute (NTTP-I) was held on 13 April 2025.The program brought together 21 peace practitioners from Cambodia, Sri Lanka, and Nepal.Distinguished attendees included Mr. Vidyadhar Mallik, Chairperson of NTTP-I; Ms. StellaTamang, Member of the NTTP-I Executive Board; Ms. Betchak Padilla, Senior Peace Trainerand ACTS Coordinator; Dr. Soth Plai Ngarm; and Ms. Nikki Singer from CPCS, Cambodia.The interaction proved fruitful in fostering the exchange of knowledge and experiences otransitional justice, human rights mechanisms, religious harmony, grassroots reconciliationperspectives, and the issue of enforced disappearances in the region.`
+            title: "Interaction Program with RSP",
+            content: `An interaction program between the Rastriya Swatantra Party (RSP) senior leaders and NTTP I members was held on 12th August 2025. Members of Parliament, Hon’bles Dr Swarnim Wagle, Sumana Shrestha, Shishir Khanal, Sobita Gautam and Manish Jha took part in the interaction program from RSP while Vidyadhar Mallik (chair), Stella Tamang (IPP), Dr.Birendra Prasad Mishra, Sajana Maharjan, Bishnu Sapkota and Ajaya Bhadra Khanal participated from NTTP Institute. The interaction program focused on getting views of RSP on federalism, transitional justice, current political affairs, boycott of the Parliamentary sessions by the RSP and transformative political reform discourse as seen by the RSP. The meeting was held in Chatham House format and both sides agreed to meet again as and when needed.`
         },
         2: {
             title: "Consultation Meeting on NTTP-I Documentation",
@@ -35,17 +35,17 @@ export default function Home() {
                                 <div className="event-one__single">
                                     <div className="event-one__img-box">
                                         <div className="event-one__img">
-                                            <img src="assets/images/event/event2.jpeg" alt="" />
+                                            <img src="assets/images/event/rspmeet.jpg" alt="" />
                                         </div>
                                         <div className="event-one__date">
-                                            <p><span className="icon-clock"></span>13th April, 2025</p>
+                                            <p><span className="icon-clock"></span>12th August, 2025</p>
                                         </div>
                                     </div>
 
                                    
                                     <div className="event-one__content">
-                                        <h4 className="event-one__title"><Link href="#">CPCS Interaction Program</Link></h4>
-                                        <p className="event-one__text">Interaction with CPCS and NTTP-I featuring peace practitioners from South Asia.</p>
+                                        <h4 className="event-one__title"><Link href="#">Interaction Program with RSP</Link></h4>
+                                        <p className="event-one__text">Interaction with Rastriya Swatantra Party (RSP) leaders.</p>
                                         <p className="event-one__location"><span className="icon-pin"></span>Kathmandu, Nepal</p>
                                         <div className="event-one__btn-box">
                                             <button onClick={() => openModal(1)} className="event-one__btn thm-btn">Read More<span><i className="icon-arrow-right"></i></span></button>

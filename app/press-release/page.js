@@ -42,7 +42,7 @@ export default function PressReleasePage() {
                   Nepal Shanti Pratishtan
                 </h3>
                 <p className='text-gray-600 text-sm mb-2'>
-                  This is the press release of 2081- 29, March Press Release
+                  This is the press release of 2025- 29, March Press Release
                 </p>
                 <span className='text-blue-600 text-sm font-medium'>
                   View / Download PDF →
