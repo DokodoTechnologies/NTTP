@@ -25,6 +25,7 @@ export default function PressReleasePage() {
               gap: "24px",
             }}
           >
+            {/* documents for press release */}
             <div
               className='bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all border border-gray-200 hover:border-blue-300'
               style={{
@@ -43,6 +44,32 @@ export default function PressReleasePage() {
                 </h3>
                 <p className='text-gray-600 text-sm mb-2'>
                   This is the press release of 2025- 29, March Press Release
+                </p>
+                <span className='text-blue-600 text-sm font-medium'>
+                  View / Download PDF →
+                </span>
+              </a>
+            </div>
+
+            <div
+              className='bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all border border-gray-200 hover:border-blue-300'
+              style={{
+                padding: "12px 8px",
+                margin: "20px 0 60px",
+                marginTop: "-40px",
+              }}
+            >
+              <a
+                href='/assets/pdf/Press Release Gaza statement 2025.pdf'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='block'
+              >
+                <h3 className='text-lg font-semibold text-gray-900 hover:text-blue-600 mb-1'>
+                  Press Release Gaza Statement
+                </h3>
+                <p className='text-gray-600 text-sm mb-2'>
+                  This is the press release of Gaza 2025.
                 </p>
                 <span className='text-blue-600 text-sm font-medium'>
                   View / Download PDF →

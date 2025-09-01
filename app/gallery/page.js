@@ -1,44 +1,59 @@
 "use client";
 import Layout from "@/components/layout/Layout";
-import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import axios from "axios";
+import Image from "next/image";
 
 export default function Home() {
   const [currentPage, setCurrentPage] = useState(1);
   const [selectedImage, setSelectedImage] = useState(null);
+  const [allImages, setAllImages] = useState([]);
   const imagesPerPage = 7;
 
-  // Generate array of all 15 images
-  const allImages = Array.from({ length: 15 }, (_, index) => ({
-    id: index + 1,
-    src: `assets/images/project/gallery/${index + 1}.${
-      index === 0 ? "JPG" : "jpg"
-    }`,
-    alt: `Gallery Image ${index + 1}`,
-  }));
+  // Fetch from API
+  useEffect(() => {
+    const fetchImages = async () => {
+      try {
+        const res = await axios.get("https://be.nttpinstitute.org.np/gallery");
+        if (res.data.status && Array.isArray(res.data.data)) {
+          // Map API data into gallery format
+          setAllImages(
+            res.data.data.map((item) => ({
+              id: item.id,
+              src: `https://be.nttpinstitute.org.np${item.imageUrl}`,
+              alt: `Gallery Image ${item.id}`,
+            })),
+          );
+        }
+      } catch (err) {
+        console.error("Error fetching gallery:", err);
+      }
+    };
+    fetchImages();
+  }, []);
 
-  // Calculate pagination
+  // Pagination
   const totalPages = Math.ceil(allImages.length / imagesPerPage);
   const startIndex = (currentPage - 1) * imagesPerPage;
   const currentImages = allImages.slice(startIndex, startIndex + imagesPerPage);
 
-  // Use the original layout pattern for 7 images
+  // Grid pattern
   const getGridClass = (index) => {
     const patterns = [
-      "col-xl-7 col-lg-6 col-md-6", // Image 1 - large
-      "col-xl-5 col-lg-6 col-md-6", // Image 2 - medium
-      "col-xl-5 col-lg-6 col-md-6", // Image 3 - medium
-      "col-xl-7 col-lg-6 col-md-6", // Image 4 - large
-      "col-xl-4 col-lg-6 col-md-6", // Image 5 - small
-      "col-xl-4 col-lg-6 col-md-6", // Image 6 - small
-      "col-xl-4 col-lg-6 col-md-6", // Image 7 - small
+      "col-xl-7 col-lg-6 col-md-6", // 1 - large
+      "col-xl-5 col-lg-6 col-md-6", // 2 - medium
+      "col-xl-5 col-lg-6 col-md-6", // 3 - medium
+      "col-xl-7 col-lg-6 col-md-6", // 4 - large
+      "col-xl-4 col-lg-6 col-md-6", // 5 - small
+      "col-xl-4 col-lg-6 col-md-6", // 6 - small
+      "col-xl-4 col-lg-6 col-md-6", // 7 - small
     ];
     return patterns[index % patterns.length];
   };
 
   const openPopup = (image) => {
     setSelectedImage(image);
-    document.body.style.overflow = "hidden"; // Prevent background scrolling
+    document.body.style.overflow = "hidden";
   };
 
   const closePopup = () => {
@@ -66,7 +81,6 @@ export default function Home() {
   return (
     <>
       <Layout headerStyle={1} footerStyle={2} breadcrumbTitle='Gallery'>
-        {/*Projects Page Start*/}
         <section className='projects-page'>
           <div className='container'>
             <div className='row'>
@@ -74,7 +88,13 @@ export default function Home() {
                 <div key={image.id} className={getGridClass(index)}>
                   <div className='projects-page__single'>
                     <div className='projects-page__img'>
-                      <img src={image.src} alt={image.alt} />
+                      <Image
+                        src={image.src}
+                        alt={image.alt}
+                        width={800}
+                        height={600}
+                        style={{ width: "100%", height: "auto" }}
+                      />
                       <div className='projects-page__icon'>
                         <button
                           className='img-popup'
@@ -158,9 +178,8 @@ export default function Home() {
             </div>
           </div>
         </section>
-        {/*Projects Page End*/}
 
-        {/* Image Popup Modal */}
+        {/* Popup */}
         {selectedImage && (
           <div
             className='image-popup-overlay'
@@ -187,7 +206,6 @@ export default function Home() {
                 maxHeight: "90%",
               }}
             >
-              {/* Close button */}
               <button
                 onClick={closePopup}
                 style={{
@@ -211,12 +229,14 @@ export default function Home() {
                 <i className='fas fa-times'></i>
               </button>
 
-              <img
+              <Image
                 src={selectedImage.src}
                 alt={selectedImage.alt}
+                width={1200}
+                height={800}
                 style={{
                   maxWidth: "100%",
-                  maxHeight: "100%",
+                  height: "auto",
                   objectFit: "contain",
                   borderRadius: "8px",
                   boxShadow: "0 8px 32px rgba(0, 0, 0, 0.3)",
@@ -239,64 +259,6 @@ export default function Home() {
             </div>
           </div>
         )}
-
-        {/* CSS for animations */}
-        <style jsx>{`
-          @keyframes fadeIn {
-            from {
-              opacity: 0;
-            }
-            to {
-              opacity: 1;
-            }
-          }
-
-          .popup-close-btn:hover {
-            background: rgba(255, 255, 255, 1) !important;
-            transform: scale(1.1);
-            transition: all 0.2s ease;
-          }
-
-          .page-link {
-            border: 1px solid #dee2e6;
-            color: #495057;
-            padding: 0.5rem 0.75rem;
-            margin: 0 2px;
-            border-radius: 4px;
-            background: white;
-            cursor: pointer;
-            transition: all 0.2s ease;
-          }
-
-          .page-link:hover:not(:disabled) {
-            background: #007bff;
-            color: white;
-            border-color: #007bff;
-          }
-
-          .page-item.active .page-link {
-            background: #007bff;
-            color: white;
-            border-color: #007bff;
-          }
-
-          .page-item.disabled .page-link {
-            opacity: 0.5;
-            cursor: not-allowed;
-          }
-
-          .pagination {
-            margin: 0;
-            padding: 0;
-            list-style: none;
-            display: flex;
-            align-items: center;
-          }
-
-          .page-item {
-            display: flex;
-          }
-        `}</style>
       </Layout>
     </>
   );
