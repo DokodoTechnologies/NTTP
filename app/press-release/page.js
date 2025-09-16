@@ -76,6 +76,31 @@ export default function PressReleasePage() {
                 </span>
               </a>
             </div>
+            <div
+              className='bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all border border-gray-200 hover:border-blue-300'
+              style={{
+                padding: "12px 8px",
+                margin: "20px 0 60px",
+                marginTop: "-40px",
+              }}
+            >
+              <a
+                href='/assets/pdf/2025-09, Sep Press Release.jpg'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='block'
+              >
+                <h3 className='text-lg font-semibold text-gray-900 hover:text-blue-600 mb-1'>
+                  Press Release GenZ Protests
+                </h3>
+                <p className='text-gray-600 text-sm mb-2'>
+                  This is the press release for the GenZ protests.
+                </p>
+                <span className='text-blue-600 text-sm font-medium'>
+                  View Press Release →
+                </span>
+              </a>
+            </div>
           </div>
 
           {/* Footer */}
