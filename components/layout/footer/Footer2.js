@@ -45,7 +45,7 @@ export default function Footer3() {
                   className='col-xl-2 col-lg-6 col-md-6 wow fadeInUp'
                   data-wow-delay='200ms'
                 >
-                  <div className='footer-widget-two__services'>
+                  {/* <div className='footer-widget-two__services'>
                     <h4 className='footer-widget-two__title'>Partners</h4>
                     <ul className='footer-widget-two__services-list list-unstyled'>
                       <li>
@@ -67,7 +67,7 @@ export default function Footer3() {
                         <Link href='https://www.usaid.gov/'>USAID Nepal</Link>
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
                 </div>
                 <div
                   className='col-xl-2 col-lg-6 col-md-6 wow fadeInUp'

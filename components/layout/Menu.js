@@ -169,9 +169,9 @@ export default function Menu() {
         <li>
           <Link href='/forum'>Forums</Link>
         </li>
-        <li>
+        {/* <li>
           <Link href='/partners'>Partners</Link>
-        </li>
+        </li> */}
         <li>
           <Link href='/gallery'>Gallery</Link>
         </li>
