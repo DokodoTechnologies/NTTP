@@ -96,7 +96,7 @@ The trusted convening ability of its then senior facilitators, Late Mr. Daman Na
   const committeeMembers = [
   {
     id: 'malik',
-    name: 'Mr.Vidyadhar Malik',
+    name: 'Mr.Vidyadhar Mallik',
     shortDescription:
       'a former Minister, is one of the NTTP facilitators and Executive Committee Member and Chairperson at NTTP-I. ...',
     image: 'assets/images/about/malik.jpg',
@@ -106,7 +106,7 @@ The trusted convening ability of its then senior facilitators, Late Mr. Daman Na
     id: 'stella',
     name: 'Ms.Stella Tamang',
     shortDescription:
-      'is immediate-past chairperson at NTTP-I. She is the Founding Chair and currently Advisor of the National...',
+      'is immediate-past chairperson at NTTP-I. She is the Founding Member and currently Advisor of the National...',
     image: 'assets/images/about/stella.png',
     fullDescription: `Mrs. Stella Tamang is immediate-past chairperson at NTTP-I...`,
   },
