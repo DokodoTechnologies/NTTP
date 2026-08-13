@@ -126,14 +126,14 @@ The trusted convening ability of its then senior facilitators, Late Mr. Daman Na
     image: 'assets/images/about/sagar.png',
     fullDescription: `Mr. Sagar Prasai Is treasurer of NTTP Institute...`,
   },
-  {
-    id: 'youba',
-    name: 'Mr.Youba Raj Acharya',
-    shortDescription:
-      'is General Secretary at NTTP-I. He has more than 19 years of professional experience in the field of...',
-    image: 'assets/images/about/youba.png',
-    fullDescription: `Mr. Youba Raj Acharya is General Secretary at NTTP-I since early 2021...`,
-  },
+  // {
+  //   id: 'youba',
+  //   name: 'Mr.Youba Raj Acharya',
+  //   shortDescription:
+  //     'is General Secretary at NTTP-I. He has more than 19 years of professional experience in the field of...',
+  //   image: 'assets/images/about/youba.png',
+  //   fullDescription: `Mr. Youba Raj Acharya is General Secretary at NTTP-I since early 2021...`,
+  // },
   {
     id: 'nitika',
     name: 'Ms. Nitika Dhungana',
